@@ -42,13 +42,13 @@
       <h1>This is Raleway</h1>
       <p>This is Roboto</p>
       <?php
-      include 'header.php';
-      include 'presentation.php';
-      include 'portofolio.php';
-      include 'about.php';
-      include 'contact.php';
-      include 'footer.php';
-    ?>
+        include 'header.php';
+        include 'presentation.php';
+        include 'portofolio.php';
+        include 'about.php';
+        include 'contact.php';
+        include 'footer.php';
+      ?>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
