@@ -15,6 +15,9 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.min.css"> 
 
+    <!--Google Fonts for this project-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300|Roboto:300" rel="stylesheet">
+
     <!-- My CSS -->
     <link href="../css/main.css" rel="stylesheet"> 
     <!-- Icon -->
@@ -36,6 +39,8 @@
       <img src="../img/appsol4.png" alt="no">
       <img src="../img/appsol5.png" alt="no">
       <img src="../img/appsol6.png" alt="no">
+      <h1>This is Raleway</h1>
+      <p>This is Roboto</p>
       <?php
         include 'header.php';
         include 'presentation.php';
