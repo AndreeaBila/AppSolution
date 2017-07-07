@@ -37,13 +37,13 @@
       <img src="../img/appsol5.png" alt="no">
       <img src="../img/appsol6.png" alt="no">
       <?php
-      include 'header.php';
-      include 'presentation.php';
-      include 'portofolio.php';
-      include 'about.php';
-      include 'contact.php';
-      include 'footer.php';
-    ?>
+        include 'header.php';
+        include 'presentation.php';
+        include 'portofolio.php';
+        include 'about.php';
+        include 'contact.php';
+        include 'footer.php';
+      ?>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
