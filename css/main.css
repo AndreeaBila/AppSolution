@@ -78,6 +78,16 @@ img {
   width: 300px;
 }
 
+/* line 15, ../scss/base/_base.scss */
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+/* line 19, ../scss/base/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif !important;
+}
+
 /* line 1, ../scss/layout/_footer.scss */
 .footerStyle {
   position: absolute;
