@@ -73,6 +73,11 @@ html, body {
   position: relative;
 }
 
+/* line 10, ../scss/base/_base.scss */
+img {
+  width: 300px;
+}
+
 /* line 1, ../scss/layout/_footer.scss */
 .footerStyle {
   position: absolute;

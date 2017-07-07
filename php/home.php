@@ -30,6 +30,12 @@
   <body>
 
     <div id="wrapper">
+      <img src="../img/AppSol.png" alt="no">
+      <img src="../img/impossible.png" alt="no">
+      <img src="../img/picture2.png" alt="no">
+      <img src="../img/picture3.png" alt="no">
+      <img src="../img/picture4.png" alt="no">
+      <img src="../img/picture5.png" alt="no">
       <?php
       include 'header.php';
       include 'presentation.php';
