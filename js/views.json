@@ -1,0 +1,19 @@
+{
+    "views": [{
+            "navID": "presentationNav",
+            "pageID": "presentationPage"
+        },
+        {
+            "navID": "portofolioNav",
+            "pageID": "portofolioPage"
+        },
+        {
+            "navID": "aboutNav",
+            "pageID": "aboutPage"
+        },
+        {
+            "navID": "contactNav",
+            "pageID": "contactPage"
+        },
+    ]
+}
