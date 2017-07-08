@@ -5,12 +5,8 @@ html, body {
 #wrapper {
 	min-height: 100%;
 	position: relative;
+	padding-bottom: $footer-height !important;
 }
-
-img {
-	width: 50%;
-}
-
 
 body {
 	font-family: $roboto !important;
@@ -18,4 +14,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $raleway !important;
+}
+
+.clear {
+	clear: both;
 }

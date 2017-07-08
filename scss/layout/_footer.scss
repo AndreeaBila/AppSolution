@@ -1,7 +1,24 @@
-.footerStyle {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: $footer-height;
-  background-color: $footer-color;
-}
+
+  .footerStyle {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: $footer-height;
+    background-color: $footer-color;
+    .form-group {
+      input, textarea {
+        width: 70%;
+        height: 40px;
+      }
+      i, input, textarea {
+        display: inline-block;
+      }
+      i {
+        font-size: 1.5em;
+      }
+      .fa-commenting {
+        color: red;
+        line-height: 3em !important;
+      }
+    }
+  }

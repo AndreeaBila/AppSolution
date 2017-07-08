@@ -10,10 +10,10 @@
     <title>App Solutions</title>
 
     <!--Bootstrap-->
-    <link href="../../Bootstrap2/css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- FontAwesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/8dd7dadaef.js"></script>
 
     <!--Google Fonts for this project-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300|Roboto:300" rel="stylesheet">
@@ -36,11 +36,6 @@
   <body>
 
     <div id="wrapper">
-      <i class="fa fa-trash-o" aria-hidden="true" title="Delete this item?"></i>
-      <img src="../img/appsol7.png" alt="no">
-      <img src="../img/appsol10.png" alt="no">
-      <h1>This is Raleway</h1>
-      <p>This is Roboto</p>
       <?php
         include './phpComponents/header.php';
         include './phpComponents/presentation.php';
@@ -55,7 +50,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../../Bootstrap/js/bootstrap.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- The js script for this file -->
     <script src="../js/home.js"></script>
