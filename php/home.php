@@ -42,12 +42,12 @@
       <h1>This is Raleway</h1>
       <p>This is Roboto</p>
       <?php
-        include 'header.php';
-        include 'presentation.php';
-        include 'portofolio.php';
-        include 'about.php';
-        include 'contact.php';
-        include 'footer.php';
+        include './phpComponents/header.php';
+        include './phpComponents/presentation.php';
+        include './phpComponents/portofolio.php';
+        include './phpComponents/about.php';
+        include './phpComponents/contact.php';
+        include './phpComponents/footer.php';
       ?>
     </div>
 

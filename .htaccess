@@ -1,9 +1,4 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
-Redirect 301 /WebDev/AppSolutions/php/about /WebDev/AppSolutions/php/home
-Redirect 301 /WebDev/AppSolutions/php/contact /WebDev/AppSolutions/php/home
-Redirect 301 /WebDev/AppSolutions/php/footer /WebDev/AppSolutions/php/home
-Redirect 301 /WebDev/AppSolutions/php/header /WebDev/AppSolutions/php/home
-Redirect 301 /WebDev/AppSolutions/php/portofolio /WebDev/AppSolutions/php/home
-Redirect 301 /WebDev/AppSolutions/php/presentation /WebDev/AppSolutions/php/home
+RedirectMatch 301 ^/WebDev/AppSolutions/php/phpComponents /WebDev/AppSolutions/php/home
