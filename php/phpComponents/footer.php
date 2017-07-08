@@ -17,5 +17,9 @@
       <input type="submit" id="submitMessage" value="Submit" class="g-recaptcha" data-sitekey="6LcrZSgUAAAAAD47R-nRYGDQJoPW1al2ZNDwaDBj" data-callback="YourOnSubmitFn">
     </form>
   </div>
-  
+
+  <hr>
+
+  <p>Copyright &copy AppSolutions Team 
+  <p>App Solutions 2017 |All Rights Reserved</p>
 </footer>
