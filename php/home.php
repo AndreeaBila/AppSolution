@@ -13,13 +13,16 @@
     <link href="../../Bootstrap2/css/bootstrap.min.css" rel="stylesheet"> 
 
     <!-- FontAwesome -->
-    <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.min.css"> 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <!--Google Fonts for this project-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300|Roboto:300" rel="stylesheet">
 
     <!-- My CSS -->
-    <link href="../css/main.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <!--media="screen, handheld">-->
+    <!--<link rel="stylesheet" type="text/css" href="enhanced.css" media="screen  and (min-width: 40.5em)" /> -->
+
     <!-- Icon -->
      <link rel="shortcut icon" href="../img/appsol7.png"> 
 
@@ -33,6 +36,7 @@
   <body>
 
     <div id="wrapper">
+      <i class="fa fa-trash-o" aria-hidden="true" title="Delete this item?"></i>
       <img src="../img/appsol7.png" alt="no">
       <img src="../img/appsol10.png" alt="no">
       <h1>This is Raleway</h1>
@@ -54,6 +58,6 @@
     <script src="../../Bootstrap/js/bootstrap.min.js"></script> 
 
     <!-- The js script for this file -->
-    <script src="../js/main.js"></script>
+    <script src="../js/home.js"></script>
   </body>
 </html>
