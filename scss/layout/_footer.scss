@@ -8,17 +8,15 @@
     .form-group {
       input, textarea {
         width: 70%;
-        height: 40px;
       }
       i, input, textarea {
         display: inline-block;
       }
       i {
         font-size: 1.5em;
-      }
-      .fa-commenting {
-        color: red;
-        line-height: 3em !important;
-      }
+      } 
+      textarea{
+        margin-left: 1.8em;
+      }     
     }
   }

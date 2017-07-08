@@ -10,7 +10,6 @@
       <input type="text" name="userSubject" id="userSubject" class="form-control" placeholder="Subject">
     </div>
     <div class="form-group">
-      <i class="fa fa-commenting" aria-hidden="true"></i>
       <textarea name="userMessage" id="userMessage" class="form-control" placeholder="Message"></textarea>
     </div>
   </form>
