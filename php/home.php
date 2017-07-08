@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>App Solution</title>
+    <title>App Solutions</title>
 
     <!--Bootstrap-->
     <link href="../../Bootstrap2/css/bootstrap.min.css" rel="stylesheet"> 
@@ -21,7 +21,7 @@
     <!-- My CSS -->
     <link href="../css/main.css" rel="stylesheet"> 
     <!-- Icon -->
-    <!-- <link rel="shortcut icon" href="../img/#"> -->
+     <link rel="shortcut icon" href="../img/appsol7.png"> 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,11 +33,7 @@
   <body>
 
     <div id="wrapper">
-      <img src="../img/appsol2.png" alt="no">
-      <img src="../img/appsol3.png" alt="no">
       <img src="../img/appsol7.png" alt="no">
-      <img src="../img/appsol8.png" alt="no">
-      <img src="../img/appsol9.png" alt="no">
       <img src="../img/appsol10.png" alt="no">
       <h1>This is Raleway</h1>
       <p>This is Roboto</p>
