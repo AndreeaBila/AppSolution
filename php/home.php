@@ -24,7 +24,10 @@
     <!--<link rel="stylesheet" type="text/css" href="enhanced.css" media="screen  and (min-width: 40.5em)" /> -->
 
     <!-- Icon -->
-     <link rel="shortcut icon" href="../img/appsol7.png"> 
+    <link rel="shortcut icon" href="../img/appsol7.png"> 
+
+    <!--Capcha-->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

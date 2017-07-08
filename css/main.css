@@ -76,7 +76,7 @@ html, body {
 #wrapper {
   min-height: 100%;
   position: relative;
-  padding-bottom: 200px !important;
+  padding-bottom: 400px !important;
 }
 
 /* line 11, ../scss/base/_base.scss */
@@ -143,22 +143,23 @@ header nav .navStyle ul .currentPage {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 200px;
-  background-color: lavender;
+  height: 400px;
+  background-color: #eeeeee;
+  padding: 1em;
 }
-/* line 9, ../scss/layout/_footer.scss */
+/* line 10, ../scss/layout/_footer.scss */
 .footerStyle .form-group input, .footerStyle .form-group textarea {
   width: 70%;
 }
-/* line 12, ../scss/layout/_footer.scss */
+/* line 13, ../scss/layout/_footer.scss */
 .footerStyle .form-group i, .footerStyle .form-group input, .footerStyle .form-group textarea {
   display: inline-block;
 }
-/* line 15, ../scss/layout/_footer.scss */
+/* line 16, ../scss/layout/_footer.scss */
 .footerStyle .form-group i {
   font-size: 1.5em;
 }
-/* line 18, ../scss/layout/_footer.scss */
+/* line 19, ../scss/layout/_footer.scss */
 .footerStyle .form-group textarea {
   margin-left: 1.8em;
 }
