@@ -7,10 +7,10 @@
 
     <div class="navStyle pull-right">
       <ul>
-        <li active><i class="fa fa-home" aria-hidden="true"></i>Home</li>
-        <li><i class="fa fa-briefcase" aria-hidden="true"></i>Portofolio</li>
-        <li><i class="fa fa-info-circle" aria-hidden="true"></i>About</li>
-        <li><i class="fa fa-address-book" aria-hidden="true"></i>Contact</li>
+        <li class="currentPage" id="homeView"><i class="fa fa-home" aria-hidden="true"></i>Home</li>
+        <li id="portofolioView"><i class="fa fa-briefcase" aria-hidden="true"></i>Portofolio</li>
+        <li id="aboutView"><i class="fa fa-info-circle" aria-hidden="true"></i>About</li>
+        <li id="contactView"><i class="fa fa-address-book" aria-hidden="true"></i>Contact</li>
       </ul>
     </div>
   </nav>

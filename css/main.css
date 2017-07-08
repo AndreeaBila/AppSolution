@@ -129,12 +129,13 @@ header nav .navStyle ul li i {
   display: block;
   text-align: center;
 }
-/* line 31, ../scss/layout/_header.scss */
+/* line 32, ../scss/layout/_header.scss */
 header nav .navStyle ul li:active,
 header nav .navStyle ul li:focus,
-header nav .navStyle ul li:active:focus {
-  background-color: #333;
-  color: white;
+header nav .navStyle ul li:active:focus,
+header nav .navStyle ul .currentPage {
+  background-color: #333 !important;
+  color: white !important;
 }
 
 /* line 2, ../scss/layout/_footer.scss */
