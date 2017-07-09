@@ -22,7 +22,6 @@ var hammertime = new Hammer(element);
 // listen to events...
 hammertime.on("panleft panright tap press", function(ev) {
     var text = ev.type + " gesture detected.";
-    alert(text);
 });
 //function needed to defer the javascript 
 $(function() {
