@@ -26,6 +26,6 @@ body {
 
 @media screen and (min-width: 992px) {
   #wrapper {
-    padding-bottom: $footer-height-desktop;
+    padding-bottom: $footer-height-desktop !important;
   }
 }

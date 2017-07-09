@@ -76,7 +76,7 @@ html, body {
 #wrapper {
   min-height: 100%;
   position: relative;
-  padding-bottom: 970px !important;
+  padding-bottom: 985px !important;
 }
 
 /* line 11, ../scss/base/_base.scss */
@@ -102,7 +102,7 @@ body {
 @media screen and (min-width: 992px) {
   /* line 28, ../scss/base/_base.scss */
   #wrapper {
-    padding-bottom: 460px;
+    padding-bottom: 470px !important;
   }
 }
 /* line 1, ../scss/layout/_header.scss */
@@ -172,7 +172,7 @@ header nav .navStyle ul .currentPage {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 970px;
+  height: 985px;
   background-color: #191919;
   padding: 0;
   color: #7f8c8d;
@@ -200,9 +200,12 @@ header nav .navStyle ul .currentPage {
 }
 /* line 28, ../scss/layout/_footer.scss */
 .footerStyle .form-group textarea {
+  height: 60px;
   margin-left: 1.8em;
+  max-width: 80%;
+  max-height: 60px;
 }
-/* line 33, ../scss/layout/_footer.scss */
+/* line 36, ../scss/layout/_footer.scss */
 .footerStyle hr {
   padding: 0 !important;
   width: 100%;
@@ -210,40 +213,40 @@ header nav .navStyle ul .currentPage {
   border: 0;
   box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
-/* line 41, ../scss/layout/_footer.scss */
+/* line 44, ../scss/layout/_footer.scss */
 .footerStyle .copyright {
   margin-top: -15px;
   font-size: 0.7em;
 }
-/* line 46, ../scss/layout/_footer.scss */
+/* line 49, ../scss/layout/_footer.scss */
 .footerStyle .callBtn {
   margin: 0.1em;
   padding: 3px;
   width: 70px;
 }
-/* line 53, ../scss/layout/_footer.scss */
+/* line 56, ../scss/layout/_footer.scss */
 .footerStyle .socialSide img {
   width: 8em;
 }
-/* line 57, ../scss/layout/_footer.scss */
+/* line 60, ../scss/layout/_footer.scss */
 .footerStyle .socialSide ul li {
   display: inline-block;
   padding: 0.5em;
 }
-/* line 60, ../scss/layout/_footer.scss */
+/* line 63, ../scss/layout/_footer.scss */
 .footerStyle .socialSide ul li img {
   width: 3em;
 }
-/* line 67, ../scss/layout/_footer.scss */
+/* line 70, ../scss/layout/_footer.scss */
 .footerStyle .callSide {
   font-size: 1.3em;
 }
-/* line 71, ../scss/layout/_footer.scss */
+/* line 74, ../scss/layout/_footer.scss */
 .footerStyle .footerHeader {
   padding-top: 2em;
   padding-bottom: 2em;
 }
-/* line 76, ../scss/layout/_footer.scss */
+/* line 79, ../scss/layout/_footer.scss */
 .footerStyle #submitMessage {
   background-color: #7f8c8d !important;
   color: #191919;
@@ -253,7 +256,7 @@ header nav .navStyle ul .currentPage {
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 86, ../scss/layout/_footer.scss */
+/* line 89, ../scss/layout/_footer.scss */
 .footerStyle .noMargin {
   margin: 0 !important;
   padding: 0 !important;
@@ -261,9 +264,9 @@ header nav .navStyle ul .currentPage {
 }
 
 @media screen and (min-width: 992px) {
-  /* line 95, ../scss/layout/_footer.scss */
+  /* line 98, ../scss/layout/_footer.scss */
   .footerStyle {
-    height: 460px;
+    height: 470px;
   }
 }
 /* line 1, ../scss/components/_404page.scss */

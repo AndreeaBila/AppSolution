@@ -26,7 +26,10 @@
       font-size: 1.5em;
     } 
     textarea{
+      height: 60px;
       margin-left: 1.8em;
+      max-width: 80%;
+      max-height: 60px;
     }     
   }
 
