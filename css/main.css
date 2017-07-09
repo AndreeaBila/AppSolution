@@ -76,7 +76,6 @@ html, body {
 #wrapper {
   min-height: 100%;
   position: relative;
-  padding-bottom: 970px !important;
 }
 
 /* line 11, ../scss/base/_base.scss */
@@ -265,4 +264,18 @@ header nav .navStyle ul .currentPage {
   .footerStyle {
     height: 460px;
   }
+}
+/* line 1, ../scss/components/_404page.scss */
+.errorPage {
+  color: #191919;
+  background-color: transparent;
+}
+/* line 4, ../scss/components/_404page.scss */
+.errorPage .backBtn {
+  background-color: #191919;
+  color: #7f8c8d;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5em;
 }

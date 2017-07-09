@@ -2,4 +2,4 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 RedirectMatch 301 ^/WebDev/AppSolutions/php/phpComponents /WebDev/AppSolutions/php/home
-ErrorDocument 404 /WebDev/AppSolutions/php/404.html
+ErrorDocument 404 /WebDev/AppSolutions/php/404.php

@@ -35,10 +35,23 @@
   </head>
   <body>
 
-    <div class="jumbotron text-center">
-        <h1>Oops! The requested page was not found</h1>
-        <a href="home" class="btn btn-primary btn-lg" style="margin-top: 50px">Go back to site</a>
+    <div id="wrapper">
+      <?php
+        include './phpComponents/header.php';
+      ?>
+
+      <div class="jumbotron errorPage text-center">
+        <h1><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>Oops! The requested page was not found</h1>
+        <a href="home" class="btn backBtn btn-lg" style="margin-top: 50px">Go back to site</a>
     </div>
+
+      <?php
+        include './phpComponents/footer.php';
+      ?>
+    </div>
+
+
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
