@@ -76,7 +76,7 @@ html, body {
 #wrapper {
   min-height: 100%;
   position: relative;
-  padding-bottom: 400px !important;
+  padding-bottom: 970px !important;
 }
 
 /* line 11, ../scss/base/_base.scss */
@@ -99,29 +99,36 @@ body {
   min-width: 320px;
 }
 
-/* line 2, ../scss/layout/_header.scss */
+@media screen and (min-width: 992px) {
+  /* line 28, ../scss/base/_base.scss */
+  #wrapper {
+    padding-bottom: 460px;
+  }
+}
+/* line 1, ../scss/layout/_header.scss */
 header {
   box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
-/* line 5, ../scss/layout/_header.scss */
+/* line 4, ../scss/layout/_header.scss */
 header nav {
   font-size: 14px !important;
 }
-/* line 8, ../scss/layout/_header.scss */
+/* line 7, ../scss/layout/_header.scss */
 header nav .logo {
   background-color: #eee;
   padding: 0.25em;
   padding-top: 0.9em;
   padding-bottom: 0.3em;
 }
-/* line 13, ../scss/layout/_header.scss */
+/* line 12, ../scss/layout/_header.scss */
 header nav .logo img {
   width: 4em !important;
 }
-/* line 20, ../scss/layout/_header.scss */
+/* line 19, ../scss/layout/_header.scss */
 header nav .navStyle ul li {
   padding: 0.5em;
   font-family: "Raleway", sans-serif;
+  margin: 0 !important;
 }
 /* line 23, ../scss/layout/_header.scss */
 header nav .navStyle ul li i {
@@ -138,36 +145,124 @@ header nav .navStyle ul .currentPage {
   color: white !important;
 }
 
+@media screen and (min-width: 992px) {
+  /* line 43, ../scss/layout/_header.scss */
+  header nav {
+    font-size: 20px;
+  }
+  /* line 47, ../scss/layout/_header.scss */
+  header .logo {
+    padding: 0.5em;
+  }
+  /* line 49, ../scss/layout/_header.scss */
+  header .logo img {
+    width: 200px !important;
+  }
+  /* line 56, ../scss/layout/_header.scss */
+  header .navStyle ul li {
+    padding: 0.5em;
+  }
+  /* line 58, ../scss/layout/_header.scss */
+  header .navStyle ul li i {
+    font-size: 10em;
+  }
+}
 /* line 1, ../scss/layout/_footer.scss */
 .footerStyle {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 400px;
-  background-color: #eeeeee;
+  height: 970px;
+  background-color: #191919;
+  padding: 0;
+  color: #7f8c8d;
+}
+/* line 10, ../scss/layout/_footer.scss */
+.footerStyle .formSide, .footerStyle .socialSide, .footerStyle .callSide {
+  padding: 0.5em;
+  padding-bottom: 0;
+}
+/* line 13, ../scss/layout/_footer.scss */
+.footerStyle .formSide h3, .footerStyle .socialSide h3, .footerStyle .callSide h3 {
   padding: 1em;
 }
-/* line 9, ../scss/layout/_footer.scss */
+/* line 19, ../scss/layout/_footer.scss */
 .footerStyle .form-group input, .footerStyle .form-group textarea {
-  width: 70%;
+  width: 80%;
 }
-/* line 12, ../scss/layout/_footer.scss */
+/* line 22, ../scss/layout/_footer.scss */
 .footerStyle .form-group i, .footerStyle .form-group input, .footerStyle .form-group textarea {
   display: inline-block;
 }
-/* line 15, ../scss/layout/_footer.scss */
+/* line 25, ../scss/layout/_footer.scss */
 .footerStyle .form-group i {
   font-size: 1.5em;
 }
-/* line 18, ../scss/layout/_footer.scss */
+/* line 28, ../scss/layout/_footer.scss */
 .footerStyle .form-group textarea {
   margin-left: 1.8em;
 }
-/* line 22, ../scss/layout/_footer.scss */
+/* line 33, ../scss/layout/_footer.scss */
 .footerStyle hr {
   padding: 0 !important;
   width: 100%;
   height: 12px;
   border: 0;
   box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+/* line 41, ../scss/layout/_footer.scss */
+.footerStyle .copyright {
+  margin-top: -15px;
+  font-size: 0.7em;
+}
+/* line 46, ../scss/layout/_footer.scss */
+.footerStyle .callBtn {
+  margin: 0.1em;
+  padding: 3px;
+  width: 70px;
+}
+/* line 53, ../scss/layout/_footer.scss */
+.footerStyle .socialSide img {
+  width: 8em;
+}
+/* line 57, ../scss/layout/_footer.scss */
+.footerStyle .socialSide ul li {
+  display: inline-block;
+  padding: 0.5em;
+}
+/* line 60, ../scss/layout/_footer.scss */
+.footerStyle .socialSide ul li img {
+  width: 3em;
+}
+/* line 67, ../scss/layout/_footer.scss */
+.footerStyle .callSide {
+  font-size: 1.3em;
+}
+/* line 71, ../scss/layout/_footer.scss */
+.footerStyle .footerHeader {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+/* line 76, ../scss/layout/_footer.scss */
+.footerStyle #submitMessage {
+  background-color: #7f8c8d !important;
+  color: #191919;
+  margin-bottom: 1em;
+  width: 7em;
+  height: 3em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+/* line 86, ../scss/layout/_footer.scss */
+.footerStyle .noMargin {
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-bottom: 1em !important;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 95, ../scss/layout/_footer.scss */
+  .footerStyle {
+    height: 460px;
+  }
 }

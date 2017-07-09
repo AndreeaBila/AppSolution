@@ -1,29 +1,98 @@
-  .footerStyle {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: $footer-height;
-    background-color: $footer-color;
-    padding: 1em;
-    .form-group {
-      input, textarea {
-        width: 70%;
-      }
-      i, input, textarea {
-        display: inline-block;
-      }
-      i {
-        font-size: 1.5em;
-      } 
-      textarea{
-        margin-left: 1.8em;
-      }     
-    }
-    hr {
-      padding: 0 !important;
-      width: 100%;
-       height: 12px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+.footerStyle {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height-mobile;
+  background-color: $footer-color;
+  padding: 0;
+  color: $footer-highlight;
+
+  .formSide, .socialSide, .callSide {
+    padding: 0.5em;
+    padding-bottom: 0;
+    h3 {
+      padding: 1em;
     }
   }
+
+  .form-group {
+    input, textarea {
+      width: 80%;
+    }
+    i, input, textarea {
+      display: inline-block;
+    }
+    i {
+      font-size: 1.5em;
+    } 
+    textarea{
+      margin-left: 1.8em;
+    }     
+  }
+
+  hr {
+    padding: 0 !important;
+    width: 100%;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  }
+
+  .copyright {
+    margin-top: -15px;
+    font-size: 0.7em;
+  }
+
+  .callBtn {
+    margin: 0.1em;
+    padding: 3px;
+    width: 70px;
+  }
+
+  .socialSide {
+    img {
+      width: 8em;
+    }
+    ul {  
+      li {
+        display: inline-block;
+        padding: 0.5em;
+        img {
+          width: 3em;
+        }
+      }
+    }
+  }
+
+  .callSide {
+    font-size: 1.3em;
+  }
+
+  .footerHeader {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  #submitMessage {
+    background-color: $footer-highlight !important;
+    color: $footer-color;
+    margin-bottom: 1em; 
+    width: 7em;
+    height: 3em;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+
+  .noMargin{
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-bottom: 1em !important;
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+.footerStyle {
+  height: $footer-height-desktop;
+}
+}
