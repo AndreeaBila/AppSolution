@@ -41,7 +41,8 @@
       ?>
 
       <div class="jumbotron errorPage text-center">
-        <h1><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>Oops! The requested page was not found</h1>
+        <h1><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></h1>
+        <h1>Oops! The requested page was not found</h1>
         <a href="home" class="btn backBtn btn-lg" style="margin-top: 50px">Go back to site</a>
     </div>
 

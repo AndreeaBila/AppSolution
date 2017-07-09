@@ -283,3 +283,9 @@ header nav .navStyle ul .currentPage {
   height: 50px;
   font-size: 1.5em;
 }
+
+/* line 3, ../scss/components/_presentationPage.scss */
+#presentationPage .presentationJumbotron p {
+  font-size: 15px !important;
+  padding: 5px;
+}
