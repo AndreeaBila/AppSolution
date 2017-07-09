@@ -76,6 +76,7 @@ html, body {
 #wrapper {
   min-height: 100%;
   position: relative;
+  padding-bottom: 970px !important;
 }
 
 /* line 11, ../scss/base/_base.scss */
