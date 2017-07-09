@@ -1,0 +1,12 @@
+.errorPage {
+  color: $footer-color;
+  background-color: transparent;
+  .backBtn {
+    background-color: $footer-color;
+    color: $footer-highlight;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    font-size: 1.5em;
+  }
+}
