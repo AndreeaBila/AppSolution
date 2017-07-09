@@ -24,19 +24,37 @@ views['contact'] = {
     leftView: 'about',
     rightView: 'presentation'
 };
+//object needed to map the current and previous mode
+var device = {
+    previousDevice: null,
+    currentDevice: null
+};
 //function needed to defer the javascript 
 $(function() {
+    //check the typemof device currently in use
+    checkDevice();
+    //event neede to constantly check the resizing of the document
+    $(window).resize(function() {
+        //if a resize has been detected recheck the type of device
+        checkDevice();
+    });
+});
+//function needed to establish the type of device currently in use
+function checkDevice() {
     //get the dimension of the screen and set mobile/pc view
-    if ($(document).width() <= 900) {
+    if ($(document).width() <= 900 && (device.previousDevice == 'PC' || device.previousDevice == null)) {
         //load the mobile version
         loadMobile();
-    } else {
+    } else if ($(document).width() > 900 && (device.previousDevice == 'mobile' || device.previousDevice == null)) {
         //load the pc version
         loadPC();
     }
-});
+}
 //this function is needed to adjust the webpage to the mobile version
 function loadMobile() {
+    console.log('mobile');
+    device.previousDevice = device.currentDevice;
+    device.currentDevice = 'mobile';
     //display the home page
     //variable needed to track the current location on the page
     var model = {
@@ -63,6 +81,7 @@ function loadMobile() {
         if (!$(this).hasClass('currentPage')) {
             model.previousPos = model.location;
             model.location = $(this).attr('id').replace("Nav", "");
+            console.log(model);
             showView(model);
         }
     });
@@ -81,4 +100,13 @@ function showView(model) {
 
 
 
-function loadPC() {}
+function loadPC() {
+    console.log('PC');
+    device.previousDevice = device.currentDevice;
+    device.currentDevice = 'PC';
+
+    // listen to events...
+    var old_element = document.getElementById("wrapper");
+    var new_element = old_element.cloneNode(true);
+    old_element.parentNode.replaceChild(new_element, old_element);
+}
