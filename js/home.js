@@ -3,7 +3,7 @@ var views = new Array();
 views['presentation'] = {
     navID: "presentationNav",
     pageID: "presentationPage",
-    leftView: 'presentation',
+    leftView: 'contact',
     rightView: 'portofolio'
 };
 views['portofolio'] = {
@@ -22,7 +22,7 @@ views['contact'] = {
     navID: "contactNav",
     pageID: "contactPage",
     leftView: 'about',
-    rightView: 'contact'
+    rightView: 'presentation'
 };
 //function needed to defer the javascript 
 $(function() {
@@ -58,6 +58,14 @@ function loadMobile() {
         model.location = views[model.location].leftView;
         showView(model);
     });
+    //on click go to target page
+    $('.navStyle li').click(function() {
+        if (!$(this).hasClass('currentPage')) {
+            model.previousPos = model.location;
+            model.location = $(this).attr('id').replace("Nav", "");
+            showView(model);
+        }
+    });
 }
 //set of functions needed to show the appropriate view
 function showView(model) {
@@ -70,5 +78,7 @@ function showView(model) {
     $('#' + views[model.location].navID).addClass('currentPage');
     $('#' + views[model.previousPos].navID).removeClass('currentPage');
 }
+
+
 
 function loadPC() {}
