@@ -2,19 +2,27 @@
 var views = new Array();
 views['presentation'] = {
     navID: "presentationNav",
-    pageID: "presentationPage"
+    pageID: "presentationPage",
+    leftView: 'presentation',
+    rightView: 'portofolio'
 };
 views['portofolio'] = {
     navID: "portofolioNav",
-    pageID: "portofolioPage"
+    pageID: "portofolioPage",
+    leftView: 'presentation',
+    rightView: 'about'
 };
 views['about'] = {
     navID: "aboutNav",
-    pageID: "aboutPage"
+    pageID: "aboutPage",
+    leftView: 'portofolio',
+    rightView: 'contact'
 };
 views['contact'] = {
     navID: "contactNav",
-    pageID: "contactPage"
+    pageID: "contactPage",
+    leftView: 'about',
+    rightView: 'contact'
 };
 //function needed to defer the javascript 
 $(function() {
@@ -30,40 +38,37 @@ $(function() {
 //this function is needed to adjust the webpage to the mobile version
 function loadMobile() {
     //display the home page
-    showPresentation();
+    //variable needed to track the current location on the page
+    var model = {
+        location: 'presentation',
+        previousPos: 'contact'
+    };
+    showView(model);
     //create an event listener to map the swipe action to the current page
     var element = document.getElementById("wrapper");
     var hammertime = new Hammer(element);
     // listen to events...
-    // hammertime.on("panleft panright tap press", function(ev) {
-    //     var text = ev.type + " gesture detected.";
-    // });
+    hammertime.on("swipeleft", function(ev) {
+        model.previousPos = model.location;
+        model.location = views[model.location].rightView;
+        showView(model);
+    });
+    hammertime.on("swiperight", function(ev) {
+        model.previousPos = model.location;
+        model.location = views[model.location].leftView;
+        showView(model);
+    });
 }
 //set of functions needed to show the appropriate view
-function showPresentation() {
+function showView(model) {
     //on page load hide everything but presentation
+    $('#' + views['presentation'].pageID).hide();
     $('#' + views['portofolio'].pageID).hide();
     $('#' + views['about'].pageID).hide();
     $('#' + views['contact'].pageID).hide();
+    $('#' + views[model.location].pageID).show();
+    $('#' + views[model.location].navID).addClass('currentPage');
+    $('#' + views[model.previousPos].navID).removeClass('currentPage');
 }
 
-function showPortofolio() {
-    //on page load hide everything but presentation
-    $('#' + views['presentation'].pageID).hide();
-    $('#' + views['about'].pageID).hide();
-    $('#' + views['contact'].pageID).hide();
-}
-
-function showAbout() {
-    //on page load hide everything but presentation
-    $('#' + views['portofolio'].pageID).hide();
-    $('#' + views['presentation'].pageID).hide();
-    $('#' + views['contact'].pageID).hide();
-}
-
-function showContact() {
-    //on page load hide everything but presentation
-    $('#' + views['portofolio'].pageID).hide();
-    $('#' + views['about'].pageID).hide();
-    $('#' + views['presentation'].pageID).hide();
-}
+function loadPC() {}
