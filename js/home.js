@@ -143,12 +143,12 @@ function authencticate() {
 }
 
 function initMap() {
-    var andreeaLocation = { lat: 44.3990125, lng: 26.0716156 };
-    var vladLocation = { lat: 44.4155789, lng: 26.1558752 };
-    var center = { lat: 44.415382, lng: 26.086466 };
+    var andreeaLocation = { lat: 52.450907, lng: -1.929771 };
+    var vladLocation = { lat: 52.3792587, lng: -1.5636591 };
+    var center = { lat: 52.437584, lng: -1.714696 };
 
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 13,
+        zoom: 12,
         center: center,
         streetViewControl: false
     });
