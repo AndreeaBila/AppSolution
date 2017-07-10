@@ -91,8 +91,14 @@ function loadPC() {
         var elementPageID = $(this).attr('id').replace('Nav', 'Page');
         $('body').scrollTo('#' + elementPageID, 500);
     });
+
+    //event listener needed to check if the mouse wheel has been used in order to scroll the user to the appropriate element
+    $(document).mousewheel(function(event) {
+        console.log(event.direction);
+    });
 }
 
+//function needed to check the response of the captcha security system
 function authencticate() {
 
 }
