@@ -102,25 +102,38 @@ function loadPC() {
             $('body').scrollTo(0, 500);
         } else {
             //scroll to the given element
-            $('body').scrollTo('#' + elementPageID, 500);
+            //get the absolute position of the target element
+            var pos = $('#' + elementPageID).position();
+            console.log(pos);
+            $('body').scrollTo(pos.top, 500);
         }
     });
 
     //event listener needed to check if the mouse wheel has been used in order to scroll the user to the appropriate element
     $(document).mousewheel($.throttle(function(event) {
+        var stopAutoScroll = false;
         //if the model object hasn't been initialised set it to the default value of presentation
         if (model.location == null) model.location = 'presentation';
         //check the direction of the mouse
         if (event.deltaY == 1) {
             //swap the values of the locations from the model object
             model.previousPos = model.location;
-            model.location = views[model.location].leftView; //reset the current location
+            if (model.location != 'presentation') {
+                model.location = views[model.location].leftView; //reset the current location
+            }
         } else {
             //swap the values of the locations from the model object
             model.previousPos = model.location;
-            model.location = views[model.location].rightView; //reset the current location
+            if (model.location != 'contact') {
+                model.location = views[model.location].rightView; //reset the current location
+            } else {
+                $('body').scrollTo('.footerStyle', 500);
+                stopAutoScroll = true;
+            }
         }
-        $('.navStyle li#' + model.location + 'Nav').click(); //perform a click event on the given element
+        if (!stopAutoScroll) {
+            $('.navStyle li#' + model.location + 'Nav').click(); //perform a click event on the given element
+        }
     }, 1100));
 }
 
