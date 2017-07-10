@@ -36,7 +36,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif] -->        
   </head>
-  <body>
+  <body id='bodyID'>
 
     <div id="wrapper">
       <?php
@@ -55,6 +55,8 @@
     <script src="../js/jquery.scrollTo.min.js"></script> 
     <!-- mouseWheel plugin neede to create the scroll animation on the wheel control -->
     <script src="../js/jquery.mousewheel.min.js"></script> 
+    <!-- throttle plugin needed to thorttle the propagation of an event -->
+    <script src="../js/jquery.debounce.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- CDN script for the hammer.js framework needed to map the user interacion on a mobile device -->

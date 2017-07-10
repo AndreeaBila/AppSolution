@@ -79,6 +79,11 @@ function showView(model) {
 
 
 function loadPC() {
+    //variable needed to track the current location on the page
+    var model = {
+        location: null,
+        previousPos: null
+    };
     $('.navStyle li').click(function() {
         //code needed to remove the currentPage class from all elements in the navbar
         $(this).siblings().each(function() {
@@ -86,16 +91,37 @@ function loadPC() {
         });
         //add the currentPage class to the selected element from the navbar
         $(this).addClass('currentPage');
-
+        //get the name of he page
+        model.previousPos = model.location;
+        model.location = $(this).attr('id').replace('Nav', '');
+        console.log(model);
         //scroll to the selected element
         var elementPageID = $(this).attr('id').replace('Nav', 'Page');
-        $('body').scrollTo('#' + elementPageID, 500);
+        if (elementPageID == 'presentationPage') {
+            //scroll to top of the page
+            $('body').scrollTo(0, 500);
+        } else {
+            //scroll to the given element
+            $('body').scrollTo('#' + elementPageID, 500);
+        }
     });
 
     //event listener needed to check if the mouse wheel has been used in order to scroll the user to the appropriate element
-    $(document).mousewheel(function(event) {
-        console.log(event.direction);
-    });
+    $(document).mousewheel($.throttle(function(event) {
+        //if the model object hasn't been initialised set it to the default value of presentation
+        if (model.location == null) model.location = 'presentation';
+        //check the direction of the mouse
+        if (event.deltaY == 1) {
+            //swap the values of the locations from the model object
+            model.previousPos = model.location;
+            model.location = views[model.location].leftView; //reset the current location
+        } else {
+            //swap the values of the locations from the model object
+            model.previousPos = model.location;
+            model.location = views[model.location].rightView; //reset the current location
+        }
+        $('.navStyle li#' + model.location + 'Nav').click(); //perform a click event on the given element
+    }, 1100));
 }
 
 //function needed to check the response of the captcha security system
