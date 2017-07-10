@@ -284,8 +284,54 @@ header nav .navStyle ul .currentPage {
   font-size: 1.5em;
 }
 
-/* line 3, ../scss/components/_presentationPage.scss */
+/* line 2, ../scss/components/_presentationPage.scss */
+#presentationPage h2 {
+  margin-bottom: 1em;
+}
+/* line 5, ../scss/components/_presentationPage.scss */
+#presentationPage .presentationJumbotron {
+  margin: 0;
+}
+/* line 7, ../scss/components/_presentationPage.scss */
 #presentationPage .presentationJumbotron p {
   font-size: 15px !important;
   padding: 5px;
+}
+/* line 13, ../scss/components/_presentationPage.scss */
+#presentationPage .offerJumbotron {
+  margin: 0;
+  background-color: #ccc;
+  height: 800px;
+}
+/* line 18, ../scss/components/_presentationPage.scss */
+#presentationPage .offerJumbotron .offerComponent {
+  padding: 0.5em;
+}
+/* line 20, ../scss/components/_presentationPage.scss */
+#presentationPage .offerJumbotron .offerComponent img {
+  width: 4em;
+}
+/* line 24, ../scss/components/_presentationPage.scss */
+#presentationPage .offerJumbotron .offerComponent p {
+  margin-top: 13px !important;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 33, ../scss/components/_presentationPage.scss */
+  #presentationPage .presentationJumbotron {
+    height: 50vh;
+  }
+  /* line 35, ../scss/components/_presentationPage.scss */
+  #presentationPage .presentationJumbotron p {
+    font-size: 15px !important;
+    padding: 5px;
+  }
+  /* line 41, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron {
+    height: 50vh;
+  }
+  /* line 43, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron img {
+    width: 5em;
+  }
 }

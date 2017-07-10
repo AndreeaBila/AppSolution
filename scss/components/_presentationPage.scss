@@ -1,9 +1,49 @@
 #presentationPage {
+  h2 {
+    margin-bottom: 1em;
+  }
   .presentationJumbotron {
+    margin: 0;
     p {
       font-size: 15px !important;
       padding: 5px;
     }
-    
+  }
+
+  .offerJumbotron {
+    margin: 0;
+    background-color: #ccc;
+    height: 800px;
+
+    .offerComponent {
+      padding: 0.5em;
+      img {
+        width: 4em;
+        
+      }
+      p {
+        margin-top: 13px !important;
+      }
+    } 
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #presentationPage {
+    .presentationJumbotron {
+      height: 50vh;
+      p {
+        font-size: 15px !important;
+        padding: 5px;
+      }
+    }
+
+    .offerJumbotron {
+      height: 50vh;
+      img {
+        width: 5em;
+      }
+      
+    }
   }
 }
