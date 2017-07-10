@@ -44,10 +44,15 @@
 
     .offerJumbotron {
       height: 60vh;
-      img {
-        width: 5em;
+      .offerComponent {
+        img {
+          width: 6em !important;
+        }
+        p {
+          margin-top: 30px !important;
+          margin-left: 4.5em;
+        }
       }
-      
     }
-  }
+  } 
 }

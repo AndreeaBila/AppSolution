@@ -343,9 +343,14 @@ header nav .navStyle ul .currentPage {
   #presentationPage .offerJumbotron {
     height: 60vh;
   }
-  /* line 47, ../scss/components/_presentationPage.scss */
-  #presentationPage .offerJumbotron img {
-    width: 5em;
+  /* line 48, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron .offerComponent img {
+    width: 6em !important;
+  }
+  /* line 51, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron .offerComponent p {
+    margin-top: 30px !important;
+    margin-left: 4.5em;
   }
 }
 /* line 1, ../scss/components/_portofolioPage.scss */
