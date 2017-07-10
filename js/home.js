@@ -80,10 +80,16 @@ function showView(model) {
 
 function loadPC() {
     $('.navStyle li').click(function() {
+        //code needed to remove the currentPage class from all elements in the navbar
         $(this).siblings().each(function() {
             $(this).removeClass('currentPage');
         });
+        //add the currentPage class to the selected element from the navbar
         $(this).addClass('currentPage');
+
+        //scroll to the selected element
+        var elementPageID = $(this).attr('id').replace('Nav', 'Page');
+        $('body').scrollTo('#' + elementPageID, 500);
     });
 }
 
