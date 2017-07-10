@@ -141,3 +141,23 @@ function loadPC() {
 function authencticate() {
 
 }
+
+function initMap() {
+    var andreeaLocation = { lat: 44.3990125, lng: 26.0716156 };
+    var vladLocation = { lat: 44.4155789, lng: 26.1558752 };
+    var center = { lat: 44.415382, lng: 26.086466 };
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 13,
+        center: center,
+        streetViewControl: false
+    });
+    var marker = new google.maps.Marker({
+        position: andreeaLocation,
+        map: map
+    });
+    var marker = new google.maps.Marker({
+        position: vladLocation,
+        map: map
+    });
+}
