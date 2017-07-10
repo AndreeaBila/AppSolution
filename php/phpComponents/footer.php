@@ -18,7 +18,7 @@
 
   <div class="text-center formSide col-md-4">
     <h3>Send us a message</h3>
-    <form id="contactForm" action="sendEmail.php" method="POST" onsubmit="return authenticate();" class="text-center">
+    <form id="contactForm" action="sendEmail.php" method="POST" onsubmit="return authenticate()" class="text-center">
       <div class="form-group">
         <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
         <input type="email" name="userEmail" id="userEmail" class="form-control" placeholder="Email">
@@ -30,7 +30,7 @@
       <div class="form-group">
         <textarea name="userMessage" id="userMessage" class="form-control" placeholder="Message"></textarea>
       </div>
-      <input type="submit" id="submitMessage" value="Submit" class="g-recaptcha btn" data-sitekey="6LcrZSgUAAAAAD47R-nRYGDQJoPW1al2ZNDwaDBj" data-callback="YourOnSubmitFn">
+      <input type="submit" id="submitMessage" value="Submit" class="g-recaptcha btn" data-sitekey="6LcrZSgUAAAAAD47R-nRYGDQJoPW1al2ZNDwaDBj" data-callback="authenticate">
     </form>
   </div>
 
