@@ -1,0 +1,12 @@
+#portofolioPage {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  #portofolioPage {
+    margin-top: 0;
+    .portofolioJumbotron {
+      height: 100vh;
+    }
+  }
+}

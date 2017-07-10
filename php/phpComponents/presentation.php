@@ -16,22 +16,36 @@
           <p>Website Design</p>
           <div class="clear"></div>
         </div>
+        
         <div class="offerComponent">
-          <img class=" pull-left" src="../img/responsive.png" alt="Image unavailable">
+          <img class="pull-left" src="../img/responsive.png" alt="Image unavailable">
           <p>Responsive Layout</p>
+          <div class="clear"></div>
+        </div>
+
+        <div class="offerComponent">
+          <img class="pull-left" src="../img/sass.png" alt="Image unavailable">
+          <p>Css/Sass Styling</p>
           <div class="clear"></div>
         </div>
       </div>
        
       <div class="col-xs-12 col-md-4">
         <div class="offerComponent">
-          <img class=" pull-left" src="../img/design.png" alt="Image unavailable">
-          <p>Website Design</p>
+          <img class="pull-left" src="../img/drill.png" alt="Image unavailable">
+          <p>Maintenaince</p>
           <div class="clear"></div>
         </div>
+
         <div class="offerComponent">
-          <img class=" pull-left" src="../img/responsive.png" alt="Image unavailable">
+          <img class="pull-left" src="../img/responsive.png" alt="Image unavailable">
           <p>Responsive Layout</p>
+          <div class="clear"></div>
+        </div>
+
+        <div class="offerComponent">
+          <img class="pull-left" src="../img/drill.png" alt="Image unavailable">
+          <p>Maintenaince</p>
           <div class="clear"></div>
         </div>
       </div>
@@ -42,9 +56,16 @@
           <p>Website Design</p>
           <div class="clear"></div>
         </div>
+
         <div class="offerComponent">
           <img class=" pull-left" src="../img/responsive.png" alt="Image unavailable">
           <p>Responsive Layout</p>
+          <div class="clear"></div>
+        </div>
+
+        <div class="offerComponent">
+          <img class="pull-left" src="../img/sass.png" alt="Image unavailable">
+          <p>Css/Sass Styling</p>
           <div class="clear"></div>
         </div>
       </div>

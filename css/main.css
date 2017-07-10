@@ -106,37 +106,43 @@ body {
   }
 }
 /* line 1, ../scss/layout/_header.scss */
+.headerStyle {
+  box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.5) !important;
+  background-color: #fff;
+}
+
+/* line 6, ../scss/layout/_header.scss */
 header {
   box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
-/* line 4, ../scss/layout/_header.scss */
+/* line 9, ../scss/layout/_header.scss */
 header nav {
   font-size: 14px !important;
 }
-/* line 7, ../scss/layout/_header.scss */
+/* line 12, ../scss/layout/_header.scss */
 header nav .logo {
   background-color: #eee;
   padding: 0.25em;
   padding-top: 0.9em;
   padding-bottom: 0.3em;
 }
-/* line 12, ../scss/layout/_header.scss */
+/* line 17, ../scss/layout/_header.scss */
 header nav .logo img {
   width: 4em !important;
 }
-/* line 19, ../scss/layout/_header.scss */
+/* line 24, ../scss/layout/_header.scss */
 header nav .navStyle ul li {
   padding: 0.5em;
   font-family: "Raleway", sans-serif;
   margin: 0 !important;
 }
-/* line 23, ../scss/layout/_header.scss */
+/* line 28, ../scss/layout/_header.scss */
 header nav .navStyle ul li i {
   font-size: 2em;
   display: block;
   text-align: center;
 }
-/* line 32, ../scss/layout/_header.scss */
+/* line 37, ../scss/layout/_header.scss */
 header nav .navStyle ul li:active,
 header nav .navStyle ul li:focus,
 header nav .navStyle ul li:active:focus,
@@ -146,23 +152,23 @@ header nav .navStyle ul .currentPage {
 }
 
 @media screen and (min-width: 992px) {
-  /* line 43, ../scss/layout/_header.scss */
+  /* line 48, ../scss/layout/_header.scss */
   header nav {
     font-size: 20px;
   }
-  /* line 47, ../scss/layout/_header.scss */
+  /* line 52, ../scss/layout/_header.scss */
   header .logo {
     padding: 0.5em;
   }
-  /* line 49, ../scss/layout/_header.scss */
+  /* line 54, ../scss/layout/_header.scss */
   header .logo img {
     width: 200px !important;
   }
-  /* line 56, ../scss/layout/_header.scss */
+  /* line 61, ../scss/layout/_header.scss */
   header .navStyle ul li {
     padding: 0.5em;
   }
-  /* line 58, ../scss/layout/_header.scss */
+  /* line 63, ../scss/layout/_header.scss */
   header .navStyle ul li i {
     font-size: 10em;
   }
@@ -284,54 +290,106 @@ header nav .navStyle ul .currentPage {
   font-size: 1.5em;
 }
 
-/* line 2, ../scss/components/_presentationPage.scss */
+/* line 1, ../scss/components/_presentationPage.scss */
+#presentationPage {
+  margin-top: 60px;
+}
+/* line 3, ../scss/components/_presentationPage.scss */
 #presentationPage h2 {
   margin-bottom: 1em;
 }
-/* line 5, ../scss/components/_presentationPage.scss */
+/* line 6, ../scss/components/_presentationPage.scss */
 #presentationPage .presentationJumbotron {
   margin: 0;
 }
-/* line 7, ../scss/components/_presentationPage.scss */
+/* line 8, ../scss/components/_presentationPage.scss */
 #presentationPage .presentationJumbotron p {
   font-size: 15px !important;
   padding: 5px;
 }
-/* line 13, ../scss/components/_presentationPage.scss */
+/* line 14, ../scss/components/_presentationPage.scss */
 #presentationPage .offerJumbotron {
   margin: 0;
   background-color: #ccc;
   height: 800px;
 }
-/* line 18, ../scss/components/_presentationPage.scss */
+/* line 19, ../scss/components/_presentationPage.scss */
 #presentationPage .offerJumbotron .offerComponent {
+  width: 90%;
+  margin: 0 auto;
   padding: 0.5em;
 }
-/* line 20, ../scss/components/_presentationPage.scss */
+/* line 23, ../scss/components/_presentationPage.scss */
 #presentationPage .offerJumbotron .offerComponent img {
   width: 4em;
 }
-/* line 24, ../scss/components/_presentationPage.scss */
+/* line 27, ../scss/components/_presentationPage.scss */
 #presentationPage .offerJumbotron .offerComponent p {
   margin-top: 13px !important;
+  margin-left: 3em;
 }
 
 @media screen and (min-width: 992px) {
-  /* line 33, ../scss/components/_presentationPage.scss */
+  /* line 37, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationJumbotron {
-    height: 50vh;
+    height: 43.8vh;
   }
-  /* line 35, ../scss/components/_presentationPage.scss */
+  /* line 39, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationJumbotron p {
     font-size: 15px !important;
     padding: 5px;
   }
-  /* line 41, ../scss/components/_presentationPage.scss */
+  /* line 45, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron {
     height: 50vh;
   }
-  /* line 43, ../scss/components/_presentationPage.scss */
+  /* line 47, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron img {
     width: 5em;
+  }
+}
+/* line 1, ../scss/components/_portofolioPage.scss */
+#portofolioPage {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 6, ../scss/components/_portofolioPage.scss */
+  #portofolioPage {
+    margin-top: 0;
+  }
+  /* line 8, ../scss/components/_portofolioPage.scss */
+  #portofolioPage .portofolioJumbotron {
+    height: 100vh;
+  }
+}
+/* line 1, ../scss/components/_aboutPage.scss */
+#aboutPage {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 6, ../scss/components/_aboutPage.scss */
+  #aboutPage {
+    margin-top: 0;
+  }
+  /* line 8, ../scss/components/_aboutPage.scss */
+  #aboutPage .aboutJumbotron {
+    height: 100vh;
+  }
+}
+/* line 1, ../scss/components/_contactPage.scss */
+#contactPage {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 6, ../scss/components/_contactPage.scss */
+  #contactPage {
+    margin-top: 0;
+  }
+  /* line 8, ../scss/components/_contactPage.scss */
+  #contactPage .contactJumbotron {
+    height: 100vh;
   }
 }

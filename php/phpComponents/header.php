@@ -1,5 +1,5 @@
 <!--header document to be included in all pages-->
-<header class="headerStyle">
+<header class="headerStyle navbar-fixed-top">
   <nav>
     <div class="logo pull-left">
       <img src="../img/logo2.png" alt="AppSolutions">

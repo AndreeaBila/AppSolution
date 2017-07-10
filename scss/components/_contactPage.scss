@@ -1,0 +1,12 @@
+#contactPage {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  #contactPage {
+    margin-top: 0;
+    .contactJumbotron {
+      height: 100vh;
+    }
+  }
+}

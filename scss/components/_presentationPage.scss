@@ -1,4 +1,5 @@
 #presentationPage {
+  margin-top: 60px;
   h2 {
     margin-bottom: 1em;
   }
@@ -16,6 +17,8 @@
     height: 800px;
 
     .offerComponent {
+      width: 90%;
+      margin: 0 auto;
       padding: 0.5em;
       img {
         width: 4em;
@@ -23,6 +26,7 @@
       }
       p {
         margin-top: 13px !important;
+        margin-left: 3em;
       }
     } 
   }
@@ -31,7 +35,7 @@
 @media screen and (min-width: 992px) {
   #presentationPage {
     .presentationJumbotron {
-      height: 50vh;
+      height: 43.8vh;
       p {
         font-size: 15px !important;
         padding: 5px;
