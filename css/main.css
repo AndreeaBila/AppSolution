@@ -332,7 +332,7 @@ header nav .navStyle ul .currentPage {
 @media screen and (min-width: 992px) {
   /* line 37, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationJumbotron {
-    height: 43.8vh;
+    height: 33.8vh;
   }
   /* line 39, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationJumbotron p {
@@ -341,7 +341,7 @@ header nav .navStyle ul .currentPage {
   }
   /* line 45, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron {
-    height: 50vh;
+    height: 60vh;
   }
   /* line 47, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron img {
@@ -361,7 +361,7 @@ header nav .navStyle ul .currentPage {
   }
   /* line 9, ../scss/components/_portofolioPage.scss */
   #portofolioPage .portofolioJumbotron {
-    height: 100vh;
+    height: 93.8vh;
   }
 }
 /* line 1, ../scss/components/_aboutPage.scss */
@@ -381,7 +381,7 @@ header nav .navStyle ul .currentPage {
   }
   /* line 12, ../scss/components/_aboutPage.scss */
   #aboutPage .aboutJumbotron {
-    height: 100vh;
+    height: 93.8vh;
   }
 }
 /* line 1, ../scss/components/_contactPage.scss */
@@ -397,6 +397,6 @@ header nav .navStyle ul .currentPage {
   }
   /* line 9, ../scss/components/_contactPage.scss */
   #contactPage .contactJumbotron {
-    height: 100vh;
+    height: 93.8vh;
   }
 }
