@@ -4,9 +4,11 @@
 
 @media screen and (min-width: 992px) {
   #contactPage {
-    margin-top: 0;
+    margin: 0px !important;
+    margin-bottom: $jumbotrons-margin-bottom !important;
     .contactJumbotron {
       height: 100vh;
+      
     }
   }
 }

@@ -4,7 +4,8 @@
 
 @media screen and (min-width: 992px) {
   #portofolioPage {
-    margin-top: 0;
+    margin: 0px !important;
+    margin-bottom: $jumbotrons-margin-bottom !important;
     .portofolioJumbotron {
       height: 100vh;
     }

@@ -24,8 +24,14 @@
         </div>
 
         <div class="offerComponent">
+          <img class="pull-left" src="../img/dev.png" alt="Image unavailable">
+          <p>Website Development</p>
+          <div class="clear"></div>
+        </div>
+
+        <div class="offerComponent">
           <img class="pull-left" src="../img/sass.png" alt="Image unavailable">
-          <p>Css/Sass Styling</p>
+          <p>Social Media Integration</p>
           <div class="clear"></div>
         </div>
       </div>
@@ -39,13 +45,19 @@
 
         <div class="offerComponent">
           <img class="pull-left" src="../img/responsive.png" alt="Image unavailable">
-          <p>Responsive Layout</p>
+          <p>JavaScript Debugging</p>
           <div class="clear"></div>
         </div>
 
         <div class="offerComponent">
           <img class="pull-left" src="../img/drill.png" alt="Image unavailable">
-          <p>Maintenaince</p>
+          <p>PHP Debugging</p>
+          <div class="clear"></div>
+        </div>
+
+        <div class="offerComponent">
+          <img class="pull-left" src="../img/sass.png" alt="Image unavailable">
+          <p>Newsletter</p>
           <div class="clear"></div>
         </div>
       </div>
@@ -53,19 +65,25 @@
       <div class="col-xs-12 col-md-4">
         <div class="offerComponent">
           <img class=" pull-left" src="../img/design.png" alt="Image unavailable">
-          <p>Website Design</p>
+          <p>Database Administration</p>
           <div class="clear"></div>
         </div>
 
         <div class="offerComponent">
           <img class=" pull-left" src="../img/responsive.png" alt="Image unavailable">
-          <p>Responsive Layout</p>
+          <p>Website Optimization</p>
           <div class="clear"></div>
         </div>
 
         <div class="offerComponent">
           <img class="pull-left" src="../img/sass.png" alt="Image unavailable">
-          <p>Css/Sass Styling</p>
+          <p>Security</p>
+          <div class="clear"></div>
+        </div>
+
+        <div class="offerComponent">
+          <img class="pull-left" src="../img/sass.png" alt="Image unavailable">
+          <p>Google Maps Integration</p>
           <div class="clear"></div>
         </div>
       </div>

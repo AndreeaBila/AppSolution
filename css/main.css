@@ -311,7 +311,7 @@ header nav .navStyle ul .currentPage {
 #presentationPage .offerJumbotron {
   margin: 0;
   background-color: #ccc;
-  height: 800px;
+  height: 1200px;
 }
 /* line 19, ../scss/components/_presentationPage.scss */
 #presentationPage .offerJumbotron .offerComponent {
@@ -356,9 +356,10 @@ header nav .navStyle ul .currentPage {
 @media screen and (min-width: 992px) {
   /* line 6, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
-    margin-top: 0;
+    margin: 0px !important;
+    margin-bottom: -30px !important;
   }
-  /* line 8, ../scss/components/_portofolioPage.scss */
+  /* line 9, ../scss/components/_portofolioPage.scss */
   #portofolioPage .portofolioJumbotron {
     height: 100vh;
   }
@@ -367,13 +368,18 @@ header nav .navStyle ul .currentPage {
 #aboutPage {
   margin-top: 60px;
 }
+/* line 3, ../scss/components/_aboutPage.scss */
+#aboutPage .aboutJumbotron {
+  background-color: #ccc;
+}
 
 @media screen and (min-width: 992px) {
-  /* line 6, ../scss/components/_aboutPage.scss */
+  /* line 9, ../scss/components/_aboutPage.scss */
   #aboutPage {
-    margin-top: 0;
+    margin: 0px !important;
+    margin-bottom: -30px !important;
   }
-  /* line 8, ../scss/components/_aboutPage.scss */
+  /* line 12, ../scss/components/_aboutPage.scss */
   #aboutPage .aboutJumbotron {
     height: 100vh;
   }
@@ -386,9 +392,10 @@ header nav .navStyle ul .currentPage {
 @media screen and (min-width: 992px) {
   /* line 6, ../scss/components/_contactPage.scss */
   #contactPage {
-    margin-top: 0;
+    margin: 0px !important;
+    margin-bottom: -30px !important;
   }
-  /* line 8, ../scss/components/_contactPage.scss */
+  /* line 9, ../scss/components/_contactPage.scss */
   #contactPage .contactJumbotron {
     height: 100vh;
   }
