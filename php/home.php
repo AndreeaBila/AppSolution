@@ -54,6 +54,7 @@
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- CDN script for the hammer.js framework needed to map the user interacion on a mobile device -->
     <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
     <!-- The js script for this file -->
     <script src="../js/home.js"></script>
