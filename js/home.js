@@ -32,6 +32,9 @@ $(function() {
         if (device.type == 'mobile') loadMobile();
         else loadPC();
     });
+
+
+   
 });
 //this function is needed to adjust the webpage to the mobile version
 function loadMobile() {
@@ -161,3 +164,9 @@ function initMap() {
         map: map
     });
 }
+
+//activate popovers
+//nus de ce plm nu merge
+$(function () {
+  $('[data-toggle="popover"]').popover();
+});

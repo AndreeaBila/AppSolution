@@ -27,6 +27,7 @@
       p {
         margin-top: 13px !important;
         margin-left: 3em;
+        font-weight: normal;
       }
     } 
   }
@@ -45,14 +46,31 @@
     .offerJumbotron {
       height: 60vh;
       .offerComponent {
+        width: 100% !important;
         img {
           width: 6em !important;
         }
         p {
           margin-top: 30px !important;
-          margin-left: 4.5em;
+          margin-left: 5em;
+          font-size: 130%;
         }
       }
     }
   } 
+}
+
+@media screen and (min-width: 1450px) {
+  #presentationPage {
+    .offerJumbotron {
+      .offerComponent {
+        img {
+          margin-left: 4em;
+        }
+        p {
+          margin-left: 8em !important;
+        }
+      }
+    }
+  }
 }

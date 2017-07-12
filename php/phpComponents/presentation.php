@@ -10,10 +10,10 @@
     <h2 class="text-center">Our services</h2>
     <div>
     
-      <div class="col-xs-12 col-md-4">
-        <div class="offerComponent">
+      <div class="col-xs-12 col-md-4 col-lg-4">
+        <div class="offerComponent" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
           <img class=" pull-left" src="../img/icon1/design.png" alt="Image unavailable">
-          <p>Website Design</p>
+          <p>Web Design & Development</p>
           <div class="clear"></div>
         </div>
         
@@ -23,37 +23,41 @@
           <div class="clear"></div>
         </div>
 
-        <div class="offerComponent">
+        <!--<div class="offerComponent">
           <img class="pull-left" src="../img/icon1/development.png" alt="Image unavailable">
           <p>Website Development</p>
           <div class="clear"></div>
-        </div>
+        </div>-->
 
         <div class="offerComponent">
           <img class="pull-left" src="../img/icon1/socialmedia.png" alt="Image unavailable">
           <p>Social Media Integration</p>
           <div class="clear"></div>
         </div>
+
+        <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+          Popover on right
+        </button>
       </div>
        
-      <div class="col-xs-12 col-md-4">
+      <div class="col-xs-12 col-md-4 col-lg-4">
         <div class="offerComponent">
           <img class="pull-left" src="../img/icon1/maintain.png" alt="Image unavailable">
-          <p>Maintenaince</p>
+          <p>Optimization & Maintenaince</p>
           <div class="clear"></div>
         </div>
 
         <div class="offerComponent">
           <img class="pull-left" src="../img/icon1/debug.png" alt="Image unavailable">
-          <p>JavaScript Debugging</p>
+          <p>PHP & JS Debugging</p>
           <div class="clear"></div>
         </div>
 
-        <div class="offerComponent">
+        <!--<div class="offerComponent">
           <img class="pull-left" src="../img/icon1/debug2.png" alt="Image unavailable">
           <p>PHP Debugging</p>
           <div class="clear"></div>
-        </div>
+        </div>-->
 
         <div class="offerComponent">
           <img class="pull-left" src="../img/icon1/newsletter.png" alt="Image unavailable">
@@ -62,18 +66,18 @@
         </div>
       </div>
 
-      <div class="col-xs-12 col-md-4">
+      <div class="col-xs-12 col-md-4 col-lg-4">
         <div class="offerComponent">
           <img class=" pull-left" src="../img/icon1/database.png" alt="Image unavailable">
           <p>Database Administration</p>
           <div class="clear"></div>
         </div>
 
-        <div class="offerComponent">
+        <!--<div class="offerComponent">
           <img class=" pull-left" src="../img/icon1/optimization.png" alt="Image unavailable">
           <p>Website Optimization</p>
           <div class="clear"></div>
-        </div>
+        </div>-->
 
         <div class="offerComponent">
           <img class="pull-left" src="../img/icon1/security.png" alt="Image unavailable">

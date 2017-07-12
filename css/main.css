@@ -327,30 +327,46 @@ header nav .navStyle ul .currentPage {
 #presentationPage .offerJumbotron .offerComponent p {
   margin-top: 13px !important;
   margin-left: 3em;
+  font-weight: normal;
 }
 
 @media screen and (min-width: 992px) {
-  /* line 37, ../scss/components/_presentationPage.scss */
+  /* line 38, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationJumbotron {
     height: 33.8vh;
   }
-  /* line 39, ../scss/components/_presentationPage.scss */
+  /* line 40, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationJumbotron p {
     font-size: 15px !important;
     padding: 5px;
   }
-  /* line 45, ../scss/components/_presentationPage.scss */
+  /* line 46, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron {
     height: 60vh;
   }
   /* line 48, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron .offerComponent {
+    width: 100% !important;
+  }
+  /* line 50, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron .offerComponent img {
     width: 6em !important;
   }
-  /* line 51, ../scss/components/_presentationPage.scss */
+  /* line 53, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron .offerComponent p {
     margin-top: 30px !important;
-    margin-left: 4.5em;
+    margin-left: 5em;
+    font-size: 130%;
+  }
+}
+@media screen and (min-width: 1450px) {
+  /* line 67, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron .offerComponent img {
+    margin-left: 4em;
+  }
+  /* line 70, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron .offerComponent p {
+    margin-left: 8em !important;
   }
 }
 /* line 1, ../scss/components/_portofolioPage.scss */
