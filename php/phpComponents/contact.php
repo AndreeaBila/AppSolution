@@ -6,8 +6,9 @@
   </div>
   <style>
       #map {
-        height: 80vh;
-        width: 100%;
+        height: 60vh;
+        width: 70%;
+        margin: 0 auto;
        }
   </style>
 </section>

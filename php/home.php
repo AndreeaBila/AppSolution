@@ -51,6 +51,8 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <!-- jQuery UI necesary for slide action -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <!-- scrollTo plugin neede to create the scroll to animation page -->
     <script src="../js/jquery.scrollTo.min.js"></script> 
     <!-- mouseWheel plugin neede to create the scroll animation on the wheel control -->

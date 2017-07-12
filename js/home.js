@@ -34,7 +34,7 @@ $(function() {
     });
 
 
-   
+
 });
 //this function is needed to adjust the webpage to the mobile version
 function loadMobile() {
@@ -44,37 +44,42 @@ function loadMobile() {
         location: 'presentation',
         previousPos: 'contact'
     };
-    showView(model);
+    $('#' + views['portofolio'].pageID).hide();
+    $('#' + views['about'].pageID).hide();
+    $('#' + views['contact'].pageID).hide();
+    $('#' + views['presentation'].navID).addClass('currentPage');
     //create an event listener to map the swipe action to the current page
     var hammertime = new Hammer(document.getElementById("wrapper"));
     // listen to events...
     hammertime.on("swipeleft", function(ev) {
         model.previousPos = model.location;
         model.location = views[model.location].rightView;
-        showView(model);
+        showView(model, 'right', 'left');
     });
     hammertime.on("swiperight", function(ev) {
         model.previousPos = model.location;
         model.location = views[model.location].leftView;
-        showView(model);
+        showView(model, 'left', 'right');
     });
     //on click go to target page
     $('.navStyle li').click(function() {
         if (!$(this).hasClass('currentPage')) {
             model.previousPos = model.location;
             model.location = $(this).attr('id').replace("Nav", "");
-            showView(model);
+            showView(model, null, null);
         }
     });
 }
 //set of functions needed to show the appropriate view
-function showView(model) {
+function showView(model, showDir, hideDir) {
     //on page load hide everything but presentation
-    $('#' + views['presentation'].pageID).hide();
-    $('#' + views['portofolio'].pageID).hide();
-    $('#' + views['about'].pageID).hide();
-    $('#' + views['contact'].pageID).hide();
-    $('#' + views[model.location].pageID).show();
+    if (showDir != null && hideDir != null) {
+        $('#' + views[model.previousPos].pageID).hide("slide", { direction: String(hideDir) }, 550);
+        $('#' + views[model.location].pageID).show("slide", { direction: String(showDir) }, 550);
+    } else {
+        $('#' + views[model.previousPos].pageID).hide(300);
+        $('#' + views[model.location].pageID).show(300);
+    }
     $('#' + views[model.location].navID).addClass('currentPage');
     $('#' + views[model.previousPos].navID).removeClass('currentPage');
 }
@@ -97,7 +102,6 @@ function loadPC() {
         //get the name of he page
         model.previousPos = model.location;
         model.location = $(this).attr('id').replace('Nav', '');
-        console.log(model);
         //scroll to the selected element
         var elementPageID = $(this).attr('id').replace('Nav', 'Page');
         if (elementPageID == 'presentationPage') {
@@ -107,37 +111,38 @@ function loadPC() {
             //scroll to the given element
             //get the absolute position of the target element
             var pos = $('#' + elementPageID).position();
-            console.log(pos);
             $('body').scrollTo(pos.top, 500);
         }
     });
 
     //event listener needed to check if the mouse wheel has been used in order to scroll the user to the appropriate element
-    $(document).mousewheel($.throttle(function(event) {
-        var stopAutoScroll = false;
-        //if the model object hasn't been initialised set it to the default value of presentation
-        if (model.location == null) model.location = 'presentation';
-        //check the direction of the mouse
-        if (event.deltaY == 1) {
-            //swap the values of the locations from the model object
-            model.previousPos = model.location;
-            if (model.location != 'presentation') {
-                model.location = views[model.location].leftView; //reset the current location
-            }
-        } else {
-            //swap the values of the locations from the model object
-            model.previousPos = model.location;
-            if (model.location != 'contact') {
-                model.location = views[model.location].rightView; //reset the current location
+    $(document).mousewheel($.debounce(function(event) {
+        if ($(document).width() > 1000) {
+            var stopAutoScroll = false;
+            //if the model object hasn't been initialised set it to the default value of presentation
+            if (model.location == null) model.location = 'presentation';
+            //check the direction of the mouse
+            if (event.deltaY == 1) {
+                //swap the values of the locations from the model object
+                model.previousPos = model.location;
+                if (model.location != 'presentation') {
+                    model.location = views[model.location].leftView; //reset the current location
+                }
             } else {
-                $('body').scrollTo('.footerStyle', 500);
-                stopAutoScroll = true;
+                //swap the values of the locations from the model object
+                model.previousPos = model.location;
+                if (model.location != 'contact') {
+                    model.location = views[model.location].rightView; //reset the current location
+                } else {
+                    $('body').scrollTo('.footerStyle', 500);
+                    stopAutoScroll = true;
+                }
+            }
+            if (!stopAutoScroll) {
+                $('.navStyle li#' + model.location + 'Nav').click(); //perform a click event on the given element
             }
         }
-        if (!stopAutoScroll) {
-            $('.navStyle li#' + model.location + 'Nav').click(); //perform a click event on the given element
-        }
-    }, 1100));
+    }, 300));
 }
 
 //function needed to check the response of the captcha security system
@@ -167,6 +172,6 @@ function initMap() {
 
 //activate popovers
 //nus de ce plm nu merge
-$(function () {
-  $('[data-toggle="popover"]').popover();
+$(function() {
+    $('[data-toggle="popover"]').popover();
 });
