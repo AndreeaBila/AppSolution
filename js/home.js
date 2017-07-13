@@ -116,7 +116,7 @@ function loadPC() {
     });
 
     //event listener needed to check if the mouse wheel has been used in order to scroll the user to the appropriate element
-    $(document).mousewheel($.debounce(function(event) {
+    $(document).mousewheel($.throttle(function(event) {
         if ($(document).width() > 1000) {
             var stopAutoScroll = false;
             //if the model object hasn't been initialised set it to the default value of presentation
@@ -142,7 +142,7 @@ function loadPC() {
                 $('.navStyle li#' + model.location + 'Nav').click(); //perform a click event on the given element
             }
         }
-    }, 300));
+    }, 1200));
 }
 
 //function needed to check the response of the captcha security system
