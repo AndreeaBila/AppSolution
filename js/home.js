@@ -156,17 +156,25 @@ function initMap() {
     var center = { lat: 52.437584, lng: -1.714696 };
 
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 12,
+        zoom: 10,
         center: center,
         streetViewControl: false
     });
+
+    var image = {
+        url: '../img/ContactInfo.png',
+        size: new google.maps.Size(150, 250)
+    };
+
     var marker = new google.maps.Marker({
         position: andreeaLocation,
-        map: map
+        map: map,
+        icon: image
     });
     var marker = new google.maps.Marker({
         position: vladLocation,
-        map: map
+        map: map,
+        icon: image
     });
 }
 
