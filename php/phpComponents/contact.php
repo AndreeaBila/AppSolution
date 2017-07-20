@@ -1,14 +1,13 @@
 <!--This is the Contact part of the page, where we give our contact details-->
+<style>
+    #map {
+      height: 100%;
+      width: 100%;
+      margin: 0 auto;
+      }
+</style>
 <section id="contactPage">
-  <div class="jumbotron contactJumbotron">
-    <h3>Contact</h3>
+  <div class="contactJumbotron">
     <div id="map"></div>
   </div>
-  <style>
-      #map {
-        height: 60vh;
-        width: 70%;
-        margin: 0 auto;
-       }
-  </style>
 </section>
