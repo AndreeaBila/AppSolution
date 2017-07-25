@@ -43,7 +43,7 @@
 
   <hr>
   <div class="copyright">
-    <p class="pull-left">Copyright &copy; AppSolutions &trade; Team 
-    <p class="pull-right">AppSolutions 2017 |All Rights Reserved</p>
+    <p class="pull-left">Copyright &copy; AppSolution &trade; Team 
+    <p class="pull-right">AppSolution 2017 |All Rights Reserved</p>
   </div>
 </footer>

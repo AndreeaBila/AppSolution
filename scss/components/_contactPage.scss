@@ -1,5 +1,13 @@
+
 #contactPage {
   margin-top: 60px;
+  .contactJumbotron {
+    #map {
+      height: 100%;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -7,7 +15,7 @@
     margin: 0px !important;
     margin-bottom: $jumbotrons-margin-bottom !important;
     .contactJumbotron {
-      height: 93.8vh;
+      height: 85vh;
       
     }
   }

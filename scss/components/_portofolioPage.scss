@@ -1,5 +1,32 @@
 #portofolioPage {
   margin-top: 60px;
+   //height: 1200px;
+  .portofolioJumbotron {
+    .portofolioComponents {
+      
+      padding: 3em 0em 0em;
+      img {
+        width: 50%;
+        
+        //height: 500px;
+        //object-fit: contain;
+        //object-position: center;
+
+      }
+      .portofolioBtn {
+        display: block;
+        margin: 5px auto;
+        width: 50% !important;
+        height: 40px;
+        border: none;
+        font-size: 1.5em;
+        background-color: $footer-color;
+        color: $footer-highlight;
+        font-weight: lighter;
+      }
+    }
+  }
+  
 }
 
 @media screen and (min-width: 992px) {
