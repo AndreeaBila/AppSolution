@@ -6,15 +6,15 @@
     <div class="portofolioComponents">
       <!--LIST MANAGER-->
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
-        <img src="../img/screenshots/l1.png" alt="ListManager">
-        <button class="portofolioBtn"> Try it out</button>
+        <img src="../img/screenshots/l.png" alt="ListManager">
+        <a href="http://www.listmanager.appsolution.online" target="_blank" class="portofolioBtn"> Try it out</a>
       </div>
 
 
       <!--WESTERMORE-->
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
-        <img src="../img/screenshots/w1.png" alt="Westermore">
-        <button class="portofolioBtn"> Try it out</button>
+        <img src="../img/screenshots/w.png" alt="Westermore">
+        <a href="http://www.westermore.appsolution.online" target="_blank" class="portofolioBtn"> Try it out</a>
       </div>
     </div>
       

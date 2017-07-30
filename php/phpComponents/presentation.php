@@ -2,8 +2,8 @@
 
 <section id="presentationPage">
   <div class="jumbotron presentationJumbotron text-center">
-    <h2>Some witty text here</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque asperiores, quibusdam excepturi suscipit perferendis ipsa, hic amet ullam sint modi unde praesentium eaque consequatur dolorum nisi recusandae aliquid voluptas quia.</p>
+    <h2><img style="width:130px; margin-bottom:-10px" src="../img/logo2.png" alt="AppSolution"></h2>
+    <p>You provide the idea, we provide the solution.</p>
   </div>
 
   <div class="jumbotron offerJumbotron">
@@ -34,10 +34,6 @@
           <p>Social Media Integration</p>
           <div class="clear"></div>
         </div>
-
-        <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-          Popover on right
-        </button>
       </div>
        
       <div class="col-xs-12 col-md-4 col-lg-4">
