@@ -2,8 +2,8 @@
 
 <section id="presentationPage">
   <div class="jumbotron presentationJumbotron text-center">
-    <h2><img style="width:130px; margin-bottom:-10px" src="../img/logo2.png" alt="AppSolution"></h2>
-    <p>You provide the idea, we provide the solution.</p>
+    <img style="width:130px; margin-bottom:-10px" src="../img/logo2.png" alt="AppSolution">
+    <p>You provide the idea, we provide the solution.<br> Here at AppSolution we take innovative ideas and transform them into user friendly web applications to present your business to the entire world</p>
   </div>
 
   <div class="jumbotron offerJumbotron">
