@@ -126,7 +126,11 @@ function loadPC() {
                 //swap the values of the locations from the model object
                 model.previousPos = model.location;
                 if (model.location != 'presentation') {
-                    model.location = views[model.location].leftView; //reset the current location
+                    if ($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
+                        model.location = 'contact';
+                    } else {
+                        model.location = views[model.location].leftView; //reset the current location
+                    }
                 }
             } else {
                 //swap the values of the locations from the model object
@@ -147,35 +151,6 @@ function loadPC() {
 
 //function needed to check the response of the captcha security system
 function authencticate() {
-
-}
-
-function initMap() {
-    var andreeaLocation = { lat: 52.450907, lng: -1.929771 };
-    var vladLocation = { lat: 52.3792587, lng: -1.5636591 };
-    var center = { lat: 52.437584, lng: -1.714696 };
-
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 10,
-        center: center,
-        streetViewControl: false
-    });
-
-    var image = {
-        url: '../img/ContactInfo.png',
-        size: new google.maps.Size(150, 250)
-    };
-
-    var marker = new google.maps.Marker({
-        position: andreeaLocation,
-        map: map,
-        icon: image
-    });
-    var marker = new google.maps.Marker({
-        position: vladLocation,
-        map: map,
-        icon: image
-    });
 
 }
 //activate popovers
