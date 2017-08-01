@@ -161,69 +161,23 @@ function initMap() {
         streetViewControl: false
     });
 
-    // var image = {
-    //     url: '../img/ContactInfo.png',
-    //     size: new google.maps.Size(150, 250)
-    // };
-
-    // var marker = new google.maps.Marker({
-    //     position: andreeaLocation,
-    //     map: map,
-    //     icon: image
-    // });
-    // var marker = new google.maps.Marker({
-    //     position: vladLocation,
-    //     map: map,
-    //     icon: image
-    // });
-
-}
-
-//CUSTOM MARKER FUNCTION
-//DELETE THIS
-
-function CustomMarker(latlng, map, args) {
-    this.latlng = latlng;
-    this.args = args;
-    this.setMap(map);
-}
-
-function mapsAPI(latlng, map, args) {
-    CustomMarker(latlng, map, args);
-    CustomMarker.prototype = new google.maps.OverlayView();
-
-    CustomMarker.prototype.draw = function() {
-
-        var self = this;
-
-        var div = this.div;
-
-        if (!div) {
-
-            div = this.div = document.createElement('div');
-
-            div.className = 'marker';
-
-            div.style.position = 'absolute';
-            div.style.cursor = 'pointer';
-            div.style.width = '20px';
-            div.style.height = '20px';
-            div.style.background = 'blue';
-
-            var panes = this.getPanes();
-            panes.overlayImage.appendChild(div);
-        }
-
-        var point = this.getProjection().fromLatLngToDivPixel(this.latlng);
-
-        if (point) {
-            div.style.left = point.x + 'px';
-            div.style.top = point.y + 'px';
-        }
+    var image = {
+        url: '../img/ContactInfo.png',
+        size: new google.maps.Size(150, 250)
     };
-}
-//END
 
+    var marker = new google.maps.Marker({
+        position: andreeaLocation,
+        map: map,
+        icon: image
+    });
+    var marker = new google.maps.Marker({
+        position: vladLocation,
+        map: map,
+        icon: image
+    });
+
+}
 //activate popovers
 //nus de ce plm nu merge
 $(function() {
