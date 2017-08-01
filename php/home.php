@@ -63,8 +63,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- CDN script for the hammer.js framework needed to map the user interacion on a mobile device -->
     <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
-    <!-- cdn script required for the google maps api -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABazjru-dkBwlQnys7bcIfOMpngVaTxbA&callback=initMap"></script>
     <!-- The js script for this file -->
     <script src="../js/home.js"></script>
     <!-- Bootstrap javascript cdn -->
