@@ -5,7 +5,10 @@
     margin-bottom: 1em;
   }
   .presentationJumbotron {
-    
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+
     margin: 0;
     p {
       font-size: 15px !important;
