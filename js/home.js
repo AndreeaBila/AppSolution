@@ -157,4 +157,28 @@ function authencticate() {
 //nus de ce plm nu merge
 $(function() {
     $('[data-toggle="popover"]').popover();
+
+    $('#listGifDiv').hide();
+    $('#westermoreGifDiv').hide();
+
+    $('#listImg').on('mouseover', function() {
+        $('#listImgDiv').hide();
+        $('#listGifDiv').show();
+    });
+
+    $('#listGif').on('mouseout', function() {
+        $('#listImgDiv').show();
+        $('#listGifDiv').hide();
+    });
+
+
+    $('#westermoreImg').on('mouseover', function() {
+        $('#westermoreImgDiv').hide();
+        $('#westermoreGifDiv').show();
+    });
+
+    $('#westermoreGif').on('mouseout', function() {
+        $('#westermoreImgDiv').show();
+        $('#westermoreGifDiv').hide();
+    });
 });
