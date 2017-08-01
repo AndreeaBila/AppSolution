@@ -14,7 +14,7 @@
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center portofolioHover" id="listGifDiv">
         <img src="../img/screenshots/listmanager.gif" class="image" alt="ListManager" id="listGif">
         <div class="overlay">
-          <div class="overlayContent">List Manager</div>
+          <div class="overlayContent">ListManager</div>
         </div>
         <a href="http://www.listmanager.appsolution.online" target="_blank" class="portofolioBtn"> Try it out</a>
       </div>
@@ -29,7 +29,10 @@
 
     <!--WESTERMORE HOVER-->
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center portofolioHover" id="westermoreGifDiv">
-        <img src="../img/screenshots/westermore.gif" alt="Westermore" id="westermoreGif">
+        <img src="../img/screenshots/westermore.gif" class="image" alt="Westermore" id="westermoreGif">
+        <div class="overlay">
+          <div class="overlayContent">Westermore</div>
+        </div>
         <a href="http://www.westermore.appsolution.online" target="_blank" class="portofolioBtn"> Try it out</a>
       </div>
     </div>

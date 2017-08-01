@@ -90,7 +90,9 @@
 
 .overlayContent {
   background-color: $footer-color;
+  opacity: 0.8;
   color: $footer-highlight;
-  font-size: 2em;
-  padding: 16px 32px;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding: 0.3em 15.8em;
 }

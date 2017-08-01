@@ -583,9 +583,11 @@ header nav .navStyle ul .currentPage {
 /* line 91, ../scss/components/_portofolioPage.scss */
 .overlayContent {
   background-color: #191919;
+  opacity: 0.8;
   color: #7f8c8d;
-  font-size: 2em;
-  padding: 16px 32px;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding: 0.3em 15.8em;
 }
 
 /* line 1, ../scss/components/_aboutPage.scss */
