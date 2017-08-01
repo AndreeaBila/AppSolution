@@ -8,87 +8,81 @@
 
   <div class="jumbotron offerJumbotron">
     <h2 class="text-center">Our services</h2>
-    <div>
+    <ul class="offerList ">
     
-      <div class="col-xs-12 col-md-4 col-lg-4">
-        <div class="offerComponent" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-          <img class=" pull-left" src="../img/icon1/design.png" alt="Image unavailable">
-          <p>Web Design & Development</p>
-          <div class="clear"></div>
-        </div>
-        
-        <div class="offerComponent">
-          <img class="pull-left" src="../img/icon1/responsive.png" alt="Image unavailable">
-          <p>Responsive Layout</p>
-          <div class="clear"></div>
-        </div>
+      <li class="offerComponent">
+        <img class=" pull-left" src="../img/icon1/design.png" alt="Image unavailable">
+        <p>Web Design & Development</p>
+        <div class="clear"></div>
+      </li>
+      
+      <li class="offerComponent">
+        <img class="pull-left" src="../img/icon1/responsive.png" alt="Image unavailable">
+        <p>Responsive Layout</p>
+        <div class="clear"></div>
+      </li>
 
-        <!--<div class="offerComponent">
-          <img class="pull-left" src="../img/icon1/development.png" alt="Image unavailable">
-          <p>Website Development</p>
-          <div class="clear"></div>
-        </div>-->
+      <!--<div class="offerComponent">
+        <img class="pull-left" src="../img/icon1/development.png" alt="Image unavailable">
+        <p>Website Development</p>
+        <div class="clear"></div>
+      </div>-->
 
-        <div class="offerComponent">
-          <img class="pull-left" src="../img/icon1/socialmedia.png" alt="Image unavailable">
-          <p>Social Media Integration</p>
-          <div class="clear"></div>
-        </div>
-      </div>
-       
-      <div class="col-xs-12 col-md-4 col-lg-4">
-        <div class="offerComponent">
-          <img class="pull-left" src="../img/icon1/maintain.png" alt="Image unavailable">
-          <p>Optimization & Maintenaince</p>
-          <div class="clear"></div>
-        </div>
+      <li class="offerComponent">
+        <img class="pull-left" src="../img/icon1/socialmedia.png" alt="Image unavailable">
+        <p>Social Media Integration</p>
+        <div class="clear"></div>
+      </li>
+    
+      <li class="offerComponent">
+        <img class="pull-left" src="../img/icon1/maintain.png" alt="Image unavailable">
+        <p>Optimization & Maintenaince</p>
+        <div class="clear"></div>
+      </li>
 
-        <div class="offerComponent">
-          <img class="pull-left" src="../img/icon1/debug.png" alt="Image unavailable">
-          <p>PHP & JS Debugging</p>
-          <div class="clear"></div>
-        </div>
+      <li class="offerComponent">
+        <img class="pull-left" src="../img/icon1/debug.png" alt="Image unavailable">
+        <p>PHP & JS Debugging</p>
+        <div class="clear"></div>
+      </li>
 
-        <!--<div class="offerComponent">
-          <img class="pull-left" src="../img/icon1/debug2.png" alt="Image unavailable">
-          <p>PHP Debugging</p>
-          <div class="clear"></div>
-        </div>-->
+      <!--<li class="offerComponent">
+        <img class="pull-left" src="../img/icon1/debug2.png" alt="Image unavailable">
+        <p>PHP Debugging</p>
+        <div class="clear"></div>
+      </li>-->
 
-        <div class="offerComponent">
-          <img class="pull-left" src="../img/icon1/newsletter.png" alt="Image unavailable">
-          <p>Newsletter</p>
-          <div class="clear"></div>
-        </div>
-      </div>
+      <li class="offerComponent">
+        <img class="pull-left" src="../img/icon1/newsletter.png" alt="Image unavailable">
+        <p>Newsletter</p>
+        <div class="clear"></div>
+      </li>
 
-      <div class="col-xs-12 col-md-4 col-lg-4">
-        <div class="offerComponent">
-          <img class=" pull-left" src="../img/icon1/database.png" alt="Image unavailable">
-          <p>Database Administration</p>
-          <div class="clear"></div>
-        </div>
+      <li class="offerComponent">
+        <img class="pull-left" src="../img/icon1/database.png" alt="Image unavailable">
+        <p>Database Administration</p>
+        <div class="clear"></div>
+      </li>
 
-        <!--<div class="offerComponent">
-          <img class=" pull-left" src="../img/icon1/optimization.png" alt="Image unavailable">
-          <p>Website Optimization</p>
-          <div class="clear"></div>
-        </div>-->
+      <!--<li class="offerComponent">
+        <img class=" pull-left" src="../img/icon1/optimization.png" alt="Image unavailable">
+        <p>Website Optimization</p>
+        <div class="clear"></div>
+      </li>-->
 
-        <div class="offerComponent">
-          <img class="pull-left" src="../img/icon1/security.png" alt="Image unavailable">
-          <p>Security</p>
-          <div class="clear"></div>
-        </div>
+      <li class="offerComponent">
+        <img class="pull-left" src="../img/icon1/security.png" alt="Image unavailable">
+        <p>Security</p>
+        <div class="clear"></div>
+      </li>
 
-        <div class="offerComponent">
-          <img class="pull-left" src="../img/icon1/map.png" alt="Image unavailable">
-          <p>Google Maps Integration</p>
-          <div class="clear"></div>
-        </div>
-      </div>
+      <li class="offerComponent">
+        <img class="pull-left" src="../img/icon1/map.png" alt="Image unavailable">
+        <p>Google Maps Integration</p>
+        <div class="clear"></div>
+      </li>
 
-    </div>
+    </ul>
     
   </div>
 </section>

@@ -2,11 +2,15 @@
   margin-top: 60px;
    //height: 1200px;
   .portofolioJumbotron {
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    //height: 65vh;
     .portofolioComponents {
       
       padding: 3em 0em 0em;
       img {
-        width: 50%;
+        width: 90%;
         
         //height: 500px;
         //object-fit: contain;
@@ -16,7 +20,7 @@
       .portofolioBtn {
         display: block;
         margin: 5px auto;
-        width: 50% !important;
+        width: 45% !important;
         height: 40px;
         border: none;
         font-size: 1.5em;
@@ -35,6 +39,9 @@
     margin-bottom: $jumbotrons-margin-bottom !important;
     .portofolioJumbotron {
       height: 93.8vh;
+      min-height: -webkit-fit-content;
+      min-height: -moz-fit-content;
+      min-height: fit-content;
     }
   }
 }

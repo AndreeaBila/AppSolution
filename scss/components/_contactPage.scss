@@ -2,6 +2,10 @@
 #contactPage {
   margin-top: 60px;
   .contactJumbotron {
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    height: 65vh;
     #map {
       height: 100%;
       width: 100%;
@@ -15,6 +19,9 @@
     margin: 0px !important;
     margin-bottom: $jumbotrons-margin-bottom !important;
     .contactJumbotron {
+      min-height: -webkit-fit-content;
+      min-height: -moz-fit-content;
+      min-height: fit-content;
       height: 85vh;
       
     }
