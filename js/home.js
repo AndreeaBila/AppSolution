@@ -77,8 +77,8 @@ function showView(model, showDir, hideDir) {
         $('#' + views[model.previousPos].pageID).hide("slide", { direction: String(hideDir) }, 550);
         $('#' + views[model.location].pageID).show("slide", { direction: String(showDir) }, 550);
     } else {
-        $('#' + views[model.previousPos].pageID).hide(300);
-        $('#' + views[model.location].pageID).show(300);
+        $('#' + views[model.previousPos].pageID).hide(550);
+        $('#' + views[model.location].pageID).show(550);
     }
     $('#' + views[model.location].navID).addClass('currentPage');
     $('#' + views[model.previousPos].navID).removeClass('currentPage');
