@@ -6,7 +6,7 @@
     <div class="portofolioComponents">
       <!--LIST MANAGER-->
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center" id="listImgDiv">
-        <img src="../img/screenshots/l.png" alt="ListManager" id="listImg">
+        <img src="../img/screenshots/listmanager.png" alt="ListManager" id="listImg">
         <a href="http://www.listmanager.appsolution.online" target="_blank" class="portofolioBtn"> Try it out</a>
       </div>
 
@@ -22,7 +22,7 @@
 
       <!--WESTERMORE-->
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center" id="westermoreImgDiv">
-        <img src="../img/screenshots/w.png" alt="Westermore" id="westermoreImg">
+        <img src="../img/screenshots/westermore.png" alt="Westermore" id="westermoreImg">
         <a href="http://www.westermore.appsolution.online" target="_blank" class="portofolioBtn"> Try it out</a>
       </div>
  

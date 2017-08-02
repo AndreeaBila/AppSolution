@@ -30,7 +30,7 @@
       li {
         width: 33% !important;
         display: inline-block !important;
-        padding: 2.5em;
+        padding: 1.5em;
         img {
           width: 7em;
           display: inline-block;
@@ -74,7 +74,7 @@
 }
 
 @media screen and (max-width: 1489.99999px)
-and (min-width: 1322px) {
+and (min-width: 1233px) {
   #presentationPage {
 
     .offerJumbotron {
@@ -83,7 +83,7 @@ and (min-width: 1322px) {
         width: 95%;
         li {
           width: 33% !important;
-          padding: 1.5em;
+          padding: 1em;
           img {
             width: 6em;
           }
@@ -96,23 +96,24 @@ and (min-width: 1322px) {
   }
 }
 
-@media screen and (max-width: 1321.9999px)
-and (min-width: 955px) {
+@media screen and (max-width: 1232.9999px)
+and (min-width: 1104px) {
   #presentationPage {
 
     .offerJumbotron {
       
       ul.offerList {
-        width: 90%;
+        width: 98%;
         li {
-          width: 45% !important;
-          padding: 1.5em 1em;
+          width: 33% !important;
+          padding: 0.7em;
           img {
-            width: 6em;
+            width: 5.8em;
             
           }
           p {
             margin-top: 30px;
+            font-size: 1.4em;
           }
         } 
       }
@@ -120,23 +121,24 @@ and (min-width: 955px) {
   }
 }
 
-@media screen and (max-width: 954.9999px)
-and (min-width: 773px) {
+@media screen and (max-width: 1103.9999px)
+and (min-width: 997px) {
   #presentationPage {
 
     .offerJumbotron {
       
       ul.offerList {
-        width: 50%;
+        width: 100%;
         li {
           margin: 0 auto !important;
-          width: 100% !important;
-          padding: 1.5em 1em;
+          width: 33% !important;
+          padding: 0.6em;
           img {
-            width: 6em;
+            width: 5.3em;
           }
           p {
             margin-top: 30px;
+            font-size: 1.3em;
           }
         } 
       }
@@ -144,23 +146,24 @@ and (min-width: 773px) {
   }
 }
 
-@media screen and (max-width: 772.9999px)
-and (min-width: 553px) {
+@media screen and (max-width: 996.9999px)
+and (min-width: 933px) {
   #presentationPage {
 
     .offerJumbotron {
       
       ul.offerList {
-        width: 70%;
+        width: 100%;
         li {
           margin: 0 auto !important;
-          width: 100% !important;
-          padding: 1.5em 1em;
+          width: 33% !important;
+          padding: 0.6em;
           img {
-            width: 6em;
+            width: 5.1em;
           }
           p {
             margin-top: 30px;
+            font-size: 1.2em;
           }
         } 
       }
@@ -168,32 +171,8 @@ and (min-width: 553px) {
   }
 }
 
-@media screen and (max-width: 552.9999px)
-and (min-width: 430px) {
-  #presentationPage {
-
-    .offerJumbotron {
-      
-      ul.offerList {
-        width: 90%;
-        li {
-          margin: 0 auto !important;
-          width: 100% !important;
-          padding: 1.5em 1em;
-          img {
-            width: 6em;
-          }
-          p {
-            margin-top: 30px;
-          }
-        } 
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 429.9999px)
-and (min-width: 393px) {
+@media screen and (max-width: 932.9999px)
+and (min-width: 783px) {
   #presentationPage {
 
     .offerJumbotron {
@@ -202,14 +181,14 @@ and (min-width: 393px) {
         width: 95%;
         li {
           margin: 0 auto !important;
-          width: 100% !important;
-          padding: 1.5em 1em;
+          width: 48% !important;
+          padding: 0.7em;
           img {
-            width: 5em;
+            width: 5.8em;
           }
           p {
-            margin-top: 20px;
-            font-size: 1.5em;
+            margin-top: 30px;
+            font-size: 1.4em;
           }
         } 
       }
@@ -217,7 +196,33 @@ and (min-width: 393px) {
   }
 }
 
-@media screen and (max-width: 392.9999px) {
+@media screen and (max-width: 782.9999px)
+and (min-width: 664px) {
+  #presentationPage {
+
+    .offerJumbotron {
+      
+      ul.offerList {
+        width: 95%;
+        li {
+          margin: 0 auto !important;
+          width: 49% !important;
+          padding: 0.5em;
+          img {
+            width: 5.4em;
+          }
+          p {
+            margin-top: 20px;
+            font-size: 1.2em;
+          }
+        } 
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 663.9999px) 
+and (min-width: 594px) {
   #presentationPage {
 
     .offerJumbotron {
@@ -226,14 +231,63 @@ and (min-width: 393px) {
         width: 98%;
         li {
           margin: 0 auto !important;
-          width: 100% !important;
-          padding: 1em 0.5em;
+          width: 49% !important;
+          padding: 0.5em;
           img {
-            width: 4.7em;
+            width: 5em;
           }
           p {
             margin-top: 20px;
-            font-size: 1.25em;
+            font-size: 1.1em;
+          }
+        } 
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 593.9999px) 
+and (min-width: 419px) {
+  #presentationPage {
+
+    .offerJumbotron {
+      
+      ul.offerList {
+        width: 80%;
+        li {
+          margin: 0 auto !important;
+          width: 100% !important;
+          padding: 0.7em;
+          img {
+            width: 5.5em;
+          }
+          p {
+            margin-top: 20px;
+            font-size: 1.3em;
+          }
+        } 
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 418.9999px) {
+  #presentationPage {
+
+    .offerJumbotron {
+      
+      ul.offerList {
+        width: 96%;
+        li {
+          margin: 0 auto !important;
+          width: 100% !important;
+          padding: 0.5em;
+          img {
+            width: 5.2em;
+          }
+          p {
+            margin-top: 20px;
+            font-size: 1.2em;
           }
         } 
       }
