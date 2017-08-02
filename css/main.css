@@ -330,7 +330,7 @@ header nav .navStyle ul .currentPage {
 #presentationPage .offerJumbotron ul.offerList li {
   width: 33% !important;
   display: inline-block !important;
-  padding: 2.5em;
+  padding: 1.5em;
 }
 /* line 34, ../scss/components/_presentationPage.scss */
 #presentationPage .offerJumbotron ul.offerList li img {
@@ -355,7 +355,7 @@ header nav .navStyle ul .currentPage {
     padding: 5px;
   }
 }
-@media screen and (max-width: 1489.99999px) and (min-width: 1322px) {
+@media screen and (max-width: 1489.99999px) and (min-width: 1233px) {
   /* line 82, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
     width: 95%;
@@ -363,7 +363,7 @@ header nav .navStyle ul .currentPage {
   /* line 84, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     width: 33% !important;
-    padding: 1.5em;
+    padding: 1em;
   }
   /* line 87, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
@@ -374,125 +374,171 @@ header nav .navStyle ul .currentPage {
     margin-top: 30px;
   }
 }
-@media screen and (max-width: 1321.9999px) and (min-width: 955px) {
+@media screen and (max-width: 1232.9999px) and (min-width: 1104px) {
   /* line 105, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
-    width: 90%;
+    width: 98%;
   }
   /* line 107, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
-    width: 45% !important;
-    padding: 1.5em 1em;
+    width: 33% !important;
+    padding: 0.7em;
   }
   /* line 110, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
-    width: 6em;
+    width: 5.8em;
   }
   /* line 114, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
     margin-top: 30px;
+    font-size: 1.4em;
   }
 }
-@media screen and (max-width: 954.9999px) and (min-width: 773px) {
-  /* line 129, ../scss/components/_presentationPage.scss */
+@media screen and (max-width: 1103.9999px) and (min-width: 997px) {
+  /* line 130, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
-    width: 50%;
+    width: 100%;
   }
-  /* line 131, ../scss/components/_presentationPage.scss */
+  /* line 132, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     margin: 0 auto !important;
-    width: 100% !important;
-    padding: 1.5em 1em;
+    width: 33% !important;
+    padding: 0.6em;
   }
-  /* line 135, ../scss/components/_presentationPage.scss */
+  /* line 136, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
-    width: 6em;
+    width: 5.3em;
   }
-  /* line 138, ../scss/components/_presentationPage.scss */
+  /* line 139, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
     margin-top: 30px;
+    font-size: 1.3em;
   }
 }
-@media screen and (max-width: 772.9999px) and (min-width: 553px) {
-  /* line 153, ../scss/components/_presentationPage.scss */
-  #presentationPage .offerJumbotron ul.offerList {
-    width: 70%;
-  }
+@media screen and (max-width: 996.9999px) and (min-width: 933px) {
   /* line 155, ../scss/components/_presentationPage.scss */
-  #presentationPage .offerJumbotron ul.offerList li {
-    margin: 0 auto !important;
-    width: 100% !important;
-    padding: 1.5em 1em;
-  }
-  /* line 159, ../scss/components/_presentationPage.scss */
-  #presentationPage .offerJumbotron ul.offerList li img {
-    width: 6em;
-  }
-  /* line 162, ../scss/components/_presentationPage.scss */
-  #presentationPage .offerJumbotron ul.offerList li p {
-    margin-top: 30px;
-  }
-}
-@media screen and (max-width: 552.9999px) and (min-width: 430px) {
-  /* line 177, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
-    width: 90%;
+    width: 100%;
   }
-  /* line 179, ../scss/components/_presentationPage.scss */
+  /* line 157, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     margin: 0 auto !important;
-    width: 100% !important;
-    padding: 1.5em 1em;
+    width: 33% !important;
+    padding: 0.6em;
   }
-  /* line 183, ../scss/components/_presentationPage.scss */
+  /* line 161, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
-    width: 6em;
+    width: 5.1em;
   }
-  /* line 186, ../scss/components/_presentationPage.scss */
+  /* line 164, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
     margin-top: 30px;
+    font-size: 1.2em;
   }
 }
-@media screen and (max-width: 429.9999px) and (min-width: 393px) {
-  /* line 201, ../scss/components/_presentationPage.scss */
+@media screen and (max-width: 932.9999px) and (min-width: 783px) {
+  /* line 180, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
     width: 95%;
   }
-  /* line 203, ../scss/components/_presentationPage.scss */
+  /* line 182, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     margin: 0 auto !important;
-    width: 100% !important;
-    padding: 1.5em 1em;
+    width: 48% !important;
+    padding: 0.7em;
   }
-  /* line 207, ../scss/components/_presentationPage.scss */
+  /* line 186, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
-    width: 5em;
+    width: 5.8em;
   }
-  /* line 210, ../scss/components/_presentationPage.scss */
+  /* line 189, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
-    margin-top: 20px;
-    font-size: 1.5em;
+    margin-top: 30px;
+    font-size: 1.4em;
   }
 }
-@media screen and (max-width: 392.9999px) {
-  /* line 225, ../scss/components/_presentationPage.scss */
+@media screen and (max-width: 782.9999px) and (min-width: 664px) {
+  /* line 205, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron ul.offerList {
+    width: 95%;
+  }
+  /* line 207, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron ul.offerList li {
+    margin: 0 auto !important;
+    width: 49% !important;
+    padding: 0.5em;
+  }
+  /* line 211, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron ul.offerList li img {
+    width: 5.4em;
+  }
+  /* line 214, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron ul.offerList li p {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 663.9999px) and (min-width: 594px) {
+  /* line 230, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
     width: 98%;
   }
-  /* line 227, ../scss/components/_presentationPage.scss */
+  /* line 232, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron ul.offerList li {
+    margin: 0 auto !important;
+    width: 49% !important;
+    padding: 0.5em;
+  }
+  /* line 236, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron ul.offerList li img {
+    width: 5em;
+  }
+  /* line 239, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron ul.offerList li p {
+    margin-top: 20px;
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 593.9999px) and (min-width: 419px) {
+  /* line 255, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron ul.offerList {
+    width: 80%;
+  }
+  /* line 257, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     margin: 0 auto !important;
     width: 100% !important;
-    padding: 1em 0.5em;
+    padding: 0.7em;
   }
-  /* line 231, ../scss/components/_presentationPage.scss */
+  /* line 261, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
-    width: 4.7em;
+    width: 5.5em;
   }
-  /* line 234, ../scss/components/_presentationPage.scss */
+  /* line 264, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
     margin-top: 20px;
-    font-size: 1.25em;
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 418.9999px) {
+  /* line 279, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron ul.offerList {
+    width: 96%;
+  }
+  /* line 281, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron ul.offerList li {
+    margin: 0 auto !important;
+    width: 100% !important;
+    padding: 0.5em;
+  }
+  /* line 285, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron ul.offerList li img {
+    width: 5.2em;
+  }
+  /* line 288, ../scss/components/_presentationPage.scss */
+  #presentationPage .offerJumbotron ul.offerList li p {
+    margin-top: 20px;
+    font-size: 1.2em;
   }
 }
 /* line 1, ../scss/components/_portofolioPage.scss */
