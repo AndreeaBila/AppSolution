@@ -169,6 +169,11 @@ function validate_form(form) {
     }
     return true;
 }
+
+// function validate_email() {
+//     var email = $('#userEmail').val();
+//     var re = /[a - z0 - 9!#$ % & '*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&' * +/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|gov|mil|biz|info|mobi|name|aero|jobs|museum)\b/;
+// }
 //activate popovers
 //nus de ce plm nu merge
 $(function() {
