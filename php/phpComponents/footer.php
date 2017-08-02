@@ -30,8 +30,10 @@
       <div class="form-group">
         <textarea name="userMessage" id="userMessage" class="form-control" placeholder="Message" required></textarea>
       </div>
-      <input type="submit" id="submitMessage" value="Submit">
-      <div class="g-recaptcha" id="captcha_element" data-sitekey="6LcrZSgUAAAAAD47R-nRYGDQJoPW1al2ZNDwaDBj" data-callback="onSubmit" data-size="invisible"></div>
+      <button class="g-recaptcha" data-sitekey="6LeEcCsUAAAAAF8LXnsLZ11IFjliQdJA_wQH2zfi" data-callback="onSubmit">
+        Submit
+      </button>
+      <!-- <div class="g-recaptcha" id="captcha_element" data-sitekey="6LcrZSgUAAAAAD47R-nRYGDQJoPW1al2ZNDwaDBj" data-callback="onSubmit" data-size="invisible"></div> -->
     </form>
   </div>
 

@@ -150,8 +150,8 @@ function loadPC() {
 }
 
 //function needed to check the response of the captcha security system
-function onSubmit() {
-    alert("success");
+function onSubmit(token) {
+    document.getElementById("contactForm").submit();
 }
 //activate popovers
 //nus de ce plm nu merge
