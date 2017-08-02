@@ -1,17 +1,24 @@
 #portofolioPage {
   margin-top: 60px;
-   //height: 1200px;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content !important;
+  margin-bottom: $jumbotrons-margin-bottom !important;
+
   .portofolioJumbotron {
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
     min-height: fit-content;
-    //height: 65vh;
+    //height: 800px;
     .portofolioComponents {
-      
       padding: 3em 0em 0em;
+      min-height: -webkit-fit-content;
+      min-height: -moz-fit-content;
+      min-height: fit-content;
+      height: 600px;
       img {
         width: 90% !important;
-        
+        height: auto;
         //height: 500px;
         //object-fit: contain;
         //object-position: center;
@@ -35,9 +42,13 @@
         //background-image: url('../img/screenshots/listmanager.gif');
         img {
           opacity: 0.8;
-        }
-        
+        }}
+
+      #listImgDiv, #listGifDiv {
+        margin-bottom: 2em !important;
       }
+        
+      
     }
   }
   
@@ -45,7 +56,7 @@
 
 @media screen and (min-width: 992px) {
   #portofolioPage {
-    margin: 0px !important;
+    margin: 0px;
     margin-bottom: $jumbotrons-margin-bottom !important;
     .portofolioJumbotron {
       height: 93.8vh;
@@ -54,12 +65,15 @@
       min-height: fit-content;
     }
   }
+
+  .overlayContent {
+    font-size: 2em !important;
+  }
 }
 
 
 .portofolioHover {
     position: relative;
-    
 }
 
 .image {
@@ -76,6 +90,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 87%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
 }
@@ -92,7 +107,14 @@
   background-color: $footer-color;
   opacity: 0.8;
   color: $footer-highlight;
-  font-size: 1.6em;
+  font-size: 1.5em;
   font-weight: bold;
-  padding: 0.3em 15.8em;
+  padding: 0.3em;
+}
+
+
+@media handheld {
+  #portofolioPage {
+    margin: 60px !important; 
+  }
 }

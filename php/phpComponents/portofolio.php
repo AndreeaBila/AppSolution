@@ -27,7 +27,7 @@
       </div>
  
 
-    <!--WESTERMORE HOVER-->
+      <!--WESTERMORE HOVER-->
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center portofolioHover" id="westermoreGifDiv">
         <img src="../img/screenshots/westermore.gif" class="image" alt="Westermore" id="westermoreGif">
         <div class="overlay">
@@ -35,8 +35,8 @@
         </div>
         <a href="http://www.westermore.appsolution.online" target="_blank" class="portofolioBtn"> Try it out</a>
       </div>
+
     </div>
-      
 
   </div>
 </section>
