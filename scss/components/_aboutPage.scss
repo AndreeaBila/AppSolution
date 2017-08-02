@@ -2,16 +2,24 @@
   margin-top: 60px;
   margin-bottom: $jumbotrons-margin-bottom !important;
   .aboutJumbotron {
-    background-color: #ccc;
+    background-color: transparent;
+  }
+    #aboutVlad {
+      background-color: #aaa;
     }
+    #aboutAndreea {
+      background-color:  #bbb;
+    }
+  
 }
 
 @media screen and (min-width: 992px) {
   #aboutPage {
-    margin: 0px !important;
+    margin-top: 0px !important;
     margin-bottom: $jumbotrons-margin-bottom !important;
     .aboutJumbotron {
       height: 93.8vh;
+      //width: 50vw;
     }
   }
 }

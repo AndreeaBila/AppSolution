@@ -182,6 +182,7 @@ $(function() {
         $('#listGifDiv').show();
     });
 
+
     $('#listGif').on('mouseout', function() {
         $('#listImgDiv').show();
         $('#listGifDiv').hide();
