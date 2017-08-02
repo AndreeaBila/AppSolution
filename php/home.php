@@ -29,6 +29,7 @@
     <!--Capcha-->
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!-- [if lt IE 9]>
@@ -67,7 +68,5 @@
     <script src="../js/home.js"></script>
     <!-- Bootstrap javascript cdn -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- Recaptcha script -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </body>
 </html>

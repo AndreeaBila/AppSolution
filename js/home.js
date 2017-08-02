@@ -26,15 +26,18 @@ views['contact'] = {
 };
 //function needed to defer the javascript 
 $(function() {
+    //automatically close every alert
+    $('.alert').hide();
+    //check if the close button from the alert has been clicked
+    $('.close').click(function() {
+        location.reload();
+    });
     //check the type of device currently in use
     //create an async call to determine the type of device from getDeviceType.php
     $.getJSON('getDeviceType.php', function(device) {
         if (device.type == 'mobile') loadMobile();
         else loadPC();
     });
-
-
-
 });
 //this function is needed to adjust the webpage to the mobile version
 function loadMobile() {
@@ -148,10 +151,23 @@ function loadPC() {
         }
     }));
 }
-
 //function needed to check the response of the captcha security system
 function onSubmit(token) {
-    document.getElementById("contactForm").submit();
+    var form = document.getElementById("i-recaptcha");
+    if (validate_form(form)) {
+        form.submit();
+    } else {
+        console.log("reset");
+        grecaptcha.reset();
+    }
+}
+
+function validate_form(form) {
+    if ($('#userEmail').val() === '' || $("#userSubject").val() === "" || $('#userMessage').val() === "") {
+        $('#captchaAlert').show(300);
+        return false;
+    }
+    return true;
 }
 //activate popovers
 //nus de ce plm nu merge

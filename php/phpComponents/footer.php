@@ -18,22 +18,25 @@
 
   <div class="text-center formSide col-md-4">
     <h3>Send us a message</h3>
-    <form id="contactForm" action="./phpComponents/sendEmail.php" method="POST" class="text-center">
+    <form id="i-recaptcha" action="./phpComponents/sendEmail.php" method="POST" class="text-center">
+    <div class="alert alert-danger alert-dismissable" id="captchaAlert">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <strong>Error!</strong> Please fill in all the details.
+    </div>
       <div class="form-group">
         <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
-        <input type="email" name="userEmail" id="userEmail" class="form-control" placeholder="Email" required>
+        <input type="email" name="userEmail" id="userEmail" class="form-control" placeholder="Email">
       </div>
       <div class="form-group">
         <i class="fa fa-tags fa-lg" aria-hidden="true"></i>
-        <input type="text" name="userSubject" id="userSubject" class="form-control" placeholder="Subject" required>
+        <input type="text" name="userSubject" id="userSubject" class="form-control" placeholder="Subject">
       </div>
       <div class="form-group">
-        <textarea name="userMessage" id="userMessage" class="form-control" placeholder="Message" required></textarea>
+        <textarea name="userMessage" id="userMessage" class="form-control" placeholder="Message"></textarea>
       </div>
-      <button class="g-recaptcha" data-sitekey="6LeEcCsUAAAAAF8LXnsLZ11IFjliQdJA_wQH2zfi" data-callback="onSubmit">
+      <button class="g-recaptcha" data-sitekey="6LeEcCsUAAAAAF8LXnsLZ11IFjliQdJA_wQH2zfi" data-callback="onSubmit" data-size ="invisible">
         Submit
       </button>
-      <!-- <div class="g-recaptcha" id="captcha_element" data-sitekey="6LcrZSgUAAAAAD47R-nRYGDQJoPW1al2ZNDwaDBj" data-callback="onSubmit" data-size="invisible"></div> -->
     </form>
   </div>
 
