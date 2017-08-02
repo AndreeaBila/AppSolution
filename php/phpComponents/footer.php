@@ -18,19 +18,20 @@
 
   <div class="text-center formSide col-md-4">
     <h3>Send us a message</h3>
-    <form id="contactForm" action="sendEmail.php" method="POST" onsubmit="return authenticate()" class="text-center">
+    <form id="contactForm" action="./phpComponents/sendEmail.php" method="POST" class="text-center">
       <div class="form-group">
         <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
-        <input type="email" name="userEmail" id="userEmail" class="form-control" placeholder="Email">
+        <input type="email" name="userEmail" id="userEmail" class="form-control" placeholder="Email" required>
       </div>
       <div class="form-group">
         <i class="fa fa-tags fa-lg" aria-hidden="true"></i>
-        <input type="text" name="userSubject" id="userSubject" class="form-control" placeholder="Subject">
+        <input type="text" name="userSubject" id="userSubject" class="form-control" placeholder="Subject" required>
       </div>
       <div class="form-group">
-        <textarea name="userMessage" id="userMessage" class="form-control" placeholder="Message"></textarea>
+        <textarea name="userMessage" id="userMessage" class="form-control" placeholder="Message" required></textarea>
       </div>
-      <input type="submit" id="submitMessage" value="Submit" class="g-recaptcha btn" data-sitekey="6LcrZSgUAAAAAD47R-nRYGDQJoPW1al2ZNDwaDBj" data-callback="authenticate">
+      <input type="submit" id="submitMessage" value="Submit">
+      <div class="g-recaptcha" id="captcha_element" data-sitekey="6LcrZSgUAAAAAD47R-nRYGDQJoPW1al2ZNDwaDBj" data-callback="onSubmit" data-size="invisible"></div>
     </form>
   </div>
 
@@ -38,7 +39,6 @@
     <h3>Give us a call</h3>  
     <p><a class="callBtn btn btn-success" href="tel:+40727401404"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Call</a>+40 (727) 401 404</p>
     <p><a class="callBtn btn btn-success" href="tel:+40733207003"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Call</a>+40 (733) 207 003</p>
-    <p><a class="callBtn btn btn-success" href="tel:+40721236256"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Call</a>+40 (721) 236 256</p>
   </div>
 
   <hr>
