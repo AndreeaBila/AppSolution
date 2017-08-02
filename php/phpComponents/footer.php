@@ -44,6 +44,8 @@
     <h3>Give us a call</h3>  
     <p><a class="callBtn btn btn-success" href="tel:+40727401404"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Call</a>+40 (727) 401 404</p>
     <p><a class="callBtn btn btn-success" href="tel:+40733207003"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Call</a>+40 (733) 207 003</p>
+    <h3>Send an email</h3>
+    <p>office@appsolution.online</p>
   </div>
 
   <hr>
