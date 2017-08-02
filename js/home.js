@@ -87,8 +87,6 @@ function showView(model, showDir, hideDir) {
     $('#' + views[model.previousPos].navID).removeClass('currentPage');
 }
 
-
-
 function loadPC() {
     //variable needed to track the current location on the page
     var model = {
@@ -120,12 +118,13 @@ function loadPC() {
 
     //event listener needed to check if the mouse wheel has been used in order to scroll the user to the appropriate element
     $(document).mousewheel($.debounce(100, function(event) {
-        if ($(document).width() > 1000) {
+        if ($(window).width() > 1000) {
             var stopAutoScroll = false;
             //if the model object hasn't been initialised set it to the default value of presentation
             if (model.location == null) model.location = 'presentation';
             //check the direction of the mouse
             if (event.deltaY == 1) {
+                //scroll up
                 //swap the values of the locations from the model object
                 model.previousPos = model.location;
                 if (model.location != 'presentation') {
@@ -136,13 +135,20 @@ function loadPC() {
                     }
                 }
             } else {
-                //swap the values of the locations from the model object
-                model.previousPos = model.location;
-                if (model.location != 'contact') {
-                    model.location = views[model.location].rightView; //reset the current location
-                } else {
-                    $('body').scrollTo('.footerStyle', 500);
+                //scroll down
+                var currentElement = model.location + "Page";
+                var rect = document.getElementById(currentElement).getBoundingClientRect();
+                if (rect.bottom > $(window).height()) {
                     stopAutoScroll = true;
+                } else {
+                    //swap the values of the locations from the model object
+                    model.previousPos = model.location;
+                    if (model.location != 'contact') {
+                        model.location = views[model.location].rightView; //reset the current location
+                    } else {
+                        $('body').scrollTo('.footerStyle', 500);
+                        stopAutoScroll = true;
+                    }
                 }
             }
             if (!stopAutoScroll) {
