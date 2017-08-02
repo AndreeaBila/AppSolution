@@ -163,17 +163,18 @@ function onSubmit(token) {
 }
 
 function validate_form(form) {
-    if ($('#userEmail').val() === '' || $("#userSubject").val() === "" || $('#userMessage').val() === "") {
+    if ($('#userEmail').val() === '' || $("#userSubject").val() === "" || $('#userMessage').val() === "" || !validate_email()) {
         $('#captchaAlert').show(300);
         return false;
     }
     return true;
 }
 
-// function validate_email() {
-//     var email = $('#userEmail').val();
-//     var re = /[a - z0 - 9!#$ % & '*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&' * +/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|gov|mil|biz|info|mobi|name|aero|jobs|museum)\b/;
-// }
+function validate_email() {
+    var email = $('#userEmail').val();
+    var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+}
 //activate popovers
 //nus de ce plm nu merge
 $(function() {
