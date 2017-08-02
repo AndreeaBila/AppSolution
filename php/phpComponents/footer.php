@@ -20,7 +20,7 @@
     <h3>Send us a message</h3>
     <form id="i-recaptcha" action="./phpComponents/sendEmail.php" method="POST" class="text-center">
     <div class="alert alert-danger alert-dismissable" id="captchaAlert">
-      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <a class="close">&times;</a>
       <strong>Error!</strong> Please fill in all the details and provide a real email address.
     </div>
       <div class="form-group">

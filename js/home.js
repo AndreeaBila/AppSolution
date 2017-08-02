@@ -26,12 +26,6 @@ views['contact'] = {
 };
 //function needed to defer the javascript 
 $(function() {
-    //automatically close every alert
-    $('.alert').hide();
-    //check if the close button from the alert has been clicked
-    $('.close').click(function() {
-        location.reload();
-    });
     //check the type of device currently in use
     //create an async call to determine the type of device from getDeviceType.php
     $.getJSON('getDeviceType.php', function(device) {
@@ -157,6 +151,13 @@ function loadPC() {
         }
     }));
 }
+
+//automatically close every alert
+$('.alert').hide();
+//check if the close button from the alert has been clicked
+$('.close').click(function() {
+    $(this).parent().hide(300);
+});
 //function needed to check the response of the captcha security system
 function onSubmit(token) {
     var form = document.getElementById("i-recaptcha");
