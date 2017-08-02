@@ -9,7 +9,7 @@
     $confirmation = array(
       "email" => $userEmail,
       "subject" => "Email Confirmation",
-      "message" => "Please do not reply.\nWe have confirmed your email and will respond as soon as possible.\n\nBest regards,\nThe AppSolution Team!",
+      "message" => "Hi There,\nWe can confirm your email from AppSolution contact form and would like to inform you that we will respond as soon as possible to your enquiry.\nAlso, please do not reply to this email.\n\nBest regards,\nThe AppSolution Team!",
       "header" => "From: office@appsolution.online"
     );
     //compose the message with the user text and his email address
