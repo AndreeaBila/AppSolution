@@ -22,21 +22,28 @@
         //height: 500px;
         //object-fit: contain;
         //object-position: center;
-
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
       }
       a.portofolioBtn {
         display: block;
-        margin: 5px auto;
+        margin: 10px auto;
         width: 45% !important;
         height: 40px;
+        line-height: 40px;
         border: none;
         font-size: 1.5em;
         background-color: $footer-color;
         color: $footer-highlight;
         font-weight: lighter;
         text-decoration: none;
-      
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
       }
+
+      a.portofolioBtn:hover {
+        transform: scale(0.97,0.97);
+        transition: 0.6s;
+      }
+
 
       .portofolioHover {
         //background-image: url('../img/screenshots/listmanager.gif');
@@ -73,12 +80,12 @@
 
 
 .portofolioHover {
-    position: relative;
+  position: relative;
 }
 
 .image {
-  opacity: 1;
-  width: 90%;
+  opacity: 0.3;
+  width: 100%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -110,6 +117,13 @@
   font-size: 1.5em;
   font-weight: bold;
   padding: 0.3em;
+  a {
+    text-decoration: none;
+    color: $footer-highlight;
+  }
+  a:hover {
+    color: white;
+  }
 }
 
 
