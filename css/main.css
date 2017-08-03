@@ -293,7 +293,6 @@ header nav .navStyle ul .currentPage {
 
 /* line 1, ../scss/components/_presentationPage.scss */
 #presentationPage {
-  margin-top: 60px;
   margin-bottom: -30px !important;
 }
 /* line 4, ../scss/components/_presentationPage.scss */
@@ -543,7 +542,6 @@ header nav .navStyle ul .currentPage {
 }
 /* line 1, ../scss/components/_portofolioPage.scss */
 #portofolioPage {
-  margin-top: 60px;
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content !important;
@@ -601,7 +599,6 @@ header nav .navStyle ul .currentPage {
 @media screen and (min-width: 992px) {
   /* line 65, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
-    margin: 0px;
     margin-bottom: -30px !important;
   }
   /* line 68, ../scss/components/_portofolioPage.scss */
@@ -672,15 +669,8 @@ header nav .navStyle ul .currentPage {
   color: white;
 }
 
-@media handheld {
-  /* line 131, ../scss/components/_portofolioPage.scss */
-  #portofolioPage {
-    margin: 60px !important;
-  }
-}
 /* line 1, ../scss/components/_aboutPage.scss */
 #aboutPage {
-  margin-top: 60px;
   margin-bottom: -30px !important;
 }
 /* line 4, ../scss/components/_aboutPage.scss */
@@ -699,7 +689,6 @@ header nav .navStyle ul .currentPage {
 @media screen and (min-width: 992px) {
   /* line 17, ../scss/components/_aboutPage.scss */
   #aboutPage {
-    margin-top: 0px !important;
     margin-bottom: -30px !important;
   }
   /* line 20, ../scss/components/_aboutPage.scss */
@@ -709,7 +698,6 @@ header nav .navStyle ul .currentPage {
 }
 /* line 2, ../scss/components/_contactPage.scss */
 #contactPage {
-  margin-top: 60px;
   margin-bottom: -10px;
 }
 /* line 5, ../scss/components/_contactPage.scss */
@@ -729,7 +717,6 @@ header nav .navStyle ul .currentPage {
 @media screen and (min-width: 992px) {
   /* line 19, ../scss/components/_contactPage.scss */
   #contactPage {
-    margin: 0px !important;
     margin-bottom: -30px !important;
   }
   /* line 22, ../scss/components/_contactPage.scss */

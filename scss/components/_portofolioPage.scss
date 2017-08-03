@@ -1,5 +1,5 @@
 #portofolioPage {
-  margin-top: 60px;
+  //margin-top: 60px;
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content !important;
@@ -63,7 +63,7 @@
 
 @media screen and (min-width: 992px) {
   #portofolioPage {
-    margin: 0px;
+    //margin: 0px;
     margin-bottom: $jumbotrons-margin-bottom !important;
     .portofolioJumbotron {
       height: 93.8vh;
@@ -127,8 +127,8 @@
 }
 
 
-@media handheld {
-  #portofolioPage {
-    margin: 60px !important; 
-  }
-}
+// @media handheld {
+//   #portofolioPage {
+//     margin: 60px !important; 
+//   }
+// }
