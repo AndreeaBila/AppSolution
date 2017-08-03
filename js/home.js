@@ -106,6 +106,9 @@ function showView(model, showDir, hideDir) {
 function loadPC() {
     //set the margin top to 60px px for the presentation page view only
     $('#presentationPage').css({ 'margin-top': '60px' });
+    $('#portofolioPage').css({ 'margin-top': '0px' });
+    $('#aboutPage').css({ 'margin-top': '0px' });
+    $('#contactPage').css({ 'margin-top': '0px' });
     //variable needed to track the current location on the page
     var model = {
         location: null,
