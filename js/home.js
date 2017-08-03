@@ -36,10 +36,10 @@ $(function() {
 //this function is needed to adjust the webpage to the mobile version
 function loadMobile() {
     //set the margin top of the navbar to 60 px for every view
-    $('#presentationPage').css('margin-top', '60');
-    $('#portofolioPage').css('margin-top', '60');
-    $('#aboutPage').css('margin-top', '60');
-    $('#contactPage').css('margin-top', '60');
+    $('#presentationPage').css({ 'margin-top': '60px' });
+    $('#portofolioPage').css({ 'margin-top': '60px' });
+    $('#aboutPage').css({ 'margin-top': '60px' });
+    $('#contactPage').css({ 'margin-top': '60px' });
     //display the home page
     //variable needed to track the current location on the page
     var model = {
@@ -104,8 +104,8 @@ function showView(model, showDir, hideDir) {
 
 //this function is needed to adjust the page for the desktop version
 function loadPC() {
-    //set the margin top to 60 px for the presentation page view only
-    $('#presentationPage').css('margin-top', '60');
+    //set the margin top to 60px px for the presentation page view only
+    $('#presentationPage').css({ 'margin-top': '60px' });
     //variable needed to track the current location on the page
     var model = {
         location: null,
