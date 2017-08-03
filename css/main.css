@@ -542,24 +542,24 @@ header nav .navStyle ul .currentPage {
 }
 /* line 1, ../scss/components/_portofolioPage.scss */
 #portofolioPage {
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content !important;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content !important;
   margin-bottom: -30px !important;
 }
 /* line 8, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron {
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 /* line 13, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents {
   padding: 3em 0em 0em;
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-  height: 600px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  height: 700px;
 }
 /* line 19, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents img {
@@ -671,27 +671,31 @@ header nav .navStyle ul .currentPage {
 
 /* line 1, ../scss/components/_aboutPage.scss */
 #aboutPage {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  height: 700px;
   margin-bottom: -30px !important;
 }
-/* line 4, ../scss/components/_aboutPage.scss */
+/* line 8, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutJumbotron {
   background-color: transparent;
 }
-/* line 7, ../scss/components/_aboutPage.scss */
+/* line 11, ../scss/components/_aboutPage.scss */
 #aboutPage #aboutVlad {
   background-color: #aaa;
 }
-/* line 10, ../scss/components/_aboutPage.scss */
+/* line 14, ../scss/components/_aboutPage.scss */
 #aboutPage #aboutAndreea {
   background-color: #bbb;
 }
 
 @media screen and (min-width: 992px) {
-  /* line 17, ../scss/components/_aboutPage.scss */
+  /* line 21, ../scss/components/_aboutPage.scss */
   #aboutPage {
     margin-bottom: -30px !important;
   }
-  /* line 20, ../scss/components/_aboutPage.scss */
+  /* line 24, ../scss/components/_aboutPage.scss */
   #aboutPage .aboutJumbotron {
     height: 93.8vh;
   }
