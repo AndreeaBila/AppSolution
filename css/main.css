@@ -542,28 +542,29 @@ header nav .navStyle ul .currentPage {
 }
 /* line 1, ../scss/components/_portofolioPage.scss */
 #portofolioPage {
-  min-height: 100% !important;
+  min-height: fit-content  !important;
   height: 1700px;
+  margin-bottom: -35px !important;
 }
-/* line 4, ../scss/components/_portofolioPage.scss */
+/* line 5, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron {
   min-height: 100%;
   height: 100%;
 }
-/* line 7, ../scss/components/_portofolioPage.scss */
+/* line 9, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents {
   padding: 3em 0em 0em;
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
 }
-/* line 12, ../scss/components/_portofolioPage.scss */
+/* line 15, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents img {
   width: 90% !important;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
 }
-/* line 17, ../scss/components/_portofolioPage.scss */
+/* line 20, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents a.portofolioBtn {
   display: block;
   margin: 10px auto;
@@ -578,26 +579,26 @@ header nav .navStyle ul .currentPage {
   text-decoration: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
 }
-/* line 32, ../scss/components/_portofolioPage.scss */
+/* line 35, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents a.portofolioBtn:hover {
   transform: scale(0.97, 0.97);
   transition: 0.6s;
 }
-/* line 39, ../scss/components/_portofolioPage.scss */
+/* line 42, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents .portofolioHover img {
   opacity: 0.8;
 }
-/* line 44, ../scss/components/_portofolioPage.scss */
+/* line 47, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents #listImgDiv, #portofolioPage .portofolioJumbotron .portofolioComponents #listGifDiv {
   margin-bottom: 2em !important;
 }
 
-/* line 54, ../scss/components/_portofolioPage.scss */
+/* line 57, ../scss/components/_portofolioPage.scss */
 .portofolioHover {
   position: relative;
 }
 
-/* line 58, ../scss/components/_portofolioPage.scss */
+/* line 61, ../scss/components/_portofolioPage.scss */
 .image {
   opacity: 0.3;
   width: 100%;
@@ -606,7 +607,7 @@ header nav .navStyle ul .currentPage {
   backface-visibility: hidden;
 }
 
-/* line 66, ../scss/components/_portofolioPage.scss */
+/* line 69, ../scss/components/_portofolioPage.scss */
 .overlay {
   transition: .5s ease;
   opacity: 0;
@@ -618,17 +619,17 @@ header nav .navStyle ul .currentPage {
   -ms-transform: translate(-50%, -50%);
 }
 
-/* line 77, ../scss/components/_portofolioPage.scss */
+/* line 80, ../scss/components/_portofolioPage.scss */
 .portofolioHover:hover .image {
   opacity: 0.3;
 }
 
-/* line 81, ../scss/components/_portofolioPage.scss */
+/* line 84, ../scss/components/_portofolioPage.scss */
 .portofolioHover:hover .overlay {
   opacity: 1;
 }
 
-/* line 85, ../scss/components/_portofolioPage.scss */
+/* line 88, ../scss/components/_portofolioPage.scss */
 .overlayContent {
   background-color: #191919;
   opacity: 0.8;
@@ -637,91 +638,91 @@ header nav .navStyle ul .currentPage {
   font-weight: bold;
   padding: 0.3em;
 }
-/* line 92, ../scss/components/_portofolioPage.scss */
+/* line 95, ../scss/components/_portofolioPage.scss */
 .overlayContent a {
   text-decoration: none;
   color: #7f8c8d;
 }
-/* line 96, ../scss/components/_portofolioPage.scss */
+/* line 99, ../scss/components/_portofolioPage.scss */
 .overlayContent a:hover {
   color: white;
 }
 
 @media screen and (max-width: 379.9999px) {
-  /* line 102, ../scss/components/_portofolioPage.scss */
+  /* line 105, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 770px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 439.9999px) {
-  /* line 109, ../scss/components/_portofolioPage.scss */
+  /* line 112, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 860px;
   }
 }
 @media screen and (min-width: 440px) and (max-width: 499.9999px) {
-  /* line 116, ../scss/components/_portofolioPage.scss */
+  /* line 119, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 950px;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 569.9999px) {
-  /* line 123, ../scss/components/_portofolioPage.scss */
+  /* line 126, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 1050px;
   }
 }
 @media screen and (min-width: 570px) and (max-width: 629.9999px) {
-  /* line 130, ../scss/components/_portofolioPage.scss */
+  /* line 133, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 1150px;
   }
 }
 @media screen and (min-width: 630px) and (max-width: 699.9999px) {
-  /* line 137, ../scss/components/_portofolioPage.scss */
+  /* line 140, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 1250px;
   }
 }
 @media screen and (min-width: 700px) and (max-width: 769.9999px) {
-  /* line 144, ../scss/components/_portofolioPage.scss */
+  /* line 147, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 1370px;
   }
 }
 @media screen and (min-width: 770px) and (max-width: 839.9999px) {
-  /* line 151, ../scss/components/_portofolioPage.scss */
+  /* line 154, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 1480px;
   }
 }
 @media screen and (min-width: 840px) and (max-width: 900px) {
-  /* line 158, ../scss/components/_portofolioPage.scss */
+  /* line 161, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 1580px;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 166, ../scss/components/_portofolioPage.scss */
+  /* line 169, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     margin-bottom: -30px !important;
     height: 93.8vh;
   }
-  /* line 169, ../scss/components/_portofolioPage.scss */
+  /* line 172, ../scss/components/_portofolioPage.scss */
   #portofolioPage .portofolioJumbotron {
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
     min-height: fit-content;
   }
 
-  /* line 177, ../scss/components/_portofolioPage.scss */
+  /* line 180, ../scss/components/_portofolioPage.scss */
   .overlayContent {
     font-size: 2em !important;
   }
 }
 /* line 1, ../scss/components/_aboutPage.scss */
 #aboutPage {
-  min-height: 100%;
+  min-height: fit-content;
   height: 1175px;
 }
 /* line 6, ../scss/components/_aboutPage.scss */
