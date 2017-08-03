@@ -1,16 +1,9 @@
 #portofolioPage {
-  // min-height: -webkit-fit-content;
-  // min-height: -moz-fit-content;
-  min-height: fit-content !important;
- //margin-bottom: 0px !important;
+  min-height: 100% !important;
   height: 1700px;
   .portofolioJumbotron {
-    // min-height: -webkit-fit-content;
-    // min-height: -moz-fit-content;
     min-height: 100%;
     height: 100%;
-    //background-color: #ccc;
-    //height: 800px;
     .portofolioComponents {
       padding: 3em 0em 0em;
       min-height: -webkit-fit-content;
@@ -19,9 +12,6 @@
       img {
         width: 90% !important;
         height: auto;
-        //height: 500px;
-        //object-fit: contain;
-        //object-position: center;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
       }
       a.portofolioBtn {
@@ -46,10 +36,10 @@
 
 
       .portofolioHover {
-        //background-image: url('../img/screenshots/listmanager.gif');
         img {
           opacity: 0.8;
-        }}
+        }
+      }
 
       #listImgDiv, #listGifDiv {
         margin-bottom: 2em !important;
@@ -60,8 +50,6 @@
   }
   
 }
-
-
 
 .portofolioHover {
   position: relative;
@@ -110,10 +98,44 @@
   }
 }
 
-@media screen and (min-width: 600px)
+@media screen and (max-width: 379.9999px) {
+  #portofolioPage {
+    height: 770px;
+  }
+}
+
+@media screen and (min-width: 380px)
+and (max-width: 439.9999px) {
+  #portofolioPage {
+    height: 860px;
+  }
+}
+
+@media screen and (min-width: 440px)
+and (max-width: 499.9999px) {
+  #portofolioPage {
+    height: 950px;
+  }
+}
+
+@media screen and (min-width: 500px)
+and (max-width: 569.9999px) {
+  #portofolioPage {
+    height: 1050px;
+  }
+}
+
+@media screen and (min-width: 570px)
+and (max-width: 629.9999px) {
+  #portofolioPage {
+    height: 1150px;
+  }
+}
+
+@media screen and (min-width: 630px)
 and (max-width: 699.9999px) {
   #portofolioPage {
-    height: 1370px;
+    height: 1250px;
   }
 }
 

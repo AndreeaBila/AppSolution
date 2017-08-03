@@ -542,28 +542,28 @@ header nav .navStyle ul .currentPage {
 }
 /* line 1, ../scss/components/_portofolioPage.scss */
 #portofolioPage {
-  min-height: fit-content !important;
+  min-height: 100% !important;
   height: 1700px;
 }
-/* line 7, ../scss/components/_portofolioPage.scss */
+/* line 4, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron {
   min-height: 100%;
   height: 100%;
 }
-/* line 14, ../scss/components/_portofolioPage.scss */
+/* line 7, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents {
   padding: 3em 0em 0em;
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
 }
-/* line 19, ../scss/components/_portofolioPage.scss */
+/* line 12, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents img {
   width: 90% !important;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
 }
-/* line 27, ../scss/components/_portofolioPage.scss */
+/* line 17, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents a.portofolioBtn {
   display: block;
   margin: 10px auto;
@@ -578,26 +578,26 @@ header nav .navStyle ul .currentPage {
   text-decoration: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
 }
-/* line 42, ../scss/components/_portofolioPage.scss */
+/* line 32, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents a.portofolioBtn:hover {
   transform: scale(0.97, 0.97);
   transition: 0.6s;
 }
-/* line 50, ../scss/components/_portofolioPage.scss */
+/* line 39, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents .portofolioHover img {
   opacity: 0.8;
 }
-/* line 54, ../scss/components/_portofolioPage.scss */
+/* line 44, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents #listImgDiv, #portofolioPage .portofolioJumbotron .portofolioComponents #listGifDiv {
   margin-bottom: 2em !important;
 }
 
-/* line 66, ../scss/components/_portofolioPage.scss */
+/* line 54, ../scss/components/_portofolioPage.scss */
 .portofolioHover {
   position: relative;
 }
 
-/* line 70, ../scss/components/_portofolioPage.scss */
+/* line 58, ../scss/components/_portofolioPage.scss */
 .image {
   opacity: 0.3;
   width: 100%;
@@ -606,7 +606,7 @@ header nav .navStyle ul .currentPage {
   backface-visibility: hidden;
 }
 
-/* line 78, ../scss/components/_portofolioPage.scss */
+/* line 66, ../scss/components/_portofolioPage.scss */
 .overlay {
   transition: .5s ease;
   opacity: 0;
@@ -618,17 +618,17 @@ header nav .navStyle ul .currentPage {
   -ms-transform: translate(-50%, -50%);
 }
 
-/* line 89, ../scss/components/_portofolioPage.scss */
+/* line 77, ../scss/components/_portofolioPage.scss */
 .portofolioHover:hover .image {
   opacity: 0.3;
 }
 
-/* line 93, ../scss/components/_portofolioPage.scss */
+/* line 81, ../scss/components/_portofolioPage.scss */
 .portofolioHover:hover .overlay {
   opacity: 1;
 }
 
-/* line 97, ../scss/components/_portofolioPage.scss */
+/* line 85, ../scss/components/_portofolioPage.scss */
 .overlayContent {
   background-color: #191919;
   opacity: 0.8;
@@ -637,152 +637,179 @@ header nav .navStyle ul .currentPage {
   font-weight: bold;
   padding: 0.3em;
 }
-/* line 104, ../scss/components/_portofolioPage.scss */
+/* line 92, ../scss/components/_portofolioPage.scss */
 .overlayContent a {
   text-decoration: none;
   color: #7f8c8d;
 }
-/* line 108, ../scss/components/_portofolioPage.scss */
+/* line 96, ../scss/components/_portofolioPage.scss */
 .overlayContent a:hover {
   color: white;
 }
 
-@media screen and (min-width: 600px) and (max-width: 699.9999px) {
-  /* line 115, ../scss/components/_portofolioPage.scss */
+@media screen and (max-width: 379.9999px) {
+  /* line 102, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
-    height: 1370px;
+    height: 770px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 439.9999px) {
+  /* line 109, ../scss/components/_portofolioPage.scss */
+  #portofolioPage {
+    height: 860px;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 499.9999px) {
+  /* line 116, ../scss/components/_portofolioPage.scss */
+  #portofolioPage {
+    height: 950px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 569.9999px) {
+  /* line 123, ../scss/components/_portofolioPage.scss */
+  #portofolioPage {
+    height: 1050px;
+  }
+}
+@media screen and (min-width: 570px) and (max-width: 629.9999px) {
+  /* line 130, ../scss/components/_portofolioPage.scss */
+  #portofolioPage {
+    height: 1150px;
+  }
+}
+@media screen and (min-width: 630px) and (max-width: 699.9999px) {
+  /* line 137, ../scss/components/_portofolioPage.scss */
+  #portofolioPage {
+    height: 1250px;
   }
 }
 @media screen and (min-width: 700px) and (max-width: 769.9999px) {
-  /* line 122, ../scss/components/_portofolioPage.scss */
+  /* line 144, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 1370px;
   }
 }
 @media screen and (min-width: 770px) and (max-width: 839.9999px) {
-  /* line 129, ../scss/components/_portofolioPage.scss */
+  /* line 151, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 1480px;
   }
 }
 @media screen and (min-width: 840px) and (max-width: 900px) {
-  /* line 136, ../scss/components/_portofolioPage.scss */
+  /* line 158, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 1580px;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 144, ../scss/components/_portofolioPage.scss */
+  /* line 166, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     margin-bottom: -30px !important;
     height: 93.8vh;
   }
-  /* line 147, ../scss/components/_portofolioPage.scss */
+  /* line 169, ../scss/components/_portofolioPage.scss */
   #portofolioPage .portofolioJumbotron {
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
     min-height: fit-content;
   }
 
-  /* line 155, ../scss/components/_portofolioPage.scss */
+  /* line 177, ../scss/components/_portofolioPage.scss */
   .overlayContent {
     font-size: 2em !important;
   }
 }
 /* line 1, ../scss/components/_aboutPage.scss */
 #aboutPage {
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
+  min-height: 100%;
   height: 1175px;
 }
-/* line 8, ../scss/components/_aboutPage.scss */
+/* line 6, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutJumbotron {
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
+  min-height: 50%;
+  height: 50%;
 }
-/* line 12, ../scss/components/_aboutPage.scss */
+/* line 9, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutJumbotron img {
   width: 60%;
 }
-/* line 16, ../scss/components/_aboutPage.scss */
+/* line 13, ../scss/components/_aboutPage.scss */
 #aboutPage #aboutVlad {
   background-color: #aaa;
   margin-bottom: 0px !important;
 }
-/* line 20, ../scss/components/_aboutPage.scss */
+/* line 17, ../scss/components/_aboutPage.scss */
 #aboutPage #aboutAndreea {
   background-color: #bbb;
   margin-bottom: 0px !important;
 }
 
 @media screen and (min-width: 535px) and (max-width: 580.9999px) {
-  /* line 29, ../scss/components/_aboutPage.scss */
+  /* line 26, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 1200px;
   }
 }
 @media screen and (min-width: 581px) and (max-width: 640.9999px) {
-  /* line 36, ../scss/components/_aboutPage.scss */
+  /* line 33, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 1245px;
   }
 }
 @media screen and (min-width: 641px) and (max-width: 680.9999px) {
-  /* line 43, ../scss/components/_aboutPage.scss */
+  /* line 40, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 1285px;
   }
 }
 @media screen and (min-width: 681px) and (max-width: 740.9999px) {
-  /* line 50, ../scss/components/_aboutPage.scss */
+  /* line 47, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 1330px;
   }
 }
 @media screen and (min-width: 741px) and (max-width: 767.9999px) {
-  /* line 57, ../scss/components/_aboutPage.scss */
+  /* line 54, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 1375px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 840.9999px) {
-  /* line 64, ../scss/components/_aboutPage.scss */
+  /* line 61, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 1475px;
   }
 }
 @media screen and (min-width: 841px) and (max-width: 890.9999px) {
-  /* line 71, ../scss/components/_aboutPage.scss */
+  /* line 68, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 1535px;
   }
 }
 @media screen and (min-width: 841px) and (max-width: 890.9999px) {
-  /* line 78, ../scss/components/_aboutPage.scss */
+  /* line 75, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 1535px;
   }
 }
 @media screen and (min-width: 891px) and (max-width: 940.9999px) {
-  /* line 85, ../scss/components/_aboutPage.scss */
+  /* line 82, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 1595px;
   }
 }
 @media screen and (min-width: 941px) and (max-width: 991.9999px) {
-  /* line 92, ../scss/components/_aboutPage.scss */
+  /* line 89, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 1655px;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 100, ../scss/components/_aboutPage.scss */
+  /* line 97, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 93.8vh;
   }
-  /* line 103, ../scss/components/_aboutPage.scss */
+  /* line 100, ../scss/components/_aboutPage.scss */
   #aboutPage .aboutJumbotron {
     height: 93.8vh;
     margin-bottom: 0px !important;
