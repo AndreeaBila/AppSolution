@@ -34,7 +34,7 @@
       <div class="form-group">
         <textarea name="userMessage" id="userMessage" class="form-control" placeholder="Message"></textarea>
       </div>
-      <button class="g-recaptcha" data-sitekey="6LeEcCsUAAAAAF8LXnsLZ11IFjliQdJA_wQH2zfi" data-callback="onSubmit" data-size ="invisible">
+      <button class="g-recaptcha btn" data-sitekey="6LeEcCsUAAAAAF8LXnsLZ11IFjliQdJA_wQH2zfi" data-callback="onSubmit" data-size ="invisible" id="submitMessage">
         Submit
       </button>
     </form>
@@ -44,8 +44,8 @@
     <h3>Give us a call</h3>  
     <p><a class="callBtn btn btn-success" href="tel:+40727401404"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Call</a>+40 (727) 401 404</p>
     <p><a class="callBtn btn btn-success" href="tel:+40733207003"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Call</a>+40 (733) 207 003</p>
-    <h3>Send an email</h3>
-    <p>office@appsolution.online</p>
+    <h3>Email us</h3>
+    <p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> office@appsolution.online</p>
   </div>
 
   <hr>

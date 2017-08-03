@@ -1,8 +1,6 @@
 <!--This is the About par of the page, where we will present our team-->
 <section id="aboutPage">
-  <div class="jumbotron">
-    
-    <div id="aboutAndreea" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center aboutJumbotron">
+    <div id="aboutAndreea" class="jumbotron col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center aboutJumbotron">
       <img src="../img/girl-1.png" alt="Image Unavailable">
       <h2>Andreea Bîlă</h2>
       <h4>Fron-End Developer</h4>
@@ -12,7 +10,7 @@
         Thanks to her work, every button sits where it is supposed to.</p>
     </div>
 
-    <div id="aboutVlad" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center aboutJumbotron">
+    <div id="aboutVlad" class="jumbotron col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center aboutJumbotron">
       <img src="../img/man-3.png" alt="Image Unavailable">
       <h2>Vlad Herghelegiu</h2>
       <h4>Back-End Developer</h4>
@@ -23,6 +21,4 @@
 
       </p>
     </div>
-
-  </div>
 </section>

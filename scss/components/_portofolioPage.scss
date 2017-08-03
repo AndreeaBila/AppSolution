@@ -1,21 +1,21 @@
 #portofolioPage {
-  //margin-top: 60px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content !important;
-  margin-bottom: $jumbotrons-margin-bottom !important;
-
+  // min-height: -webkit-fit-content;
+  // min-height: -moz-fit-content;
+  min-height: fit-content 100% !important;
+ //margin-bottom: 0px !important;
+  height: 1700px;
   .portofolioJumbotron {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
+    // min-height: -webkit-fit-content;
+    // min-height: -moz-fit-content;
+    min-height: 100%;
+    height: 100%;
+    //background-color: #ccc;
     //height: 800px;
     .portofolioComponents {
       padding: 3em 0em 0em;
-      height: -webkit-fit-content;
-      height: -moz-fit-content;
-      height: fit-content;
-      height: 700px;
+      min-height: -webkit-fit-content;
+      min-height: -moz-fit-content;
+      min-height: fit-content;
       img {
         width: 90% !important;
         height: auto;
@@ -61,22 +61,6 @@
   
 }
 
-@media screen and (min-width: 992px) {
-  #portofolioPage {
-    //margin: 0px;
-    margin-bottom: $jumbotrons-margin-bottom !important;
-    .portofolioJumbotron {
-      height: 93.8vh;
-      min-height: -webkit-fit-content;
-      min-height: -moz-fit-content;
-      min-height: fit-content;
-    }
-  }
-
-  .overlayContent {
-    font-size: 2em !important;
-  }
-}
 
 
 .portofolioHover {
@@ -126,9 +110,48 @@
   }
 }
 
+@media screen and (min-width: 600px)
+and (max-width: 699.9999px) {
+  #portofolioPage {
+    height: 1370px;
+  }
+}
 
-// @media handheld {
-//   #portofolioPage {
-//     margin: 60px !important; 
-//   }
-// }
+@media screen and (min-width: 700px)
+and (max-width: 769.9999px) {
+  #portofolioPage {
+    height: 1370px;
+  }
+}
+
+@media screen and (min-width: 770px)
+and (max-width: 839.9999px) {
+  #portofolioPage {
+    height: 1480px;
+  }
+}
+
+@media screen and (min-width: 840px)
+and (max-width: 900px) {
+  #portofolioPage {
+    height: 1580px;
+  }
+}
+
+
+
+@media screen and (min-width: 992px) {
+  #portofolioPage {
+    margin-bottom: $jumbotrons-margin-bottom !important;
+    .portofolioJumbotron {
+      height: 93.8vh;
+      min-height: -webkit-fit-content;
+      min-height: -moz-fit-content;
+      min-height: fit-content;
+    }
+  }
+
+  .overlayContent {
+    font-size: 2em !important;
+  }
+}

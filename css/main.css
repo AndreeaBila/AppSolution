@@ -76,7 +76,7 @@ html, body {
 #wrapper {
   min-height: 100%;
   position: relative;
-  padding-bottom: 985px !important;
+  padding-bottom: 1050px !important;
 }
 
 /* line 11, ../scss/base/_base.scss */
@@ -178,7 +178,7 @@ header nav .navStyle ul .currentPage {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 985px;
+  height: 1050px;
   background-color: #191919;
   padding: 0;
   margin-top: 0px;
@@ -295,23 +295,23 @@ header nav .navStyle ul .currentPage {
 #presentationPage {
   margin-bottom: -30px !important;
 }
-/* line 4, ../scss/components/_presentationPage.scss */
+/* line 3, ../scss/components/_presentationPage.scss */
 #presentationPage h2 {
   margin-bottom: 1em;
 }
-/* line 7, ../scss/components/_presentationPage.scss */
+/* line 6, ../scss/components/_presentationPage.scss */
 #presentationPage .presentationJumbotron {
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
   margin: 0;
 }
-/* line 13, ../scss/components/_presentationPage.scss */
+/* line 12, ../scss/components/_presentationPage.scss */
 #presentationPage .presentationJumbotron p {
   font-size: 15px !important;
   padding: 5px;
 }
-/* line 19, ../scss/components/_presentationPage.scss */
+/* line 18, ../scss/components/_presentationPage.scss */
 #presentationPage .offerJumbotron {
   background-color: #ccc;
   min-height: -webkit-fit-content;
@@ -319,24 +319,24 @@ header nav .navStyle ul .currentPage {
   min-height: fit-content;
   height: 70vh;
 }
-/* line 26, ../scss/components/_presentationPage.scss */
+/* line 25, ../scss/components/_presentationPage.scss */
 #presentationPage .offerJumbotron ul.offerList {
   margin: 0 auto;
   width: 90%;
   text-align: justify;
 }
-/* line 30, ../scss/components/_presentationPage.scss */
+/* line 29, ../scss/components/_presentationPage.scss */
 #presentationPage .offerJumbotron ul.offerList li {
   width: 33% !important;
   display: inline-block !important;
   padding: 1.5em;
 }
-/* line 34, ../scss/components/_presentationPage.scss */
+/* line 33, ../scss/components/_presentationPage.scss */
 #presentationPage .offerJumbotron ul.offerList li img {
   width: 7em;
   display: inline-block;
 }
-/* line 39, ../scss/components/_presentationPage.scss */
+/* line 38, ../scss/components/_presentationPage.scss */
 #presentationPage .offerJumbotron ul.offerList li p {
   display: inline-block;
   margin-top: 40px;
@@ -344,197 +344,197 @@ header nav .navStyle ul .currentPage {
 }
 
 @media screen and (min-width: 992px) {
-  /* line 51, ../scss/components/_presentationPage.scss */
+  /* line 50, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationJumbotron {
     height: 23.8vh;
   }
-  /* line 53, ../scss/components/_presentationPage.scss */
+  /* line 52, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationJumbotron p {
     font-size: 15px !important;
     padding: 5px;
   }
 }
 @media screen and (max-width: 1489.99999px) and (min-width: 1233px) {
-  /* line 82, ../scss/components/_presentationPage.scss */
+  /* line 81, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
     width: 95%;
   }
-  /* line 84, ../scss/components/_presentationPage.scss */
+  /* line 83, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     width: 33% !important;
     padding: 1em;
   }
-  /* line 87, ../scss/components/_presentationPage.scss */
+  /* line 86, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
     width: 6em;
   }
-  /* line 90, ../scss/components/_presentationPage.scss */
+  /* line 89, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
     margin-top: 30px;
   }
 }
 @media screen and (max-width: 1232.9999px) and (min-width: 1104px) {
-  /* line 105, ../scss/components/_presentationPage.scss */
+  /* line 104, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
     width: 98%;
   }
-  /* line 107, ../scss/components/_presentationPage.scss */
+  /* line 106, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     width: 33% !important;
     padding: 0.7em;
   }
-  /* line 110, ../scss/components/_presentationPage.scss */
+  /* line 109, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
     width: 5.8em;
   }
-  /* line 114, ../scss/components/_presentationPage.scss */
+  /* line 113, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
     margin-top: 30px;
     font-size: 1.4em;
   }
 }
 @media screen and (max-width: 1103.9999px) and (min-width: 997px) {
-  /* line 130, ../scss/components/_presentationPage.scss */
+  /* line 129, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
     width: 100%;
   }
-  /* line 132, ../scss/components/_presentationPage.scss */
+  /* line 131, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     margin: 0 auto !important;
     width: 33% !important;
     padding: 0.6em;
   }
-  /* line 136, ../scss/components/_presentationPage.scss */
+  /* line 135, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
     width: 5.3em;
   }
-  /* line 139, ../scss/components/_presentationPage.scss */
+  /* line 138, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
     margin-top: 30px;
     font-size: 1.3em;
   }
 }
 @media screen and (max-width: 996.9999px) and (min-width: 933px) {
-  /* line 155, ../scss/components/_presentationPage.scss */
+  /* line 154, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
     width: 100%;
   }
-  /* line 157, ../scss/components/_presentationPage.scss */
+  /* line 156, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     margin: 0 auto !important;
     width: 33% !important;
     padding: 0.6em;
   }
-  /* line 161, ../scss/components/_presentationPage.scss */
+  /* line 160, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
     width: 5.1em;
   }
-  /* line 164, ../scss/components/_presentationPage.scss */
+  /* line 163, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
     margin-top: 30px;
     font-size: 1.2em;
   }
 }
 @media screen and (max-width: 932.9999px) and (min-width: 783px) {
-  /* line 180, ../scss/components/_presentationPage.scss */
+  /* line 179, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
     width: 95%;
   }
-  /* line 182, ../scss/components/_presentationPage.scss */
+  /* line 181, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     margin: 0 auto !important;
     width: 48% !important;
     padding: 0.7em;
   }
-  /* line 186, ../scss/components/_presentationPage.scss */
+  /* line 185, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
     width: 5.8em;
   }
-  /* line 189, ../scss/components/_presentationPage.scss */
+  /* line 188, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
     margin-top: 30px;
     font-size: 1.4em;
   }
 }
 @media screen and (max-width: 782.9999px) and (min-width: 664px) {
-  /* line 205, ../scss/components/_presentationPage.scss */
+  /* line 204, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
     width: 95%;
   }
-  /* line 207, ../scss/components/_presentationPage.scss */
+  /* line 206, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     margin: 0 auto !important;
     width: 49% !important;
     padding: 0.5em;
   }
-  /* line 211, ../scss/components/_presentationPage.scss */
+  /* line 210, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
     width: 5.4em;
   }
-  /* line 214, ../scss/components/_presentationPage.scss */
+  /* line 213, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
     margin-top: 20px;
     font-size: 1.2em;
   }
 }
 @media screen and (max-width: 663.9999px) and (min-width: 594px) {
-  /* line 230, ../scss/components/_presentationPage.scss */
+  /* line 229, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
     width: 98%;
   }
-  /* line 232, ../scss/components/_presentationPage.scss */
+  /* line 231, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     margin: 0 auto !important;
     width: 49% !important;
     padding: 0.5em;
   }
-  /* line 236, ../scss/components/_presentationPage.scss */
+  /* line 235, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
     width: 5em;
   }
-  /* line 239, ../scss/components/_presentationPage.scss */
+  /* line 238, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
     margin-top: 20px;
     font-size: 1.1em;
   }
 }
 @media screen and (max-width: 593.9999px) and (min-width: 419px) {
-  /* line 255, ../scss/components/_presentationPage.scss */
+  /* line 254, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
     width: 80%;
   }
-  /* line 257, ../scss/components/_presentationPage.scss */
+  /* line 256, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     margin: 0 auto !important;
     width: 100% !important;
     padding: 0.7em;
   }
-  /* line 261, ../scss/components/_presentationPage.scss */
+  /* line 260, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
     width: 5.5em;
   }
-  /* line 264, ../scss/components/_presentationPage.scss */
+  /* line 263, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
     margin-top: 20px;
     font-size: 1.3em;
   }
 }
 @media screen and (max-width: 418.9999px) {
-  /* line 279, ../scss/components/_presentationPage.scss */
+  /* line 278, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList {
     width: 96%;
   }
-  /* line 281, ../scss/components/_presentationPage.scss */
+  /* line 280, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li {
     margin: 0 auto !important;
     width: 100% !important;
     padding: 0.5em;
   }
-  /* line 285, ../scss/components/_presentationPage.scss */
+  /* line 284, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li img {
     width: 5.2em;
   }
-  /* line 288, ../scss/components/_presentationPage.scss */
+  /* line 287, ../scss/components/_presentationPage.scss */
   #presentationPage .offerJumbotron ul.offerList li p {
     margin-top: 20px;
     font-size: 1.2em;
@@ -542,24 +542,20 @@ header nav .navStyle ul .currentPage {
 }
 /* line 1, ../scss/components/_portofolioPage.scss */
 #portofolioPage {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content !important;
-  margin-bottom: -30px !important;
+  min-height: fit-content 100% !important;
+  height: 1700px;
 }
-/* line 8, ../scss/components/_portofolioPage.scss */
+/* line 7, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  min-height: 100%;
+  height: 100%;
 }
-/* line 13, ../scss/components/_portofolioPage.scss */
+/* line 14, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents {
   padding: 3em 0em 0em;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  height: 700px;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
 }
 /* line 19, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioJumbotron .portofolioComponents img {
@@ -596,30 +592,12 @@ header nav .navStyle ul .currentPage {
   margin-bottom: 2em !important;
 }
 
-@media screen and (min-width: 992px) {
-  /* line 65, ../scss/components/_portofolioPage.scss */
-  #portofolioPage {
-    margin-bottom: -30px !important;
-  }
-  /* line 68, ../scss/components/_portofolioPage.scss */
-  #portofolioPage .portofolioJumbotron {
-    height: 93.8vh;
-    min-height: -webkit-fit-content;
-    min-height: -moz-fit-content;
-    min-height: fit-content;
-  }
-
-  /* line 76, ../scss/components/_portofolioPage.scss */
-  .overlayContent {
-    font-size: 2em !important;
-  }
-}
-/* line 82, ../scss/components/_portofolioPage.scss */
+/* line 66, ../scss/components/_portofolioPage.scss */
 .portofolioHover {
   position: relative;
 }
 
-/* line 86, ../scss/components/_portofolioPage.scss */
+/* line 70, ../scss/components/_portofolioPage.scss */
 .image {
   opacity: 0.3;
   width: 100%;
@@ -628,7 +606,7 @@ header nav .navStyle ul .currentPage {
   backface-visibility: hidden;
 }
 
-/* line 94, ../scss/components/_portofolioPage.scss */
+/* line 78, ../scss/components/_portofolioPage.scss */
 .overlay {
   transition: .5s ease;
   opacity: 0;
@@ -640,17 +618,17 @@ header nav .navStyle ul .currentPage {
   -ms-transform: translate(-50%, -50%);
 }
 
-/* line 105, ../scss/components/_portofolioPage.scss */
+/* line 89, ../scss/components/_portofolioPage.scss */
 .portofolioHover:hover .image {
   opacity: 0.3;
 }
 
-/* line 109, ../scss/components/_portofolioPage.scss */
+/* line 93, ../scss/components/_portofolioPage.scss */
 .portofolioHover:hover .overlay {
   opacity: 1;
 }
 
-/* line 113, ../scss/components/_portofolioPage.scss */
+/* line 97, ../scss/components/_portofolioPage.scss */
 .overlayContent {
   background-color: #191919;
   opacity: 0.8;
@@ -659,71 +637,186 @@ header nav .navStyle ul .currentPage {
   font-weight: bold;
   padding: 0.3em;
 }
-/* line 120, ../scss/components/_portofolioPage.scss */
+/* line 104, ../scss/components/_portofolioPage.scss */
 .overlayContent a {
   text-decoration: none;
   color: #7f8c8d;
 }
-/* line 124, ../scss/components/_portofolioPage.scss */
+/* line 108, ../scss/components/_portofolioPage.scss */
 .overlayContent a:hover {
   color: white;
 }
 
+@media screen and (min-width: 600px) and (max-width: 699.9999px) {
+  /* line 115, ../scss/components/_portofolioPage.scss */
+  #portofolioPage {
+    height: 1370px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 769.9999px) {
+  /* line 122, ../scss/components/_portofolioPage.scss */
+  #portofolioPage {
+    height: 1370px;
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 839.9999px) {
+  /* line 129, ../scss/components/_portofolioPage.scss */
+  #portofolioPage {
+    height: 1480px;
+  }
+}
+@media screen and (min-width: 840px) and (max-width: 900px) {
+  /* line 136, ../scss/components/_portofolioPage.scss */
+  #portofolioPage {
+    height: 1580px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 144, ../scss/components/_portofolioPage.scss */
+  #portofolioPage {
+    margin-bottom: -30px !important;
+  }
+  /* line 146, ../scss/components/_portofolioPage.scss */
+  #portofolioPage .portofolioJumbotron {
+    height: 93.8vh;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+
+  /* line 154, ../scss/components/_portofolioPage.scss */
+  .overlayContent {
+    font-size: 2em !important;
+  }
+}
 /* line 1, ../scss/components/_aboutPage.scss */
 #aboutPage {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  height: 700px;
-  margin-bottom: -30px !important;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  height: 1175px;
 }
 /* line 8, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutJumbotron {
-  background-color: transparent;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
 }
-/* line 11, ../scss/components/_aboutPage.scss */
+/* line 12, ../scss/components/_aboutPage.scss */
+#aboutPage .aboutJumbotron img {
+  width: 60%;
+}
+/* line 16, ../scss/components/_aboutPage.scss */
 #aboutPage #aboutVlad {
   background-color: #aaa;
+  margin-bottom: 0px !important;
 }
-/* line 14, ../scss/components/_aboutPage.scss */
+/* line 20, ../scss/components/_aboutPage.scss */
 #aboutPage #aboutAndreea {
   background-color: #bbb;
+  margin-bottom: 0px !important;
 }
 
-@media screen and (min-width: 992px) {
-  /* line 21, ../scss/components/_aboutPage.scss */
+@media screen and (min-width: 535px) and (max-width: 580.9999px) {
+  /* line 29, ../scss/components/_aboutPage.scss */
   #aboutPage {
-    margin-bottom: -30px !important;
-  }
-  /* line 24, ../scss/components/_aboutPage.scss */
-  #aboutPage .aboutJumbotron {
-    height: 93.8vh;
+    height: 1200px;
   }
 }
-/* line 2, ../scss/components/_contactPage.scss */
+@media screen and (min-width: 581px) and (max-width: 640.9999px) {
+  /* line 36, ../scss/components/_aboutPage.scss */
+  #aboutPage {
+    height: 1245px;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 680.9999px) {
+  /* line 43, ../scss/components/_aboutPage.scss */
+  #aboutPage {
+    height: 1285px;
+  }
+}
+@media screen and (min-width: 681px) and (max-width: 740.9999px) {
+  /* line 50, ../scss/components/_aboutPage.scss */
+  #aboutPage {
+    height: 1330px;
+  }
+}
+@media screen and (min-width: 741px) and (max-width: 767.9999px) {
+  /* line 57, ../scss/components/_aboutPage.scss */
+  #aboutPage {
+    height: 1375px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 840.9999px) {
+  /* line 64, ../scss/components/_aboutPage.scss */
+  #aboutPage {
+    height: 1475px;
+  }
+}
+@media screen and (min-width: 841px) and (max-width: 890.9999px) {
+  /* line 71, ../scss/components/_aboutPage.scss */
+  #aboutPage {
+    height: 1535px;
+  }
+}
+@media screen and (min-width: 841px) and (max-width: 890.9999px) {
+  /* line 78, ../scss/components/_aboutPage.scss */
+  #aboutPage {
+    height: 1535px;
+  }
+}
+@media screen and (min-width: 891px) and (max-width: 940.9999px) {
+  /* line 85, ../scss/components/_aboutPage.scss */
+  #aboutPage {
+    height: 1595px;
+  }
+}
+@media screen and (min-width: 941px) and (max-width: 991.9999px) {
+  /* line 92, ../scss/components/_aboutPage.scss */
+  #aboutPage {
+    height: 1655px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 100, ../scss/components/_aboutPage.scss */
+  #aboutPage {
+    height: 93.8vh;
+  }
+  /* line 103, ../scss/components/_aboutPage.scss */
+  #aboutPage .aboutJumbotron {
+    height: 93.8vh;
+    margin-bottom: 0px !important;
+  }
+}
+/* line 1, ../scss/components/_contactPage.scss */
 #contactPage {
   margin-bottom: -10px;
 }
-/* line 5, ../scss/components/_contactPage.scss */
+/* line 3, ../scss/components/_contactPage.scss */
 #contactPage .contactJumbotron {
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
   height: 65vh;
 }
-/* line 10, ../scss/components/_contactPage.scss */
+/* line 8, ../scss/components/_contactPage.scss */
 #contactPage .contactJumbotron #map {
   height: 100%;
   width: 100%;
   margin: 0 auto;
 }
 
+/* line 18, ../scss/components/_contactPage.scss */
+.i4ewOd-pzNkMb-haAclf {
+  background-color: #191919;
+}
+
 @media screen and (min-width: 992px) {
-  /* line 19, ../scss/components/_contactPage.scss */
+  /* line 23, ../scss/components/_contactPage.scss */
   #contactPage {
     margin-bottom: -30px !important;
   }
-  /* line 22, ../scss/components/_contactPage.scss */
+  /* line 25, ../scss/components/_contactPage.scss */
   #contactPage .contactJumbotron {
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;

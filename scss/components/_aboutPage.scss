@@ -1,29 +1,109 @@
 #aboutPage {
-  //margin-top: 60px;
-  height: -webkit-fit-content;
-      height: -moz-fit-content;
-      height: fit-content;
-      height: 700px;
-  margin-bottom: $jumbotrons-margin-bottom !important;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  height: 1175px;
+  
+
   .aboutJumbotron {
-    background-color: transparent;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    img {
+      width: 60%;
+    }
   }
     #aboutVlad {
       background-color: #aaa;
+      margin-bottom: 0px !important;
     }
     #aboutAndreea {
       background-color:  #bbb;
+      margin-bottom: 0px !important;
     }
   
 }
 
+@media screen and (min-width: 535px)
+and (max-width: 580.9999px) {
+  #aboutPage {
+    height: 1200px;
+  }
+}
+
+@media screen and (min-width: 581px)
+and (max-width: 640.9999px) {
+  #aboutPage {
+    height: 1245px;
+  }
+}
+
+@media screen and (min-width: 641px)
+and (max-width: 680.9999px) {
+  #aboutPage {
+    height: 1285px;
+  }
+}
+
+@media screen and (min-width: 681px)
+and (max-width: 740.9999px) {
+  #aboutPage {
+    height: 1330px;
+  }
+}
+
+@media screen and (min-width: 741px)
+and (max-width: 767.9999px)  {
+  #aboutPage {
+    height: 1375px;
+  }
+}
+
+@media screen and (min-width: 768px)
+and (max-width: 840.9999px)   {
+  #aboutPage {
+    height: 1475px;
+  }
+}
+
+@media screen and (min-width: 841px)
+and (max-width: 890.9999px)  {
+  #aboutPage {
+    height: 1535px;
+  }
+}
+
+@media screen and (min-width: 841px)
+and (max-width: 890.9999px)  {
+  #aboutPage {
+    height: 1535px;
+  }
+}
+
+@media screen and (min-width: 891px)
+and (max-width: 940.9999px) {
+   #aboutPage {
+    height: 1595px;
+  }
+}
+
+@media screen and (min-width: 941px)
+and (max-width: 991.9999px) {
+   #aboutPage {
+    height: 1655px;
+  }
+}
+
+
+
 @media screen and (min-width: 992px) {
   #aboutPage {
-    //margin-top: -45px !important;
-    margin-bottom: $jumbotrons-margin-bottom !important;
+   
+    height: 93.8vh;
     .aboutJumbotron {
       height: 93.8vh;
       //width: 50vw;
+       margin-bottom:  0px !important;
     }
   }
 }
