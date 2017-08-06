@@ -9,12 +9,15 @@
   .presentationContainer {
     min-height: fit-content;
     background-color: $odd-background;
+    // background-image: url('../img/screenshots/listmanager.gif');
+    // background-position: center;
+    // background-size: cover;
     p {
       color: $odd-text;
     }
     .container {
-      width: 33.3333%;
-      
+      width: 95%;
+      background-color: $odd-background;
     }
 
     padding-bottom: 2em;
@@ -93,6 +96,11 @@ and (max-width: 819.9999px) {
         } 
       }
     }
+    .presentationContainer {
+      .container {
+        width: 80%;
+      }
+    }
   }
 }
 
@@ -114,6 +122,11 @@ and (max-width: 991.9999px) {
         } 
       }
     }
+    .presentationContainer {
+      .container {
+        width: 60%;
+      }
+    }
   }
 }
 
@@ -125,6 +138,11 @@ and (max-width: 991.9999px) {
 
     .container {
       height: 100%;
+    }
+    .presentationContainer {
+      .container {
+        width: 50%;
+      }
     }
   }
 }
@@ -146,6 +164,11 @@ and (max-width: 1149.9999px) {
             margin-left: 4.5em;
           }
         } 
+      }
+    }
+    .presentationContainer {
+      .container {
+        width: 40%;
       }
     }
   }
@@ -170,6 +193,11 @@ and (max-width: 1249.9999px) {
         } 
       }
     }
+    .presentationContainer {
+      .container {
+        width: 33.3333%;
+      }
+    }
   }
 }
 
@@ -190,6 +218,11 @@ and (max-width: 1249.9999px) {
             margin-left: 5em;
           }
         } 
+      }
+    }
+    .presentationContainer {
+      .container {
+        width: 33.3333%;
       }
     }
   }
