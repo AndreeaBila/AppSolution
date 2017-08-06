@@ -15,10 +15,19 @@
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
     min-height: fit-content;
+    background-color: $even-background;
     height: 100%;
 
     .aboutComponents {
+      min-height: -webkit-fit-content;
+      min-height: -moz-fit-content;
+      min-height: fit-content;
+      background-color: $even-background;
       .teamMember {
+        min-height: -webkit-fit-content;
+        min-height: -moz-fit-content;
+        min-height: fit-content;
+        background-color: $even-background;
         line-height: 1.6em;
         margin: 2em 0em;
         img {

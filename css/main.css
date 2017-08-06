@@ -643,27 +643,39 @@ header nav .navStyle ul .currentPage i {
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
+  background-color: #cccccc;
   height: 100%;
 }
 /* line 21, ../scss/components/_aboutPage.scss */
+#aboutPage .aboutContainer .aboutComponents {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  background-color: #cccccc;
+}
+/* line 26, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  background-color: #cccccc;
   line-height: 1.6em;
   margin: 2em 0em;
 }
-/* line 24, ../scss/components/_aboutPage.scss */
+/* line 33, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember img {
   width: 60%;
 }
-/* line 27, ../scss/components/_aboutPage.scss */
+/* line 36, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember h3 {
   color: #333333;
   padding: 8px 0px;
 }
-/* line 31, ../scss/components/_aboutPage.scss */
+/* line 40, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember h4 {
   color: #333333;
 }
-/* line 34, ../scss/components/_aboutPage.scss */
+/* line 43, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember p {
   color: #333333;
   padding: 15px 0px;
@@ -671,11 +683,11 @@ header nav .navStyle ul .currentPage i {
 }
 
 @media screen and (min-width: 992px) {
-  /* line 47, ../scss/components/_aboutPage.scss */
+  /* line 56, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 97vh;
   }
-  /* line 50, ../scss/components/_aboutPage.scss */
+  /* line 59, ../scss/components/_aboutPage.scss */
   #aboutPage .container {
     height: 100%;
   }
