@@ -5,8 +5,8 @@
     <div class="container">
       <img src="../img/logo2.png" alt="AppSolution">
       <p>- You provide the idea, we provide the solution.</p>
-      <p> Here at AppSolution we take innovative ideas and transform them into user friendly web appdivcations. 
-      With the help of our team, your vision can become readivty and together we can bring your business the 
+      <p> Here at AppSolution we take innovative ideas and transform them into user friendly web applications. 
+      With the help of our team, your vision can become reality and together we can bring your business the 
       public attention it needs.</p>
     </div> <!-- container -->
     
