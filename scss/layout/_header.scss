@@ -12,7 +12,7 @@ header {
 
     .logo {
       background-color: $header-logo;
-      padding: 0.5em 0.5em 0em;
+      padding: 0.5em 0.45em 0em;
       img {
         width: 4em !important;
       }
@@ -21,7 +21,7 @@ header {
     .navStyle {
       ul {
         li {
-          padding: 0.65em 0.505em;
+          padding: 0.65em 0.45em;
           font-family: $raleway;
           margin: 0 !important;
            color: $header-highlight;

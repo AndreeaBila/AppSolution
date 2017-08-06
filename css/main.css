@@ -134,7 +134,7 @@ header nav {
 /* line 13, ../scss/layout/_header.scss */
 header nav .logo {
   background-color: white;
-  padding: 0.5em 0.5em 0em;
+  padding: 0.5em 0.45em 0em;
 }
 /* line 16, ../scss/layout/_header.scss */
 header nav .logo img {
@@ -142,7 +142,7 @@ header nav .logo img {
 }
 /* line 23, ../scss/layout/_header.scss */
 header nav .navStyle ul li {
-  padding: 0.65em 0.505em;
+  padding: 0.65em 0.45em;
   font-family: "Raleway", sans-serif;
   margin: 0 !important;
   color: #333333;
