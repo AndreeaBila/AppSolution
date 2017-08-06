@@ -1,4 +1,6 @@
 #presentationPage {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
   min-height: fit-content;
   background-color: $even-background;
   .container {
@@ -7,11 +9,13 @@
   }
 
   .presentationContainer {
-    min-height: fit-content;
+    min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
     background-color: $odd-background;
-    // background-image: url('../img/screenshots/listmanager.gif');
-    // background-position: center;
-    // background-size: cover;
+    //background-image: url('../img/5.gif');
+    //background-position: top;
+    //background-size: cover;
     p {
       color: $odd-text;
     }
@@ -32,6 +36,8 @@
 
   .servicesContainer {
     background-color: $even-background;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
     min-height: fit-content;
     padding-bottom: 3em;
      h2.heading2 {

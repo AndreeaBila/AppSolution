@@ -12,7 +12,9 @@
   }
 
   .portofolioContainer {
-    min-height: 100%;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
     height: 100%;
 
    
@@ -108,9 +110,6 @@
   }
 }
 
-
-
-
 @media screen and (min-width: 992px) {
   #portofolioPage {
     //margin-bottom: $jumbotrons-margin-bottom !important;
@@ -118,9 +117,7 @@
     .container {
       height: 100%;
     }
-    
   }
-
   .overlayContent {
     font-size: 2em !important;
   }

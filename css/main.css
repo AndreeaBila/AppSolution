@@ -312,61 +312,67 @@ header nav .navStyle ul .currentPage i {
 
 /* line 1, ../scss/components/_presentationPage.scss */
 #presentationPage {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
   min-height: fit-content;
   background-color: #cccccc;
 }
-/* line 4, ../scss/components/_presentationPage.scss */
+/* line 6, ../scss/components/_presentationPage.scss */
 #presentationPage .container {
   width: 95%;
   padding-top: 3em;
 }
-/* line 9, ../scss/components/_presentationPage.scss */
+/* line 11, ../scss/components/_presentationPage.scss */
 #presentationPage .presentationContainer {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
   min-height: fit-content;
   background-color: white;
   padding-bottom: 2em;
 }
-/* line 15, ../scss/components/_presentationPage.scss */
+/* line 19, ../scss/components/_presentationPage.scss */
 #presentationPage .presentationContainer p {
   color: #333333;
 }
-/* line 18, ../scss/components/_presentationPage.scss */
+/* line 22, ../scss/components/_presentationPage.scss */
 #presentationPage .presentationContainer .container {
   width: 95%;
   background-color: white;
 }
-/* line 24, ../scss/components/_presentationPage.scss */
+/* line 28, ../scss/components/_presentationPage.scss */
 #presentationPage .presentationContainer img {
   width: 10em;
 }
-/* line 27, ../scss/components/_presentationPage.scss */
+/* line 31, ../scss/components/_presentationPage.scss */
 #presentationPage .presentationContainer p {
   font-size: 1.2em;
   padding: 5px 0px;
 }
-/* line 33, ../scss/components/_presentationPage.scss */
+/* line 37, ../scss/components/_presentationPage.scss */
 #presentationPage .servicesContainer {
   background-color: #cccccc;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
   min-height: fit-content;
   padding-bottom: 3em;
 }
-/* line 37, ../scss/components/_presentationPage.scss */
+/* line 43, ../scss/components/_presentationPage.scss */
 #presentationPage .servicesContainer h2.heading2 {
   color: #333333;
 }
-/* line 40, ../scss/components/_presentationPage.scss */
+/* line 46, ../scss/components/_presentationPage.scss */
 #presentationPage .servicesContainer .servicesComponents {
   padding: 2em 0em;
 }
-/* line 42, ../scss/components/_presentationPage.scss */
+/* line 48, ../scss/components/_presentationPage.scss */
 #presentationPage .servicesContainer .servicesComponents .services {
   padding: 0.5em 0em;
 }
-/* line 44, ../scss/components/_presentationPage.scss */
+/* line 50, ../scss/components/_presentationPage.scss */
 #presentationPage .servicesContainer .servicesComponents .services img {
   width: 4.5em;
 }
-/* line 49, ../scss/components/_presentationPage.scss */
+/* line 55, ../scss/components/_presentationPage.scss */
 #presentationPage .servicesContainer .servicesComponents .services p {
   color: #333333;
   font-size: 1.13em;
@@ -375,11 +381,11 @@ header nav .navStyle ul .currentPage i {
 }
 
 @media screen and (min-width: 350px) and (max-width: 419.9999px) {
-  /* line 66, ../scss/components/_presentationPage.scss */
+  /* line 72, ../scss/components/_presentationPage.scss */
   #presentationPage .servicesContainer .servicesComponents .services img {
     width: 5em;
   }
-  /* line 70, ../scss/components/_presentationPage.scss */
+  /* line 76, ../scss/components/_presentationPage.scss */
   #presentationPage .servicesContainer .servicesComponents .services p {
     font-size: 1.3em;
     margin-top: 25px;
@@ -387,99 +393,99 @@ header nav .navStyle ul .currentPage i {
   }
 }
 @media screen and (min-width: 420px) and (max-width: 819.9999px) {
-  /* line 87, ../scss/components/_presentationPage.scss */
+  /* line 93, ../scss/components/_presentationPage.scss */
   #presentationPage .servicesContainer .servicesComponents .services img {
     width: 6em;
   }
-  /* line 91, ../scss/components/_presentationPage.scss */
+  /* line 97, ../scss/components/_presentationPage.scss */
   #presentationPage .servicesContainer .servicesComponents .services p {
     font-size: 1.4em;
     margin-top: 30px;
     margin-left: 4.4em;
   }
-  /* line 100, ../scss/components/_presentationPage.scss */
+  /* line 106, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationContainer .container {
     width: 80%;
   }
 }
 @media screen and (min-width: 820px) and (max-width: 991.9999px) {
-  /* line 113, ../scss/components/_presentationPage.scss */
+  /* line 119, ../scss/components/_presentationPage.scss */
   #presentationPage .servicesContainer .servicesComponents .services img {
     width: 6.5em;
   }
-  /* line 117, ../scss/components/_presentationPage.scss */
+  /* line 123, ../scss/components/_presentationPage.scss */
   #presentationPage .servicesContainer .servicesComponents .services p {
     font-size: 1.5em;
     margin-top: 35px;
     margin-left: 4.5em;
   }
-  /* line 126, ../scss/components/_presentationPage.scss */
+  /* line 132, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationContainer .container {
     width: 60%;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 136, ../scss/components/_presentationPage.scss */
+  /* line 142, ../scss/components/_presentationPage.scss */
   #presentationPage {
     height: 97vh;
   }
-  /* line 139, ../scss/components/_presentationPage.scss */
+  /* line 145, ../scss/components/_presentationPage.scss */
   #presentationPage .container {
     height: 100%;
   }
-  /* line 143, ../scss/components/_presentationPage.scss */
+  /* line 149, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationContainer .container {
     width: 50%;
   }
 }
 @media screen and (min-width: 1050px) and (max-width: 1149.9999px) {
-  /* line 157, ../scss/components/_presentationPage.scss */
+  /* line 163, ../scss/components/_presentationPage.scss */
   #presentationPage .servicesContainer .servicesComponents .services img {
     width: 5em;
   }
-  /* line 161, ../scss/components/_presentationPage.scss */
+  /* line 167, ../scss/components/_presentationPage.scss */
   #presentationPage .servicesContainer .servicesComponents .services p {
     font-size: 1.3em;
     margin-top: 25px;
     margin-left: 4.5em;
   }
-  /* line 170, ../scss/components/_presentationPage.scss */
+  /* line 176, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationContainer .container {
     width: 40%;
   }
 }
 @media screen and (min-width: 1150px) and (max-width: 1249.9999px) {
-  /* line 184, ../scss/components/_presentationPage.scss */
+  /* line 190, ../scss/components/_presentationPage.scss */
   #presentationPage .servicesContainer .servicesComponents .services img {
     width: 6em;
   }
-  /* line 188, ../scss/components/_presentationPage.scss */
+  /* line 194, ../scss/components/_presentationPage.scss */
   #presentationPage .servicesContainer .servicesComponents .services p {
     font-size: 1.4em;
     margin-top: 30px;
     margin-left: 5em;
   }
-  /* line 197, ../scss/components/_presentationPage.scss */
+  /* line 203, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationContainer .container {
     width: 33.3333%;
   }
 }
 @media screen and (min-width: 1250px) {
-  /* line 209, ../scss/components/_presentationPage.scss */
+  /* line 215, ../scss/components/_presentationPage.scss */
   #presentationPage .servicesContainer .servicesComponents .services {
     padding: 1em 0em;
   }
-  /* line 211, ../scss/components/_presentationPage.scss */
+  /* line 217, ../scss/components/_presentationPage.scss */
   #presentationPage .servicesContainer .servicesComponents .services img {
     width: 7em;
   }
-  /* line 215, ../scss/components/_presentationPage.scss */
+  /* line 221, ../scss/components/_presentationPage.scss */
   #presentationPage .servicesContainer .servicesComponents .services p {
     font-size: 1.5em;
     margin-top: 35px;
     margin-left: 5em;
   }
-  /* line 224, ../scss/components/_presentationPage.scss */
+  /* line 230, ../scss/components/_presentationPage.scss */
   #presentationPage .presentationContainer .container {
     width: 33.3333%;
   }
@@ -502,23 +508,25 @@ header nav .navStyle ul .currentPage i {
 }
 /* line 14, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioContainer {
-  min-height: 100%;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   height: 100%;
 }
-/* line 19, ../scss/components/_portofolioPage.scss */
+/* line 21, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioContainer .portofolioComponents {
   padding: 2em 0em;
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
 }
-/* line 25, ../scss/components/_portofolioPage.scss */
+/* line 27, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioContainer .portofolioComponents img {
   width: 98% !important;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
 }
-/* line 31, ../scss/components/_portofolioPage.scss */
+/* line 33, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioContainer .portofolioComponents a.portofolioBtn {
   display: block;
   margin: 20px auto;
@@ -534,22 +542,22 @@ header nav .navStyle ul .currentPage i {
   text-decoration: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
 }
-/* line 47, ../scss/components/_portofolioPage.scss */
+/* line 49, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioContainer .portofolioComponents a.portofolioBtn:hover {
   transform: scale(0.97, 0.97);
   transition: 0.6s;
 }
-/* line 54, ../scss/components/_portofolioPage.scss */
+/* line 56, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioContainer .portofolioComponents .portofolioHover img {
   opacity: 0.8;
 }
 
-/* line 64, ../scss/components/_portofolioPage.scss */
+/* line 66, ../scss/components/_portofolioPage.scss */
 .portofolioHover {
   position: relative;
 }
 
-/* line 68, ../scss/components/_portofolioPage.scss */
+/* line 70, ../scss/components/_portofolioPage.scss */
 .image {
   opacity: 0.3;
   width: 100%;
@@ -558,7 +566,7 @@ header nav .navStyle ul .currentPage i {
   backface-visibility: hidden;
 }
 
-/* line 76, ../scss/components/_portofolioPage.scss */
+/* line 78, ../scss/components/_portofolioPage.scss */
 .overlay {
   transition: .5s ease;
   opacity: 0;
@@ -570,17 +578,17 @@ header nav .navStyle ul .currentPage i {
   -ms-transform: translate(-50%, -50%);
 }
 
-/* line 87, ../scss/components/_portofolioPage.scss */
+/* line 89, ../scss/components/_portofolioPage.scss */
 .portofolioHover:hover .image {
   opacity: 0.3;
 }
 
-/* line 91, ../scss/components/_portofolioPage.scss */
+/* line 93, ../scss/components/_portofolioPage.scss */
 .portofolioHover:hover .overlay {
   opacity: 1;
 }
 
-/* line 95, ../scss/components/_portofolioPage.scss */
+/* line 97, ../scss/components/_portofolioPage.scss */
 .overlayContent {
   background-color: #191919;
   opacity: 0.8;
@@ -589,69 +597,73 @@ header nav .navStyle ul .currentPage i {
   font-weight: bold;
   padding: 0.3em;
 }
-/* line 102, ../scss/components/_portofolioPage.scss */
+/* line 104, ../scss/components/_portofolioPage.scss */
 .overlayContent a {
   text-decoration: none;
   color: #7f8c8d;
 }
-/* line 106, ../scss/components/_portofolioPage.scss */
+/* line 108, ../scss/components/_portofolioPage.scss */
 .overlayContent a:hover {
   color: white;
 }
 
 @media screen and (min-width: 992px) {
-  /* line 115, ../scss/components/_portofolioPage.scss */
+  /* line 114, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 97vh;
   }
-  /* line 118, ../scss/components/_portofolioPage.scss */
+  /* line 117, ../scss/components/_portofolioPage.scss */
   #portofolioPage .container {
     height: 100%;
   }
 
-  /* line 124, ../scss/components/_portofolioPage.scss */
+  /* line 121, ../scss/components/_portofolioPage.scss */
   .overlayContent {
     font-size: 2em !important;
   }
 }
 /* line 1, ../scss/components/_aboutPage.scss */
 #aboutPage {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
   min-height: fit-content;
   background-color: #cccccc;
 }
-/* line 4, ../scss/components/_aboutPage.scss */
+/* line 6, ../scss/components/_aboutPage.scss */
 #aboutPage .container {
   width: 95%;
   padding-top: 3em;
 }
-/* line 8, ../scss/components/_aboutPage.scss */
+/* line 10, ../scss/components/_aboutPage.scss */
 #aboutPage h2 {
   color: #333333;
 }
-/* line 12, ../scss/components/_aboutPage.scss */
+/* line 14, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer {
-  min-height: 100%;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   height: 100%;
 }
-/* line 17, ../scss/components/_aboutPage.scss */
+/* line 21, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember {
   line-height: 1.6em;
   margin: 2em 0em;
 }
-/* line 20, ../scss/components/_aboutPage.scss */
+/* line 24, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember img {
   width: 60%;
 }
-/* line 23, ../scss/components/_aboutPage.scss */
+/* line 27, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember h3 {
   color: #333333;
   padding: 8px 0px;
 }
-/* line 27, ../scss/components/_aboutPage.scss */
+/* line 31, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember h4 {
   color: #333333;
 }
-/* line 30, ../scss/components/_aboutPage.scss */
+/* line 34, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember p {
   color: #333333;
   padding: 15px 0px;
@@ -659,11 +671,11 @@ header nav .navStyle ul .currentPage i {
 }
 
 @media screen and (min-width: 992px) {
-  /* line 114, ../scss/components/_aboutPage.scss */
+  /* line 47, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 97vh;
   }
-  /* line 117, ../scss/components/_aboutPage.scss */
+  /* line 50, ../scss/components/_aboutPage.scss */
   #aboutPage .container {
     height: 100%;
   }
@@ -686,17 +698,17 @@ header nav .navStyle ul .currentPage i {
   margin: 0 auto;
 }
 
-/* line 18, ../scss/components/_contactPage.scss */
+/* line 16, ../scss/components/_contactPage.scss */
 .i4ewOd-pzNkMb-haAclf {
   background-color: #191919;
 }
 
 @media screen and (min-width: 992px) {
-  /* line 23, ../scss/components/_contactPage.scss */
+  /* line 21, ../scss/components/_contactPage.scss */
   #contactPage {
     margin-bottom: -30px !important;
   }
-  /* line 25, ../scss/components/_contactPage.scss */
+  /* line 23, ../scss/components/_contactPage.scss */
   #contactPage .contactJumbotron {
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
