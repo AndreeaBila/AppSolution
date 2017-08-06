@@ -511,22 +511,18 @@ header nav .navStyle ul .currentPage i {
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
-  height: 100%;
 }
-/* line 21, ../scss/components/_portofolioPage.scss */
+/* line 19, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioContainer .portofolioComponents {
   padding: 2em 0em;
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
 }
-/* line 27, ../scss/components/_portofolioPage.scss */
+/* line 22, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioContainer .portofolioComponents img {
   width: 98% !important;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
 }
-/* line 33, ../scss/components/_portofolioPage.scss */
+/* line 28, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioContainer .portofolioComponents a.portofolioBtn {
   display: block;
   margin: 20px auto;
@@ -542,22 +538,22 @@ header nav .navStyle ul .currentPage i {
   text-decoration: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
 }
-/* line 49, ../scss/components/_portofolioPage.scss */
+/* line 44, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioContainer .portofolioComponents a.portofolioBtn:hover {
   transform: scale(0.97, 0.97);
   transition: 0.6s;
 }
-/* line 56, ../scss/components/_portofolioPage.scss */
+/* line 51, ../scss/components/_portofolioPage.scss */
 #portofolioPage .portofolioContainer .portofolioComponents .portofolioHover img {
   opacity: 0.8;
 }
 
-/* line 66, ../scss/components/_portofolioPage.scss */
+/* line 61, ../scss/components/_portofolioPage.scss */
 .portofolioHover {
   position: relative;
 }
 
-/* line 70, ../scss/components/_portofolioPage.scss */
+/* line 65, ../scss/components/_portofolioPage.scss */
 .image {
   opacity: 0.3;
   width: 100%;
@@ -566,29 +562,29 @@ header nav .navStyle ul .currentPage i {
   backface-visibility: hidden;
 }
 
-/* line 78, ../scss/components/_portofolioPage.scss */
+/* line 73, ../scss/components/_portofolioPage.scss */
 .overlay {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 89%;
+  top: 35%;
+  left: 49%;
+  width: 88%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
 
-/* line 89, ../scss/components/_portofolioPage.scss */
+/* line 84, ../scss/components/_portofolioPage.scss */
 .portofolioHover:hover .image {
   opacity: 0.3;
 }
 
-/* line 93, ../scss/components/_portofolioPage.scss */
+/* line 88, ../scss/components/_portofolioPage.scss */
 .portofolioHover:hover .overlay {
   opacity: 1;
 }
 
-/* line 97, ../scss/components/_portofolioPage.scss */
+/* line 92, ../scss/components/_portofolioPage.scss */
 .overlayContent {
   background-color: #191919;
   opacity: 0.8;
@@ -597,27 +593,34 @@ header nav .navStyle ul .currentPage i {
   font-weight: bold;
   padding: 0.3em;
 }
-/* line 104, ../scss/components/_portofolioPage.scss */
+/* line 99, ../scss/components/_portofolioPage.scss */
 .overlayContent a {
   text-decoration: none;
   color: #7f8c8d;
 }
-/* line 108, ../scss/components/_portofolioPage.scss */
+/* line 103, ../scss/components/_portofolioPage.scss */
 .overlayContent a:hover {
   color: white;
 }
 
 @media screen and (min-width: 992px) {
-  /* line 114, ../scss/components/_portofolioPage.scss */
+  /* line 109, ../scss/components/_portofolioPage.scss */
   #portofolioPage {
     height: 97vh;
   }
-  /* line 117, ../scss/components/_portofolioPage.scss */
+  /* line 112, ../scss/components/_portofolioPage.scss */
   #portofolioPage .container {
     height: 100%;
   }
 
-  /* line 121, ../scss/components/_portofolioPage.scss */
+  /* line 117, ../scss/components/_portofolioPage.scss */
+  .overlay {
+    top: 40%;
+    left: 49.4;
+    width: 92%;
+  }
+
+  /* line 123, ../scss/components/_portofolioPage.scss */
   .overlayContent {
     font-size: 2em !important;
   }
@@ -644,38 +647,26 @@ header nav .navStyle ul .currentPage i {
   min-height: -moz-fit-content;
   min-height: fit-content;
   background-color: #cccccc;
-  height: 100%;
 }
 /* line 21, ../scss/components/_aboutPage.scss */
-#aboutPage .aboutContainer .aboutComponents {
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-  background-color: #cccccc;
-}
-/* line 26, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember {
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-  background-color: #cccccc;
   line-height: 1.6em;
   margin: 2em 0em;
 }
-/* line 33, ../scss/components/_aboutPage.scss */
+/* line 24, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember img {
   width: 60%;
 }
-/* line 36, ../scss/components/_aboutPage.scss */
+/* line 27, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember h3 {
   color: #333333;
   padding: 8px 0px;
 }
-/* line 40, ../scss/components/_aboutPage.scss */
+/* line 31, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember h4 {
   color: #333333;
 }
-/* line 43, ../scss/components/_aboutPage.scss */
+/* line 34, ../scss/components/_aboutPage.scss */
 #aboutPage .aboutContainer .aboutComponents .teamMember p {
   color: #333333;
   padding: 15px 0px;
@@ -683,11 +674,11 @@ header nav .navStyle ul .currentPage i {
 }
 
 @media screen and (min-width: 992px) {
-  /* line 56, ../scss/components/_aboutPage.scss */
+  /* line 47, ../scss/components/_aboutPage.scss */
   #aboutPage {
     height: 97vh;
   }
-  /* line 59, ../scss/components/_aboutPage.scss */
+  /* line 50, ../scss/components/_aboutPage.scss */
   #aboutPage .container {
     height: 100%;
   }

@@ -5,6 +5,7 @@
       <h2 class="heading2">About Us</h2>
 
       <div class="aboutComponents">
+
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 teamMember">
           <img src="../img/girl-1.png" alt="Image Unavailable">
           <h3>Andreea Bîlă</h3>
@@ -24,6 +25,7 @@
             developer who takes care of the functionality side. He assures that each application is smart, 
             efficient and secure for the users.</p>
         </div> <!-- Vlad -->
+        
       </div> <!-- aboutComponents -->
     </div> <!-- container -->
   </div> <!-- aboutContainer -->
