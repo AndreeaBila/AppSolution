@@ -39,3 +39,58 @@ p, h1, h3, h4, h5, h6 {
 	font-weight: normal;
 }
 
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing:grayscale
+}
+
+//Loading Page style
+
+
+.loader {
+	img {
+		padding: 1em;
+		border: 10px solid #f3f3f3; /* Light grey */
+    border-bottom: 10px solid #3C3E3D; /* Blue */
+    border-radius: 50%;
+		width: 20vh;
+		height: 20vh;
+		margin-top: 30vh;
+		-webkit-animation: spin 2s linear infinite;
+  	animation: spin 2s linear infinite;
+	}
+  h5 {
+		padding: 2em;
+		font-weight: bold;
+	}
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media screen and (orientation: landscape) {
+	.loader {
+		img {
+			width: 30vh;
+			height: 30vh;
+			margin-top: 20vh;
+		}
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.loader {
+		img {
+			width: 15vh;
+			height: 15vh;
+			margin-top: 35vh;
+		}
+	}
+}

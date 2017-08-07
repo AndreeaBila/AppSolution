@@ -241,8 +241,8 @@ $(function() {
 
 
     $('#listGif').on('mouseout', function() {
-        $('#listImgDiv').show();
         $('#listGifDiv').hide();
+        $('#listImgDiv').show();
     });
 
 
@@ -252,7 +252,7 @@ $(function() {
     });
 
     $('#westermoreGif').on('mouseout', function() {
-        $('#westermoreImgDiv').show();
         $('#westermoreGifDiv').hide();
+        $('#westermoreImgDiv').show();
     });
 });
