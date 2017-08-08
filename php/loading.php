@@ -43,16 +43,44 @@
     </div>
       
    <script>
-     function sleep(ms) {
-      return new Promise(resolve => setTimeout(resolve, ms));
-    }
-
-    async function demo() {
-      await sleep(5000);
+    var id = getUrlParameter('id');
+    if(id != null){
+      //get the id from the server
+      $.getJSON('./phpComponents/getTransactionID.php', function(data){
+        if(id==data){
+          redirect();
+        }else{
+          location.href = "home";
+        }
+      });
+    }else{
       location.href = "home";
     }
 
-    demo();
+
+    //get the id of the transaction
+    function getUrlParameter(sParam) {
+      var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+          sURLVariables = sPageURL.split('&'),
+          sParameterName,
+          i;
+
+      for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+      }
+    };
+        
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    async function redirect() {
+      await sleep(5000);
+      location.href = "home";
+    }
    </script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -1,4 +1,5 @@
 <?php
+    session_start();
     //script needed to send an email from the user
     //get the user information from the client
     $userEmail = strip_tags($_POST['userEmail']);
@@ -18,7 +19,9 @@
     mail("office@appsolution.online", $userSubject, $finalMessage, $userHeader) or die("Unexpected Error");
     //sleep for 5 seconds and then send email confirmation to the user
     sleep(1);
-    mail($confirmation['email'], $confirmation['subject'], $confirmation['message'], $confirmation['header']);
-    //return to the main page
-    header("Location: ../loading.php");
+    mail($confirmation['email'], $confirmation['subject'], $confirmation['message'], $confirmation['header']) or die("Unexpected Error");
+    //return to the loading page with the id of the transaction
+    $transaction = sha1(time());
+    $_SESSION['id'] = $transaction;
+    header("Location: ../loading?id=".$transaction);
 ?>
