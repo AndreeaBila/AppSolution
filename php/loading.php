@@ -19,12 +19,12 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300|Roboto:300" rel="stylesheet">
 
     <!-- My CSS -->
-    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
     <!--media="screen, handheld">-->
     <!--<link rel="stylesheet" type="text/css" href="enhanced.css" media="screen  and (min-width: 40.5em)" /> -->
 
     <!-- Icon -->
-     <link rel="shortcut icon" href="../../img/appsol.png"> 
+     <link rel="shortcut icon" href="../img/appsol.png"> 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,20 +36,30 @@
   <body>
 
     <div class="loader text-center">
-        <img src="../../img/appsol2.png" alt="Loading...">
+        <img src="../img/appsol2.png" alt="Loading...">
      
       
       <h5>Please wait while your message is being sent</h5>
     </div>
       
-   
+   <script>
+     function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    async function demo() {
+      await sleep(5000);
+      location.href = "home";
+    }
+
+    demo();
+   </script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
     <!-- The js script for this file -->
     <!-- <script src="../js/home.js"></script> -->
   </body>
