@@ -7,8 +7,8 @@
 
   <div class="col-md-4 socialSide text-center">
     <h3>Find us online</h3>
-    <img class="footerLogo" src="../img/appsol.png" alt="AppSolutions">
-    <h3 class="noMargin">AppSolutions</h3>
+    <img class="footerLogo" src="../img/logo1.png" alt="AppSolutions">
+    <h3 class="noMargin">AppSolution</h3>
     <ul>
       <li><a href="#"><img src="../img/linkedin.png" alt="Image Unavailable"></a></li>
       <li><a href="#"><img src="../img/pinterest.png" alt="Image Unavailable"></a></li>

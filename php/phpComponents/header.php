@@ -2,7 +2,7 @@
 <header class="headerStyle navbar-fixed-top">
   <nav>
     <div class="logo pull-left">
-      <img src="../img/appsol.png" alt="AppSolution">
+      <img src="../img/logo1.png" alt="AppSolution">
     </div>
 
     <div class="navStyle pull-right">

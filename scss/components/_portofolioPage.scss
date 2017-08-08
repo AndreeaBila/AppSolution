@@ -29,13 +29,13 @@
         display: block;
         margin: 20px auto;
         margin-bottom: 2em;
-        width: 47.5% !important;
+        width: 25% !important;
         height: 50px;
         line-height: 50px;
         border: none;
         font-size: 1.5em;
-        background-color: $footer-color;
-        color: $footer-highlight;
+        background-color: $header-background;
+        color: $header-highlight;
         font-weight: lighter;
         text-decoration: none;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
@@ -92,10 +92,10 @@
 
 .overlayContent {
   background-color: $footer-color;
-  opacity: 0.9;
-  color: $footer-highlight;
+  opacity: 0.8;
+  color: #fff;
   font-size: 1.5em;
-  font-weight: bold;
+  //font-weight: bold;
   padding: 0.4em;
   letter-spacing: 2px;
 }
