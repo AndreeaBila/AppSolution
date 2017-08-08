@@ -23,6 +23,9 @@
     <!--media="screen, handheld">-->
     <!--<link rel="stylesheet" type="text/css" href="enhanced.css" media="screen  and (min-width: 40.5em)" /> -->
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <!-- Icon -->
      <link rel="shortcut icon" href="../img/appsol.png"> 
 
@@ -36,9 +39,7 @@
   <body>
 
     <div class="loader text-center">
-        <img src="../img/appsol2.png" alt="Loading...">
-     
-      
+        <img src="../img/appsol2.png" alt="Loading...">      
       <h5>Please wait while your message is being sent</h5>
     </div>
       
@@ -47,16 +48,20 @@
     if(id != null){
       //get the id from the server
       $.getJSON('./phpComponents/getTransactionID.php', function(data){
-        if(id==data){
-          redirect();
-        }else{
-          location.href = "home";
-        }
+        verify(data);
       });
     }else{
       location.href = "home";
     }
 
+
+    function verify(data){
+        if(id==data.id){
+          redirect();
+        }else{
+          location.href = "home";
+        }
+    }
 
     //get the id of the transaction
     function getUrlParameter(sParam) {
@@ -82,10 +87,6 @@
       location.href = "home";
     }
    </script>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
-
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- The js script for this file -->
