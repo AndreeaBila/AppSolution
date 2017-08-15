@@ -42,6 +42,7 @@
     <![endif] -->        
   </head>
   <body id='bodyID'>
+    <?php include_once("./phpComponents/analyticstracking.php") ?>
 
     <div id="wrapper">
       <?php
