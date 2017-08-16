@@ -67,6 +67,7 @@
     <div class="loader text-center">
         <img src="../img/appsol2.png" alt="Loading...">      
       <h5>Please wait while your message is being sent</h5>
+      <h6>Check your email for confirmation (This may take a few minutes)</h6>
     </div>
       
    <script>
