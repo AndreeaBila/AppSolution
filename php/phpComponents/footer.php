@@ -18,7 +18,7 @@
 
   <div class="text-center formSide col-md-4">
     <h3>Send us a message</h3>
-    <form id="i-recaptcha" action="./phpComponents/sendEmail.php" method="POST" class="text-center">
+    <form id="i-recaptcha" action="./sendEmail" method="POST" class="text-center">
     <div class="alert alert-danger alert-dismissable" id="captchaAlert">
       <a class="close">&times;</a>
       <strong>Error!</strong> Please fill in all the details and provide a real email address.
